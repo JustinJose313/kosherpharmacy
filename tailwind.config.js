@@ -10,14 +10,16 @@ module.exports = {
       colors: {
         brand: {
           100: "#48BCD1",
-          200: "#15998E",
-          300: "#C0DCEC"
+          200: "#348e9e",
+          300: "#C0DCEC",
         },
       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ["hover", "focus"],
+    },
   },
   plugins: [
     require("@tailwindcss/forms"),

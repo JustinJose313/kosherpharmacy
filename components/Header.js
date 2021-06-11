@@ -1,0 +1,98 @@
+import React from "react";
+import Link from "next/link";
+
+const Header = () => {
+  const data = [
+    {
+      h: "Home",
+      url: "/",
+    },
+    {
+      h: "Home",
+      url: "/",
+    },
+    {
+      h: "Home",
+      url: "/",
+    },
+  ];
+  return (
+    <div>
+      <div className="flex w-full items-center justify-center pt-8 pb-4">
+        <p>logo</p>
+      </div>
+      <div className="bg-brand-100">
+        <div className="max-w-7xl mx-auto flex items-center justify-between pr-4">
+          <div className="hover:bg-brand-200 p-4 transition block md:hidden cursor-pointer">
+            <svg
+              className="h-4 w-4 text-white"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+            >
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                d="M3 4h18v2H3V4zm0 7h12v2H3v-2zm0 7h18v2H3v-2z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+          <div className="hidden md:flex items-center">
+            <a
+              href="#categories"
+              className="flex items-center justify-center font-semibold px-6 py-2 hover:bg-brand-200 transition text-white"
+            >
+              <svg
+                className="mr-2 h-4 w-4"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+              >
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path
+                  d="M3 4h18v2H3V4zm0 7h12v2H3v-2zm0 7h18v2H3v-2z"
+                  fill="currentColor"
+                />
+              </svg>
+              Browse Categories
+            </a>
+            {data.map((each, i) => {
+              return (
+                <Link href={each.url} key={i}>
+                  <a
+                    className="block font-semibold px-6 py-2 hover:bg-brand-200 transition text-white"
+                    href=""
+                  >
+                    {each.h}
+                  </a>
+                </Link>
+              );
+            })}
+          </div>
+          <div>
+            <div className="flex items-center justify-center">
+              <svg
+                className="text-white mr-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+              >
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path
+                  d="M6 9h13.938l.5-2H8V5h13.72a1 1 0 0 1 .97 1.243l-2.5 10a1 1 0 0 1-.97.757H5a1 1 0 0 1-1-1V4H2V2h3a1 1 0 0 1 1 1v6zm0 14a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm12 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
+                  fill="currentColor"
+                />
+              </svg>{" "}
+              <span className="text-white">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Header;
