@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
 const Header = () => {
@@ -16,6 +16,7 @@ const Header = () => {
       url: "/",
     },
   ];
+  const [menu, setMenu] = useState(false);
   return (
     <div>
       <div className="flex w-full items-center justify-center pt-8 pb-4">
@@ -23,7 +24,10 @@ const Header = () => {
       </div>
       <div className="bg-brand-100">
         <div className="max-w-7xl mx-auto flex items-center justify-between pr-4">
-          <div className="hover:bg-brand-200 p-4 transition block md:hidden cursor-pointer">
+          <button
+            onClick={() => setMenu((prev) => !prev)}
+            className="focus:outline-none hover:bg-brand-200 p-4 transition block md:hidden cursor-pointer"
+          >
             <svg
               className="h-4 w-4 text-white"
               xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +41,7 @@ const Header = () => {
                 fill="currentColor"
               />
             </svg>
-          </div>
+          </button>
           <div className="hidden md:flex items-center">
             <a
               href="#categories"
@@ -90,6 +94,19 @@ const Header = () => {
             </div>
           </div>
         </div>
+        {menu && (
+          <div className="md:hidden block max-w-7xl mx-auto bg-brand-100 border-t">
+            {data.map((each, i) => {
+              return (
+                <Link key={i} href={each.url}>
+                  <div className="w-full transition px-4 py-2 text-white hover:bg-brand-200 font-semibold">
+                    {each.h}
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        )}
       </div>
     </div>
   );
