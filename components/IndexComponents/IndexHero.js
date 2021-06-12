@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
 import { sliderData } from "../../public/data/sliderData";
-import { useTransition, animated } from "react-spring";
 import { AnimatePresence, motion } from "framer-motion";
 
 const IndexHero = () => {
