@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Link from "next/link";
-import { Transition } from "@headlessui/react";
+import { useClickOutside } from "../customHooks/useClickOutside";
 
 const Header = () => {
   const data = [
@@ -18,36 +18,54 @@ const Header = () => {
     },
   ];
   const [menu, setMenu] = useState(false);
-
+  let domNode = useClickOutside(() => {
+    setMenu(false);
+  });
   return (
     <div>
       <div className="flex w-full items-center justify-center pt-8 pb-4">
         <p>logo</p>
       </div>
-      <div className="bg-brand-100">
+      <div ref={domNode} className="bg-brand-100">
         <div className="max-w-7xl mx-auto flex items-center justify-between pr-4">
           <button
             onClick={() => setMenu((prev) => !prev)}
             className="focus:outline-none hover:bg-brand-200 p-4 transition block md:hidden cursor-pointer"
           >
-            <svg
-              className="h-4 w-4 text-white"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="24"
-              height="24"
-            >
-              <path fill="none" d="M0 0h24v24H0z" />
-              <path
-                d="M3 4h18v2H3V4zm0 7h12v2H3v-2zm0 7h18v2H3v-2z"
-                fill="currentColor"
-              />
-            </svg>
+            {menu ? (
+              <svg
+                className="h-4 w-4 text-white"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+              >
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path
+                  d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                  fill="currentColor"
+                />
+              </svg>
+            ) : (
+              <svg
+                className="h-4 w-4 text-white"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+              >
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path
+                  d="M3 4h18v2H3V4zm0 7h12v2H3v-2zm0 7h18v2H3v-2z"
+                  fill="currentColor"
+                />
+              </svg>
+            )}
           </button>
           <div className="hidden md:flex items-center">
             <a
               href="#categories"
-              className="flex items-center justify-center font-semibold px-6 py-2 hover:bg-brand-200 transition text-white"
+              className="flex items-center hover:animate-pulse justify-center font-semibold px-6 py-2 bg-brand-200 transition text-white"
             >
               <svg
                 className="mr-2 h-4 w-4"
@@ -96,14 +114,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <Transition show={menu}
-        enter='duration-100 ease-in'
-        enterFrom="opacity-0 height-0"
-        enterTo="opacity-100 height-auto"
-        leave="duration-75 ease-out"
-        leaveFrom="opacity-100"
-        leaveTo="opacity-0"
-        >
+        {menu && (
           <div
             className={`md:hidden block max-w-7xl mx-auto bg-brand-100 border-t`}
           >
@@ -117,7 +128,7 @@ const Header = () => {
               );
             })}
           </div>
-        </Transition>
+        )}
       </div>
     </div>
   );
