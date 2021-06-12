@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.heroHeight {
+  max-height: 1100px;
+}
