@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import { Transition } from "@headlessui/react";
 
 const Header = () => {
   const data = [
@@ -17,6 +18,7 @@ const Header = () => {
     },
   ];
   const [menu, setMenu] = useState(false);
+
   return (
     <div>
       <div className="flex w-full items-center justify-center pt-8 pb-4">
@@ -94,8 +96,17 @@ const Header = () => {
             </div>
           </div>
         </div>
-        {menu && (
-          <div className="md:hidden block max-w-7xl mx-auto bg-brand-100 border-t">
+        <Transition show={menu}
+        enter='duration-100 ease-in'
+        enterFrom="opacity-0 height-0"
+        enterTo="opacity-100 height-auto"
+        leave="duration-75 ease-out"
+        leaveFrom="opacity-100"
+        leaveTo="opacity-0"
+        >
+          <div
+            className={`md:hidden block max-w-7xl mx-auto bg-brand-100 border-t`}
+          >
             {data.map((each, i) => {
               return (
                 <Link key={i} href={each.url}>
@@ -106,7 +117,7 @@ const Header = () => {
               );
             })}
           </div>
-        )}
+        </Transition>
       </div>
     </div>
   );
