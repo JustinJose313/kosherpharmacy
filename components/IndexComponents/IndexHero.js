@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { sliderData } from "../../public/data/sliderData";
 import { useTransition, animated } from "react-spring";
+import { AnimatePresence, motion } from "framer-motion";
 
 const IndexHero = () => {
   const [current, setCurrent] = useState(0);
@@ -35,20 +36,27 @@ const IndexHero = () => {
         {sliderData.map((each, i) => {
           return (
             <div className="w-full h-full" key={i}>
-              {i === current && (
-                <animated.div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                  <img
-                    className="absolute top-0 left-0 w-full h-full object-cover"
-                    src={each.img}
-                    alt={each.title}
-                  />
-                  <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                    <h1 className="text-brand-100 text-4xl sm:text-7xl font-semibold">
-                      {each.title}
-                    </h1>
-                  </div>
-                </animated.div>
-              )}
+              <AnimatePresence initial={false}>
+                {i === current && (
+                  <motion.div
+                    initial={{ opacity: 0, scale: 1.1 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0, scale: 0.9 }}
+                    className="absolute top-0 left-0 w-full h-full flex items-center justify-center"
+                  >
+                    <img
+                      className="absolute top-0 left-0 w-full h-full object-cover"
+                      src={each.img}
+                      alt={each.title}
+                    />
+                    <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+                      <h1 className="text-brand-100 text-4xl sm:text-7xl font-semibold">
+                        {each.title}
+                      </h1>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
           );
         })}
