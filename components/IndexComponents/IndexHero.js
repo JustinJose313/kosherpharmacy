@@ -35,7 +35,7 @@ const IndexHero = () => {
         {sliderData.map((each, i) => {
           return (
             <div className="w-full h-full" key={i}>
-              <AnimatePresence initial={false}>
+              <AnimatePresence initial={true}>
                 {i === current && (
                   <motion.div
                     initial={{ opacity: 0, scale: 1.1 }}
