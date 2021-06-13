@@ -1,17 +1,10 @@
-import Head from "next/head";
-import Image from "next/image";
-import TermCondition from "../components/IndexComponents/TermCondition";
-import Faq from "../components/IndexComponents/FaqSection/Faq";
-import Categories from "../components/IndexComponents/IndexCategories/Categories";
-import IndexHero from "../components/IndexComponents/IndexHero";
+import TermCondition from "../components/TermsCondition/TermCondition";
 import MainLayout from "../layouts/MainLayout";
 
 export default function Home() {
   return (
     <MainLayout>
-     
-      <TermCondition/>
-
+      <TermCondition />
     </MainLayout>
   );
 }
