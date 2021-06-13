@@ -233,7 +233,7 @@ export const productData = [
   {
     c: "Anticancer Medicines",
     n: "Anastrazole Tablets",
-    id: "CAS NO: 82419-36-1",
+    id: "CAS NO:120511-73-1",
     d: [
       "Ofloxacin tablets (200mg, 400mg) helps fight against bacteria in the human body. These are effective in treating certain diseases that comprise : Bacterial infections including pneumonia, bronchitis, venereal disease (VD), Prostate, skin, and urinary tract infections, peritonitis and gonorrhea.",
     ],
