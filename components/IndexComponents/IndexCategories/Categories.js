@@ -19,32 +19,74 @@ const Categories = () => {
             <div className="mt-6">
               <div
                 onClick={() => setToggle((prev) => !prev)}
-                className="bg-brand-100 cursor-pointer hover:bg-brand-200 text-white p-4 w-full"
+                className="bg-brand-100 cursor-pointer font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full"
               >
                 Show Categories
+                {toggle ? (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M12 10.828l-4.95 4.95-1.414-1.414L12 8l6.364 6.364-1.414 1.414z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                )}
               </div>
               {toggle && (
                 <div className="border">
                   {productHeadings.map((each, i) => {
                     return (
-                      <div
+                      <a
+                        href="#categoryContainer"
                         onClick={() => setCategory(each)}
                         key={i}
                         className={`${
                           category === each
                             ? "bg-gray-100 text-brand-200"
                             : "bg-white"
-                        } cursor-pointer hover:bg-gray-50 font-semibold hover:text-brand-200 p-4 w-full`}
+                        } cursor-pointer flex items-center justify-between hover:bg-gray-50 font-semibold hover:text-brand-200 p-4 w-full`}
                       >
                         {each}
-                      </div>
+                        {category === each && (
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                          >
+                            <path fill="none" d="M0 0h24v24H0z" />
+                            <path
+                              d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                              fill="currentColor"
+                            />
+                          </svg>
+                        )}
+                      </a>
                     );
                   })}
                 </div>
               )}
             </div>
           </div>
-          <div className="md:col-span-8 space-y-4">
+          <div className="md:col-span-8 space-y-4" id="categoryContainer">
             {productData.map((each, i) => {
               if (category === each.c) {
                 return (
@@ -70,11 +112,13 @@ const Categories = () => {
                         <div>
                           <p className="text-gray-500 mt-4 mb-2">{each.ul.h}</p>
 
-                          <ul className='ml-6'>
+                          <ul className="ml-6">
                             {each.ul.list.map((l, i) => {
                               return (
                                 <li key={i}>
-                                  <p className='text-gray-500 capitalize'>{l}</p>
+                                  <p className="text-gray-500 capitalize">
+                                    {l}
+                                  </p>
                                 </li>
                               );
                             })}

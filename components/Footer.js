@@ -26,23 +26,23 @@ const Footer = () => {
     },
   ];
   return (
-    <div>
+    <div className='bg-brand-200'>
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-6 lg:gap-6">
           <div>
-            <h1 className="text-3xl">LOGO</h1>
-            <p className="text-gray-500 mt-2">
+            <h1 className="text-3xl text-white">LOGO</h1>
+            <p className="text-gray-100 mt-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
               delectus!
             </p>
           </div>
           <div className="flex flex-col">
-            <h5 className="font-bold mb-2 md:mb-4">Contact</h5>
+            <h5 className="font-bold mb-2 md:mb-4 text-white">Contact</h5>
             {contactInfo.map((each, i) => {
               return (
                 <div key={i} className="flex items-center py-1">
                   <svg
-                    className="text-brand-100 h-5 w-5 mr-2"
+                    className="text-gray-100 h-5 w-5 mr-2"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     width="24"
@@ -54,24 +54,24 @@ const Footer = () => {
                       fill="currentColor"
                     />
                   </svg>
-                  <p className="text-gray-500">{each}</p>
+                  <p className="text-gray-100">{each}</p>
                 </div>
               );
             })}
           </div>
           <div className="flex flex-col">
-            <h5 className="font-bold mb-2 md:mb-4">Useful links</h5>
+            <h5 className="font-bold mb-2 md:mb-4 text-white">Useful links</h5>
             {links.map((each, i) => {
               return (
                 <Link key={i} href={each.url}>
-                  <p className="text-gray-500 py-1 cursor-pointer hover:text-black hover:underline">{each.h}</p>
+                  <p className="text-gray-100 py-1 cursor-pointer hover:text-white hover:underline">{each.h}</p>
                 </Link>
               );
             })}
           </div>
           <div className="flex flex-col">
-            <h5 className="font-bold mb-2 md:mb-4">Address</h5>
-            <p className="text-gray-500">
+            <h5 className="font-bold mb-2 md:mb-4 text-white">Address</h5>
+            <p className="text-gray-100">
               Monday to Sunday 7 am to 9 pm 45 Hudson Street Villa Rica, GA
               30180
             </p>
@@ -83,7 +83,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      <p className='pt-4 text-center text-gray-500'>Copyright Kosher Pharmacy</p>
+      <p className='pt-4 text-center text-gray-100'>Copyright Kosher Pharmacy</p>
       </div>
     </div>
   );
