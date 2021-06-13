@@ -30,7 +30,7 @@ const IndexHero = () => {
     return null;
   }
   return (
-    <div className="h-screen overflow-hidden relative heroHeight">
+    <div className="overflow-hidden relative heroHeight">
       <div className="w-full h-full flex justify-center items-center overflow-hidden relative">
         {sliderData.map((each, i) => {
           return (

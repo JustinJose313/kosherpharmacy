@@ -20,5 +20,5 @@ a {
 }
 
 .heroHeight {
-  max-height: 1100px;
+  height: calc(100vh - 100px);
 }
