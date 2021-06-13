@@ -18,7 +18,7 @@ const Footer = () => {
     },
     {
       h: "Terms and Conditions",
-      url: "/",
+      url: "/term-condition",
     },
     {
       h: "Privacy policy",
