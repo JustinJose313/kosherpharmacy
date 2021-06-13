@@ -9,9 +9,7 @@ import MainLayout from "../layouts/MainLayout";
 export default function Home() {
   return (
     <MainLayout>
-      <IndexHero />
-      <Categories />
-      <Faq/>
+     
       <TermCondition/>
 
     </MainLayout>
