@@ -7,7 +7,7 @@ const Categories = () => {
   return (
     <div id='categories'>
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-12">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
           <div className="md:col-span-4 mb-6">
             <h2 className="text-2xl font-bold">Categories</h2>
             <p className="text-gray-500 max-w-md mt-4">
@@ -22,7 +22,7 @@ const Categories = () => {
                 Show Categories
               </div>
               {toggle && (
-                <div>
+                <div className='border'>
                   {catData.map((each, i) => {
                     return (
                       <div

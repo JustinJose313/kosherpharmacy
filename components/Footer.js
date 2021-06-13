@@ -63,7 +63,7 @@ const Footer = () => {
             <h5 className="font-bold mb-2 md:mb-4">Useful links</h5>
             {links.map((each, i) => {
               return (
-                <Link href={each.url}>
+                <Link key={i} href={each.url}>
                   <p className="text-gray-500 py-1 cursor-pointer hover:text-black hover:underline">{each.h}</p>
                 </Link>
               );
