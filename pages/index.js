@@ -1,6 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
-import TermCondition from "../components/IndexComponents/TermCondition";
 import Faq from "../components/IndexComponents/FaqSection/Faq";
 import Categories from "../components/IndexComponents/IndexCategories/Categories";
 import IndexContact from "../components/IndexComponents/IndexContact";
@@ -13,9 +10,7 @@ export default function Home() {
       <IndexHero />
       <Categories />
       <IndexContact />
-      <Faq/>
-      <TermCondition/>
-
+      <Faq />
     </MainLayout>
   );
 }
