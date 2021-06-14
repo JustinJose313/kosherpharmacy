@@ -93,7 +93,7 @@ const Categories = () => {
                 return (
                   <div
                     key={i}
-                    className="bg-whiite border-2 border-dashed flex flex-col md:flex-row md:items-start w-full"
+                    className="bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full"
                   >
                     <img
                       className="w-full md:w-4/12"
