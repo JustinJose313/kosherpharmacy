@@ -26,11 +26,11 @@ const Footer = () => {
     },
   ];
   return (
-    <div className='bg-brand-200'>
+    <div className='bg-gray-800'>
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-6 lg:gap-6">
           <div>
-            <h1 className="text-3xl text-white">LOGO</h1>
+            <img className='h-24' src="/Logo.png" alt="" />
             <p className="text-gray-100 mt-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
               delectus!

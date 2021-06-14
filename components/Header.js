@@ -23,8 +23,8 @@ const Header = () => {
   });
   return (
     <>
-      <div className="flex w-full items-center justify-center pt-8 pb-4">
-        <p>logo</p>
+      <div className="flex w-full items-center justify-center">
+        <img className='h-24' src="/Logo.png" alt="" />
       </div>
       <div className="sticky top-0 z-50 h-auto">
         <div ref={domNode} className="">

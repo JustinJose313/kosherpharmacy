@@ -639,6 +639,340 @@ export const productData = [
       "The dose should be taken at least 15 minutes before intended intercourse, and it may produce an erection in response to sexual stimulation for up to 36 hours after taking the dose.",
     ],
   },
+  {
+    c: "Steroids",
+    n: "Testoeolin(Testosterone Propionate injection)",
+    id: "CAS NO:58-22-0",
+    d: [
+      "Testosterone Propionate is the shortest ester attached to the Testosterone hormone.",
+      "Testosterone is responsible for promoting health and well-being through enhanced libido, energy, immunity, increased fat loss, gaining and maintaining lean muscle mass, preventing Osteoporosis (loss of bone density) and possible protection against heart disease.",
+      "Testeolin is also responsible for normal growth and development of male sex organs and maintenance of secondary sex characteristics.",
+    ],
+  },
+  {
+    c: "Steroids",
+    n: "Testeonate 250 (Testosterone Enanthate Injection)",
+    id: "CAS No.: 58-22-0",
+    d: [
+      "Testosterone enanthate is an oil based injectable steroid, designed to slowly release testosterone from the injection site.",
+      "Testeonate is the most popular prescribed testosterone for treating Hypogonadism and many other disorders that relate to androgen deficiency.Serum concentrations of this hormone will rise for several days and remain elevated for about two weeks.",
+      "The usual dosage of testosterone enanthate is 250 mg to 750 mg per week. Testosterone esters in oil injected intramuscularly are absorbed slowly from the lipid phase. Testosterone Enanthate can be given at intervals of two to four weeks.",
+    ],
+  },
+  {
+    c: "Steroids",
+    n: "Tren HBC (Trenbolone Hexa Hydrochloro Benzylcarbonate Injections)",
+    id: "CAS NO:5721-91-5",
+    d: [
+      "Trenbolone Hexa hydro chloro benzyl carbonate 76.5 mg/1.5 ml is a very potent androgen with strong anabolic activity. It is well suited for the rapid buildup of strength and muscle mass and does not convert to estrogen. This is indeed a very unique compound since mass drugs, almost as a rule, will aromatize heavily, extremely potent mass/strength drug. There is no noticeable water retention, so the mass gained during a cycle of Tren HBC will be very hard and defined (providing fat levels are low enough).",
+      "Gynecomastia is also not much of a concern, so there shouldn't be any need to addition an antiestrogen if trenbolone is the only steroid administered. The high androgen level resulting from this steroid, in the absence is excess estrogen, can also accelerate the burning of body fat. The result should be a much tighter physique, hopefully without the need for extreme dieting. For Men: 76.5mg 2 to 3 times per week.",
+    ],
+  },
+  {
+    c: "Steroids",
+    n: "Trenace 100 (Trenbolone Acetate Injection)",
+    id: "CAS NO:10161-34-9",
+    d: [
+      "Trenbolone Acetate (100 mg) is a very potent androgen with strong anabolic activity. It is well suited for the rapid buildup of strength and muscle mass. Trenbolone Acetate is extremely potent mass/strength drug. There is no water retention, so the mass gained during a cycle of Trenbolone will be very hard and defined.",
+      "Gynecomastia is also not much of a concern, so there shouldn't be any need to addition an anti-estrogen if trenbolone is the only steroid administered.",
+    ],
+  },
+  {
+    c: "Steroids",
+    n: "Boldinex 200 (Boldenone Undecylenate Injection/Vial)",
+    id: "CAS NO: 846-48-0",
+    d: [
+      "Boldinex Inj. 200 mg/ml is a man-made steroid, similar to the naturally occurring steroid testosterone.",
+      "Boldenone Undecylenate is used to promote weight gain. Boldenone Undecylenate is also used to decrease muscle loss caused by treatment with corticosteroids and to reduce bone pain associated with osteoporosis. It produces a slow and steady anabolic effect while improving appetite leading to its long-term popularity. For Men: 200-500 mg IM per week.",
+    ],
+  },
+  {
+    c: "Steroids",
+    n: "Decanate 200 (Nandrolone Decanoate Injection/Vial)",
+    id: "CAS NO:360-70-3",
+    d: [
+      "Nandrolone decanoate is used in the treatment of osteoporosis. It is also used for aplastic anaemias.",
+      "Nandrolone decanoate is an anabolic steroid useful for steady muscle growth and reducing inflammation. Nandrolone progestin properties helps to relieve the pain and stress in Joints and tendons.",
+      "For Anti Aging = 50-100 mg IM every 2 weeks ,",
+      "For Anabolism = 200-600 mg IM every week.",
+      "It is available in 100mg/ml, 200mg/ml as ampoules and Vials",
+    ],
+  },
+  {
+    c: "Steroids",
+    n: "Drostronate 100 (Drostanolone Propionate 100 mg/ml)",
+    d: [
+      "Drostronate 100 is a derivative of dihydrotestosterone.",
+      "The structure of this steroid is of a moderate anabolic & potent androgen which does not aromatize to estrogen.",
+      "Drostronate 100 is indicated for treatment of breast cancer in post-menopausal as part of aspecific immunotherapy and because more effective breast cancer treatments were invented, it was gradually phased out.",
+      "Drostanolone is a very popular anabolic steroid used mainly by athletes and bodybuilders.",
+      "Drostronate 100 acts very well in combination with Human Growth Hormone (4IU per day).",
+      "Drostanolone Propionate has a half-life of 2.5 days, and therefore is preferably injected at least every other day, and more preferably daily into muscles",
+      "Each wallet contains 5 ampoules of 1 ml (100 mg/ml).",
+    ],
+  },
+  {
+    c: "Steroids",
+    n: "Chlorodehydro Methylteststerone Tablets",
+    id: "CAS NO: 2446-23-3",
+    d: [
+      "Chlorodehydro Methylteststerone tablets 10 mg is a man-made steroid, similar to the naturally occurring steroid testosterone.",
+      "Chlorodehydro methylteststerone is used to promote weight gain following extensive surgery, chronic infection, or severe trauma, and in other cases that result in inadequate weight gain or maintenance.",
+      "Chlorodehydromethyteststerone is also used to decrease muscle loss caused by treatment with corticosteroids and to reduce bone pain associated with osteoporosis.",
+    ],
+  },
+  {
+    c: "Steroids",
+    n: "Clenbuterol Tablets",
+    id: "CAS NO:82030-87-3",
+    d: [
+      "Clenbuterol Tablets is available in 40 mcg, 60 mcg. Clenbuterol Hydrochloride tablets has a rapid and powerful bronchial-dilating action.",
+      "Its effect is expressed in a reduction of protein degradation in muscle cells, leading to an increase in muscle bulk and muscle strength. In the prescribed therapeutic doses, Clenbuterol has no influence on heart rate or arterial blood pressure, and does not affect oxygen saturation of arterial blood.",
+      "Clenbuterol is a good fat burner. It can be used for decreasing body fat and weight loss.",
+    ],
+    ul: {
+      h: "The drug is indicated for:",
+      list: [
+        "treatment of bronchial asthma",
+        "complex therapy of bronchial spasm",
+      ],
+    },
+  },
+  {
+    c: "Steroids",
+    n: "Estradepo Injection",
+    d: [
+      "Estradepo injection is available in 10mg/ml.",
+      "Packing: 5 ampoules in a mono carton.",
+    ],
+  },
+  {
+    c: "Steroids",
+    n: "Human Chorionic Gonadotrophin (HCG)",
+    id: "CAS NO:146479-72-3",
+    d: [
+      "HCG 5000 injection contain the active ingredient chorionic gonadotrophin 5000 IU, which is a natural sex hormone also known as human chorionic gonadotropin or HCG.",
+      "In women, HCG is used together with other hormones called follicle stimulating hormone (FSH) and luteinising hormone (LH) in the treatment of infertility.",
+      "HCG mimics LH and can be used to re-start natural endogenous testosterone production after the body has stopped producing it from androgen therapy. HCG also helps to restore the size and function of the testicles. Typical Protocol: Dosing 250-500 IU – 3 times per week SQ during androgen therapy and from 2 to 3 weeks after cessation of therapy to maintain testicular function",
+    ],
+  },
+  {
+    c: "Steroids",
+    n: "Methandienone tablet",
+    id: "CAS NO:72-63-9",
+    d: [
+      "Methandienone tablet 10 mg tablets is a strong anabolic and androgenic product . The tablet is of light pink colour and shaped in the form of figure eight. The drug is used for appetite stimulation, increase of muscle mass, bone density and red blood cells. It promotes drastic protein synthesis, enhances glycogenolysis (repletion of glycogen after exercise) and stimulates strength in a very direct and fast-acting way",
+    ],
+  },
+  {
+    c: "Steroids",
+    n: "Methenolone Enanthate",
+    id: "CAS NO: 303-42-4",
+    d: [
+      "Methenolone Enanthate injection is available in 100mg/ml ampoule and has a duration of action (due to the gradual transition of the drug from the muscles in the blood), at approximately 2 weeks.",
+      "Methenolone has no estrogenic side effects, and its effects on cholesterol levels are minimal. In doses of 200 mg per week or less (intramuscular) blood pressure is rarely altered. It is possibly one of the safer anabolic steroids for females due to very low virilization effects in short-term usage.",
+    ],
+  },
+  {
+    c: "Steroids",
+    n: "Oxandrolone Tablets USP (Oxanex)",
+    id: "CAS NO:53-39-4",
+    d: [
+      "Oxandrolone Tablets USP 10 mg is a synthetic anabolic.The drug was prescribed to promote muscle regrowth in disorders which cause involuntary weight loss.",
+      "It had also been shown to be partially successful in treating cases of osteoporosis.",
+    ],
+  },
+  {
+    c: "Steroids",
+    n: "Somatropin injection USP",
+    d: [
+      "HGH Somatropin is available in 10IU, 4 IU/Vial 2 Vials per Box. HGH increases lean muscle mass while reducing body fat and reducing muscle breakdown.",
+      "HGH is a critical part of Anti-Aging therapies. Typical Protocol: Dosing 1.0—2.0 IU per day for Anti-Aging Therapy or 4.0—6.0 IU per day for Anabolism.",
+    ],
+  },
+  {
+    c: "Steroids",
+    n: "Stanozolol Tablets USP",
+    id: "CAS NO:10418-03-8",
+    d: [
+      "Stanozolol tablets USP (5mg, 10mg, and 20mg) are also used in the treatment of anaemia and hereditary angioedema. It is a derivative of dihydrotestosterone, much milder in effect except for the androgenic side effects associated with it.",
+      "Stanozolol is one of the anabolic steroids commonly used as an ergogenic aid and causes increase in strength without excess weight-gain, promotes increases in vascularity and will not convert to estrogen.",
+    ],
+  },
+  {
+    c: "Steroids",
+    n: "Stanozolol injection",
+    id: "CAS NO:10418-03-8",
+    d: [
+      "Stanozolol a synthetic anabolic steroid derived from dihydrotestosterone. Stanozolol is usually considered a safer choice for female bodybuilders in that its anabolic effects predominate over its androgenic effects, although virilization and masculinization are still very common even at low doses. Stanozolol has been used in both animal and human patients for a number of conditions.",
+      "In humans, it has been demonstrated to be successful in treating anaemia and hereditary angioedema. Veterinarians may prescribe the drug to improve muscle growth, red blood cell production, increase bone density and stimulate the appetite of debilitated or weakened animals.",
+    ],
+  },
+  {
+    c: "Thyroid Drugs",
+    n: "Levothyroxine Tablets",
+    id: "CAS NO:51-48-9",
+    d: [
+      "Levothyroxine Tablets 50 mcg is used to treat an underactive thyroid (hypothyroidism). It replaces the hormone that is normally produced by the thyroid gland. Low thyroid levels can occur naturally or when the thyroid gland is injured by radiation/medications or removed by surgery. It is important to have adequate levels of thyroid hormone in your bloodstream",
+      "Levothyroxine treats hypothyroidism (low thyroid hormone). Levothyroxine is also used to treat or prevent goiter (enlarged thyroid gland), which can be caused by hormone imbalances, radiation treatment, surgery, or cancer.",
+      "Levothyroxine should not be used to treat obesity or weight problems",
+    ],
+  },
+  {
+    c: "Thyroid Drugs",
+    n: "Liothyronine Tablets",
+    id: "CAS NO: 6893-02-3",
+    d: [
+      "Liothyronine Sodium tablets USP (25mcg) helps in improving symptoms of thyroid deficiency such as slow speech, hair loss, dry skin, feeling cold, lack of energy and weight gain.",
+      "These steroidal tablets can be used alone or with other medicines and is effective in the treatment of goitre.",
+    ],
+  },
+  {
+    c: "Veterinary Drugs",
+    n: "Albendazole Bolus",
+    id: "CAS NO: 54965-21-8",
+    d: [
+      "Available in 1.5gm, 3gm, an effective veterinary medication are used for the prophylaxis and treatment of worm infections in calves, cattle, sheep and goat etc.",
+    ],
+  },
+  {
+    c: "Veterinary Drugs",
+    n: "Febendazole Bolus",
+    d: [
+      "Available in 1.5gm and 3gm compositions. Fenbendazole is used in both large and small animals. In dogs, it is useful against roundworms, hookworms, and the more difficult to treat whipworms.",
+      "It is effective against the Taenia species of tapeworm but not against the common tapeworm, Dipylidiumcaninum. It is also effective against Giardia (an intestinal protozoan that is contagious to both humans and pets) as well as several species of lungworm and even some flukes. When a pet has chronic diarrhea and a cause cannot be found through testing, it is common to give fenbendazole for several days in a row as a general broad spectrum dewormer; the idea is that most parasites of significance will be removed by it even if they escaped detection in testing.",
+    ],
+  },
+  {
+    c: "Veterinary Drugs",
+    n: "Closental",
+    id: "CAS NO: 0057808-65-8",
+    d: [
+      "An anthelmintic used mostly in domestic animals, it is used as a de wormer for cattle, sheep, horse, pig, dog, camel, deer and ostrich etc. It is highly effective against itch-mite, mange, fascioliasis, sheep nose fly, cow skin fly, fascioliasis, gastrointestinal nematode and demodicidosisetc. It is available in 5%,10% and 15%",
+    ],
+  },
+  {
+    c: "Veterinary Drugs",
+    n: "Cypermethrin insecticide",
+    id: "CAS NO: 52315-07-08",
+    d: [
+      "Cypermethrin is a synthetic pyrethroid used as an insecticide in large-scale commercial agricultural applications as well as in consumer products for domestic purposes. It behaves as a fast-acting neurotoxin in insects. It is easily degraded on soil and plants but can be effective for weeks when applied to indoor inert surfaces.",
+    ],
+  },
+  {
+    c: "Veterinary Drugs",
+    n: "Chloropheneramine maleate",
+    d: [""],
+    ul: {
+      h: "Chloropheneramine maleate is available in 10 mg injection for veterinary use. It is an antihistamine and it is used for acute inflammatory and allergic conditions such as:",
+      list: [
+        "Snake bites",
+        "Vaccination reactions",
+        "Blood transfusion reactions",
+        "Bee stings and insect bites",
+      ],
+    },
+  },
+  {
+    c: "Veterinary Drugs",
+    n: "Ivermectin Bolus and injection",
+    d: [
+      "Ivermectin is available in injection 1% and bolus for veterinary medicine. It is administered in combination with other medications to treat a broad spectrum of animal parasites.",
+    ],
+  },
+  {
+    c: "Veterinary Drugs",
+    n: "Meloxicam bolus and suspension",
+    d: [
+      "Meloxicam is a non-steroidal anti-inflammatory drug with analgesic and fever reducer effects.",
+      "Meloxicam is as veterinary medicines, commonly in dogs, but also sees off-label use in other animals such as cattle, cats and exotics. It is available in bolus as well as suspension 5mg/ml form.",
+    ],
+  },
+  {
+    c: "Veterinary Drugs",
+    n: "Oxyclozanide Bolus",
+    d: [
+      "It is used in the treatment and control of Fascioliasis in ruminants mainly domestic animals like Cattle, Sheep and Goats.",
+    ],
+  },
+  {
+    c: "Veterinary Drugs",
+    n: "Sulphadimidine bolus",
+    id: "CAS NO: 0000057-68-1",
+    d: [
+      "Sulphadimidine bolus is used in haemorrhagic septicemia, foot rot, calf scours, calf diphtheria, bacterial enteritis, septicemia, bacterial pneumonia, metritis, coccidiosis, secondary bacterial complications associated with rinderpest.",
+    ],
+  },
+  {
+    c: "Antiviral Drugs",
+    n: "Aciclovir Tablets",
+    id: "CAS NO: 59277-89-3",
+    d: [
+      "Aciclovir is an antiviral medicine, which acts on infected cells by stopping the virus growing.",
+      "Aciclovir 200mg and 400mg tablets are used to treat or prevent herpes simplex infections of the skin and mucous membranes e.g. cold sores and genital herpes",
+      "Aciclovir 800mg tablets are used to treat chicken pox (varicella infection), shingles (herpes zoster infection)",
+    ],
+  },
+  {
+    c: "Antiviral Drugs",
+    n: "Valacyclovir Tablets",
+    id: "CAS NO: 124832-27-5",
+    d: [
+      "Valacyclovir 500 mg , 1000 mg is used for treating shingles (herpes zoster), cold sores (fever blisters or herpes labialis), and treating, suppressing, or reducing transmission of genital herpes in patients with normal immune systems.",
+      "It is also used to treat chickenpox in children and teenagers. It is also used to suppress genital herpes in patients with HIV infection.",
+    ],
+  },
+  {
+    c: "Antiviral Drugs",
+    n: "Ribavarine Capsules",
+    id: "CAS NO:66510-90-5",
+    d: [
+      "Ribavirin is an antiviral drug. It is used in combination with interferon alfa-2b to treat some patients with chronic hepatitis C infection.",
+    ],
+  },
+  {
+    c: "Analgesics",
+    n: "Paracetamol Infusion",
+    id: "CAS NO: 103-90-2",
+    d: [
+      "Paracetamol is about as effective as aspirin at relieving mild to moderate pain and reducing fever, but unlike aspirin it has no anti-inflammatory effect.",
+      "Paracetamol infusion is given in hospital. (An infusion is a drip into a vein.) Paracetamol may be given in this way either because a patient is unable to take medicines by mouth, or because a rapid effect is needed. This infusion may be given for the short-term relief of moderate pain, particularly following surgery. It may also be used for reducing fever in the short-term.",
+    ],
+  },
+  {
+    c: "Others",
+    n: "Fluorescein Injection",
+    id: "CAS NO: 2321-07-5",
+    d: [
+      "Fluorescein injection, USP is indicated in diagnostic fluorescein angiography or angioscopy of the retina and iris vasculature.",
+    ],
+  },
+  {
+    c: "Others",
+    n: "Haefolic",
+    d: ["Iron capsule contain ferrous fumarate with vit.B12 and folic acid."],
+  },
+  {
+    c: "Others",
+    n: "Sinarest Nasal drop",
+    d: [
+      "SINAREST-Nasal Drops is a long acting and topical nasal decongestant. SINAREST Nasal Drops are indicated for relief of nasal congestion due to a cold, upper respiratory allergies or sinusitis.",
+    ],
+  },
+  {
+    c: "Others",
+    n: "Slimfast Capsule",
+    d: [
+      "Slimfast capsule is an all-natural weight loss supplement. It contain a proprietary mix of herbal ingredients that work to increase metabolism, burn fat, and safety suppress appetite..",
+    ],
+  },
+  {
+    c: "Herbal & Ayurvedic Products",
+    n: "Herbal Sildenafil Citrate Capsule",
+    d: [
+      "Herbal sildenafil citrate , an oral therapy for erectile dysfunction, is the citrate salt of sildenafil, a selective inhibitor of cyclic guanosine monophosphate (cGMP)-specific phosphodiesterase type 5 (PDE5).",
+    ],
+  },
 ];
 
 export const productHeadings = [
