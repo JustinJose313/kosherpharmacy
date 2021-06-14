@@ -87,6 +87,7 @@ const Categories = () => {
             </div>
           </div>
           <div className="md:col-span-8 space-y-4" id="categoryContainer">
+          <h2 className="text-2xl font-bold text-brand-100 mb-4">{category}</h2>
             {productData.map((each, i) => {
               if (category === each.c) {
                 return (
@@ -125,9 +126,12 @@ const Categories = () => {
                           </ul>
                         </div>
                       )}
-                      <p className="font-semibold text-xl mt-6 text-brand-200">
-                        Rs.499 /-
+                      {each.id && (
+
+                        <p className="font-semibold text-xl mt-6 text-brand-200">
+                        {each.id}
                       </p>
+                        )}
                       <button className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition">
                         Add to Cart
                       </button>

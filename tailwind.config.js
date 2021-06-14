@@ -14,6 +14,9 @@ module.exports = {
           300: "#C0DCEC",
         },
       },
+      fontFamily: {
+        'sans': ['"Montserrat"', 'system-ui',],
+       }
     },
   },
   variants: {
