@@ -33,7 +33,7 @@ export const productData = [
   },
   {
     c: "Antacids",
-    img:"/images/",
+    img:"/images/RanitidineTab.jpg",
     n: "Ranitidine Tablets and Injection",
     id: "CAS NO: 66357-35-5",
     d: [
@@ -43,7 +43,7 @@ export const productData = [
   },
   {
     c: "Anthelmintics",
-    img:"/images/",
+    img:"/images/AlbendazoleTablets.jpg",
     n: "Albendazole Tablets",
     id: "CAS NO:54965-21-8",
     d: [
@@ -52,7 +52,7 @@ export const productData = [
   },
   {
     c: "Anthelmintics",
-    img:"/images/",
+    img:"/images/MebendazoleTablets.jpg",
     n: "Mebendazole Tablets",
     id: "CAS NO: 31431-39-7",
     d: [
@@ -61,7 +61,7 @@ export const productData = [
   },
   {
     c: "Antibacterial Drugs",
-    img:"/images/",
+    img:"/images/TinidazoleTablets.jpg",
     n: "Tinidazole Tablets",
     id: "CAS NO: 19387-91-8",
     d: [
@@ -70,7 +70,7 @@ export const productData = [
   },
   {
     c: "Antibacterial Drugs",
-    img:"/images/",
+    img:"/images/SecnidazoleTablets.jpg",
     n: "Secnidazole Tablets",
     id: "CAS NO.: 3366-95-8",
     d: [
@@ -81,7 +81,7 @@ export const productData = [
   },
   {
     c: "Antibiotic Medicines",
-    img:"/images/",
+    img:"/images/CefotaximeSodiumInjection.jpg",
     n: "Cefotaxime Sodium Injection ",
     id: "CAS NO:64485-93-4.",
     d: [
@@ -91,7 +91,7 @@ export const productData = [
   },
   {
     c: "Antibiotic Medicines",
-    img:"/images/",
+    img:"/images/CefaclorTablets.jpg",
     n: "Cefaclor Tablets",
     id: "CAS NO:56-12-2",
     d: [
@@ -100,7 +100,7 @@ export const productData = [
   },
   {
     c: "Antibiotic Medicines",
-    img:"/images/",
+    img:"/images/CefdinirTablets.jpg",
     n: "Cefdinir Tablets",
     id: "CAS NO:91832-40-5",
     d: [
@@ -109,7 +109,7 @@ export const productData = [
   },
   {
     c: "Antibiotic Medicines",
-    img:"/images/",
+    img:"/images/Cefepimeinjection.jpg",
     n: "Cefepime injection",
     id: "CAS NO: 88040-23-7",
     d: [
@@ -118,7 +118,7 @@ export const productData = [
   },
   {
     c: "Antibiotic Medicines",
-    img:"/images/",
+    img:"/images/CefiximeTablet.jpg",
     n: "Cefixime Tablet ",
     id: "CAS NO:79350-37-1",
     d: [
@@ -128,7 +128,7 @@ export const productData = [
   },
   {
     c: "Antibiotic Medicines",
-    img:"/images/",
+    img:"/images/CeftazidimeInjection.jpg",
     n: "Ceftazidime Injection",
     id: "CAS NO: 72558-82-8",
     d: [
@@ -145,7 +145,7 @@ export const productData = [
   },
   {
     c: "Antibiotic Medicines",
-    img:"/images/",
+    img:"/images/CeftriaxoneInjection.jpg",
     n: "Ceftriaxone Injection",
     id: "CAS NO: 73384-59-5",
     d: [
@@ -154,7 +154,7 @@ export const productData = [
   },
   {
     c: "Antibiotic Medicines",
-    img:"/images/",
+    img:"/images/CefoperazoneInjection.jpg",
     n: "Cefoperazone Injection",
     id: "CAS NO:74578-69-1",
     d: [
@@ -163,7 +163,7 @@ export const productData = [
   },
   {
     c: "Antibiotic Medicines",
-    img:"/images/",
+    img:"/images/MeropenemInjection.jpg",
     n: "Meropenem Injection ",
     id: "CAS NO:96036-03-2",
     d: [
@@ -172,7 +172,7 @@ export const productData = [
   },
   {
     c: "Antibiotic Medicines",
-    img:"/images/",
+    img:"/images/ErythromycinTablet.jpg",
     n: "Erythromycin Tablet",
     id: "CAS NO: 114-07-8",
     d: [
@@ -182,7 +182,7 @@ export const productData = [
   },
   {
     c: "Antibiotic Medicines",
-    img:"/images/",
+    img:"/images/Ciprofloxacintablet.jpg",
     n: "Ciprofloxacin tablet",
     id: "CAS NO:86393-32-0/85721-33-1",
     d: [
@@ -192,7 +192,7 @@ export const productData = [
   },
   {
     c: "Antibiotic Medicines",
-    img:"/images/",
+    img:"/images/Gatifloxacintablet.jpg",
     n: "Gatifloxacin tablet ",
     id: "CAS NO:180200-66-2",
     d: [
@@ -215,7 +215,7 @@ export const productData = [
   },
   {
     c: "Antibiotic Medicines",
-    img:"/images/",
+    img:"/images/Gentamycininjection.jpg",
     n: "Gentamycin injection",
     id: "CAS NO:1405-41-0",
     d: [
@@ -225,7 +225,7 @@ export const productData = [
   },
   {
     c: "Antibiotic Medicines",
-    img:"/images/",
+    img:"/images/LevofloxacinTablet.jpg",
     n: "Levofloxacin Tablet ",
     id: "CAS NO:100986-85-4",
     d: [
@@ -246,7 +246,7 @@ export const productData = [
   },
   {
     c: "Antibiotic Medicines",
-    img:"/images/",
+    img:"/images/OfloxacinTablet.jpg",
     n: "Ofloxacin Tablet",
     id: "CAS NO: 82419-36-1",
     d: [
@@ -265,7 +265,7 @@ export const productData = [
   },
   {
     c: "Anticancer Medicines",
-    img:"/images/",
+    img:"/images/DocetaxelInjection.jpg",
     n: "Docetaxel Injection",
     id: "CAS NO:114977-28-5",
     d: [
@@ -274,7 +274,7 @@ export const productData = [
   },
   {
     c: "Anticancer Medicines",
-    img:"/images/",
+    img:"/images/DoxarubicinInjection.jpg",
     n: "Doxarubicin Injection",
     id: "CAS NO:25316-40-9",
     d: [
@@ -283,7 +283,7 @@ export const productData = [
   },
   {
     c: "Anticancer Medicines",
-    img:"/images/",
+    img:"/images/GranisetronTablets.jpg",
     n: "Granisetron Tablets",
     id: "CAS NO: 109889-09-0",
     d: [
@@ -293,7 +293,7 @@ export const productData = [
   },
   {
     c: "Anticancer Medicines",
-    img:"/images/",
+    img:"/images/MethotrexateTablets.jpg",
     n: "Methotrexate Tablets",
     id: "CAS NO:59-05-2",
     d: [
@@ -303,7 +303,7 @@ export const productData = [
   },
   {
     c: "Anticancer Medicines",
-    img:"/images/",
+    img:"/images/PaclitaxelInjection.jpg",
     n: "Paclitaxel Injection",
     id: "CAS NO:33069-62-4",
     d: [
@@ -314,7 +314,7 @@ export const productData = [
   },
   {
     c: "Anticancer Medicines",
-    img:"/images/",
+    img:"/images/TamoxifenTablets.jpg",
     n: "Tamoxifen Tablets",
     id: "CAS NO:54965-24",
     d: [
@@ -324,7 +324,7 @@ export const productData = [
   },
   {
     c: "Antidiabetic Drugs",
-    img:"/images/",
+    img:"/images/Gilbenclamide.jpg",
     n: "Gilbenclamide Tablets",
     id: "CAS :10238-21-8",
     d: [
@@ -334,7 +334,7 @@ export const productData = [
   },
   {
     c: "Antidiabetic Drugs",
-    img:"/images/",
+    img:"/images/Gliclazide.jpg",
     n: "Gliclazide Tablets",
     id: "CAS NO: 21187-98-4",
     d: [
@@ -343,7 +343,7 @@ export const productData = [
   },
   {
     c: "Antidiabetic Drugs",
-    img:"/images/",
+    img:"/images/Glimepiride.jpg",
     n: "Glimepiride Tablets",
     id: "CAS NO:93479-97-1",
     d: [
@@ -352,7 +352,7 @@ export const productData = [
   },
   {
     c: "Antidiabetic Drugs",
-    img:"/images/",
+    img:"/images/Glipizide.jpg",
     n: "Glipizide Tablets",
     id: "CAS NO:29094-61-9",
     d: [
@@ -361,7 +361,7 @@ export const productData = [
   },
   {
     c: "Antidiabetic Drugs",
-    img:"/images/",
+    img:"/images/Metformin.jpg",
     n: "Metformin Tablets",
     id: "CAS NO:657-24-9",
     d: [
@@ -371,7 +371,7 @@ export const productData = [
   },
   {
     c: "Antidiabetic Drugs",
-    img:"/images/",
+    img:"/images/Pioglitazone.jpg",
     n: "Pioglitazone Tablets",
     id: "CAS NO:112529-15-4",
     d: [
@@ -381,7 +381,7 @@ export const productData = [
   },
   {
     c: "Antimalarial Drugs",
-    img:"/images/",
+    img:"/images/Artemether.jpg",
     n: "Artemether Capsules",
     id: "CAS NO:71939-50-9",
     d: [
@@ -390,7 +390,7 @@ export const productData = [
   },
   {
     c: "Antimalarial Drugs",
-    img:"/images/",
+    img:"/images/Quininesulphate.jpg",
     n: "Quinine sulphate injections",
     id: "CAS NO:6119-70-6",
     d: [
@@ -410,8 +410,8 @@ export const productData = [
   },
   {
     c: "Antiobesity Drugs",
-    img:"/images/",
-    n: "Quinine sulphate injections",
+    img:"/images/Orlistat Capsules.jpg",
+    n: "Orlistat Capsules",
     id: "CAS NO:96829-58-2",
     d: [
       "Orlistat capsules 60 mg, 120 mg is a worldwide recognized medicine for patients, suffering from obesity, in its ability to manage adiposis in adult and adolescent patients, from age 12 and older.",
@@ -420,7 +420,7 @@ export const productData = [
   },
   {
     c: "Cardiovascular Drugs",
-    img:"/images/",
+    img:"/images/Atorvastatin.jpg",
     n: "Atorvastatin Tablets",
     id: "CAS NO:134523-00-5",
     d: [
@@ -429,7 +429,7 @@ export const productData = [
   },
   {
     c: "Cardiovascular Drugs",
-    img:"/images/",
+    img:"/images/Diltiazem.jpg",
     n: "Diltiazem Tablets",
     id: "CAS NO: 42399-41-7",
     d: [
@@ -438,7 +438,7 @@ export const productData = [
   },
   {
     c: "Cardiovascular Drugs",
-    img:"/images/",
+    img:"/images/Clopidogrel.jpg",
     n: "Clopidogrel Tablets",
     id: "CAS NO:135046-48-9",
     d: [
@@ -449,7 +449,7 @@ export const productData = [
   },
   {
     c: "Cardiovascular Drugs",
-    img:"/images/",
+    img:"/images/DopamineInjection.jpg",
     n: "Dopamine Injection",
     id: "CAS NO:62-31-7",
     d: [
@@ -459,7 +459,7 @@ export const productData = [
   },
   {
     c: "Cardiovascular Drugs",
-    img:"/images/",
+    img:"/images/Metoprolol.jpg",
     n: "Metoprolol Tablets",
     id: "CAS NO:51384-51-1",
     d: [
@@ -468,7 +468,7 @@ export const productData = [
   },
   {
     c: "Cardiovascular Drugs",
-    img:"/images/",
+    img:"/images/Ramipril.jpg",
     n: "Ramipril Tablets",
     id: "CAS NO:87333-19-5",
     d: [
@@ -479,7 +479,7 @@ export const productData = [
   },
   {
     c: "Cardiovascular Drugs",
-    img:"/images/",
+    img:"/images/Simvastatin.jpg",
     n: "Simvastatin Tablets",
     id: "CAS NO:79902-63-9",
     d: [
@@ -490,7 +490,7 @@ export const productData = [
   },
   {
     c: "Endocrine Disorder Drugs",
-    img:"/images/",
+    img:"/images/EthinylEstradiol.jpg",
     n: "Ethinyl Estradiol Tablet",
     id: "CAS NO: 57-63-6",
     d: [
@@ -500,7 +500,7 @@ export const productData = [
   },
   {
     c: "Endocrine Disorder Drugs",
-    img:"/images/",
+    img:"/images/Bromocriptine.jpg",
     n: "Bromocriptine Tablet",
     id: "CAS NO: 25614-03-3",
     d: [
@@ -510,7 +510,7 @@ export const productData = [
   },
   {
     c: "Endocrine Disorder Drugs",
-    img:"/images/",
+    img:"/images/Medroxyprogesterone.jpg",
     n: "Medroxyprogesterone Tablets & Injection",
     id: "CAS NO:71-58-9",
     d: [
@@ -520,7 +520,7 @@ export const productData = [
   },
   {
     c: "Gynaecological Drugs",
-    img:"/images/",
+    img:"/images/CabergolineTablets.jpg",
     n: "Cabergoline Tablets",
     id: "CAS NO:81409-90-7",
     d: [
@@ -530,7 +530,7 @@ export const productData = [
   },
   {
     c: "Gynaecological Drugs",
-    img:"/images/",
+    img:"/images/ClomipheneCitrate.jpg",
     n: "Clomiphene Citrate Tablets",
     id: "CAS NO:911-45-5",
     d: [
@@ -549,7 +549,7 @@ export const productData = [
   },
   {
     c: "Gynaecological Drugs",
-    img:"/images/",
+    img:"/images/EstradiolTablets.jpg",
     n: "Estradiol Tablets",
     id: "CAS NO:50-28-2",
     d: [
@@ -558,7 +558,7 @@ export const productData = [
   },
   {
     c: "Gynaecological Drugs",
-    img:"/images/",
+    img:"/images/IbandronateSodium.jpg",
     n: "Ibandronate Sodium Tablets",
     id: "CAS NO:114084-78-5",
     d: [
@@ -567,7 +567,7 @@ export const productData = [
   },
   {
     c: "Gynaecological Drugs",
-    img:"/images/",
+    img:"/images/Raloxifene.jpg",
     n: "Raloxifene Tablets",
     id: "CAS NO:84449-90-1",
     d: [
@@ -576,7 +576,7 @@ export const productData = [
   },
   {
     c: "Gynaecological Drugs",
-    img:"/images/",
+    img:"/images/Risedronate.jpg",
     n: "Risedronate Tablets",
     id: "CAS NO:105462-24-6",
     d: [
@@ -586,7 +586,7 @@ export const productData = [
   },
   {
     c: "Mens Health",
-    img:"/images/",
+    img:"/images/DapoxetineTablets.jpg",
     n: "Dapoxetine Tablets",
     id: "CAS NO: 119356-77-3",
     d: [
@@ -595,7 +595,7 @@ export const productData = [
   },
   {
     c: "Mens Health",
-    img:"/images/",
+    img:"/images/SildenafilDapoxetine.jpg",
     n: "Sildenafil + Dapoxetine Tablets",
     d: [
       "Dapoxetine is the best-known medication for the treatment of premature ejaculation in men. Dapoxetine works by inhibiting the serotonin transporter, increasing serotonin’s action at the post synaptic cleft, and as a consequence promoting ejaculatory delay.",
@@ -603,7 +603,7 @@ export const productData = [
   },
   {
     c: "Mens Health",
-    img:"/images/",
+    img:"/images/FinasterideTablets.jpg",
     n: "Finasteride Tablets",
     id: "CAS NO: 98319-26-7",
     d: [
@@ -612,7 +612,7 @@ export const productData = [
   },
   {
     c: "Mens Health",
-    img:"/images/",
+    img:"/images/SildenafilCitrateTablets.jpg",
     n: "Sildenafil Citrate Tablets",
     id: "CAS NO:171599-83-0",
     d: [
@@ -621,7 +621,7 @@ export const productData = [
   },
   {
     c: "Mens Health",
-    img:"/images/",
+    img:"/images/SildenafilCitrateSoftTablet.jpg",
     n: "Sildenafil Citrate Soft Tablet",
     id: "CAS NO: 139755-83-2",
     d: [
@@ -630,7 +630,7 @@ export const productData = [
   },
   {
     c: "Mens Health",
-    img:"/images/",
+    img:"/images/SildenafilOralJelly.jpg",
     n: "Sildenafil - Oral Jelly",
     id: "CAS NO: 139755-83-2",
     d: [
@@ -640,7 +640,7 @@ export const productData = [
   },
   {
     c: "Mens Health",
-    img:"/images/",
+    img:"/images/SildenafilEffervesent.jpg",
     n: "Sildenafil Effervesent Tablets",
     d: [
       "Sildenafil Effervescent is a soluble tablet - simply dissolve in a glass of water. The product is sold in pots of 7 tablets. Each tablet contains 100mg of Sildenafil Citrate.",
@@ -648,7 +648,7 @@ export const productData = [
   },
   {
     c: "Mens Health",
-    img:"/images/",
+    img:"/images/SildenafilPoloChewable.jpg",
     n: "Sildenafil Polo Chewable Tablets",
     d: [
       "Sildenafil Polo Chewable Tablets works faster than oral jelly and lasts for 4-6 hours.",
@@ -657,7 +657,7 @@ export const productData = [
   },
   {
     c: "Mens Health",
-    img:"/images/",
+    img:"/images/FemaleSildenafil.jpg",
     n: "Female Sildenafil",
     d: [
       "Female Sildenafil Citrate (Sildenafil) is scientifically formulated to provide intense sexual satisfaction for women seeking ultimate pleasure.",
@@ -666,7 +666,7 @@ export const productData = [
   },
   {
     c: "Mens Health",
-    img:"/images/",
+    img:"/images/VardenafilTablets.jpg",
     n: "Vardenafil Tablets",
     id: "CAS NO: 224785-90-4",
     d: [
@@ -675,7 +675,7 @@ export const productData = [
   },
   {
     c: "Mens Health",
-    img:"/images/",
+    img:"/images/VardenafiloralJelly.jpg",
     n: "Vardenafil oral Jelly",
     d: [
       "Vardenafil Oral jelly is a mode of treating male impotence and is easy to consume. Each 5 gram sachet of Oral Jelly contains 20 mg of the active ingredient Vardenafil.",
@@ -683,7 +683,7 @@ export const productData = [
   },
   {
     c: "Mens Health",
-    img:"/images/",
+    img:"/images/TadalafilTablets.jpg",
     n: "Tadalafil Tablets",
     id: "CAS NO:0171596-29",
     d: [
@@ -693,7 +693,7 @@ export const productData = [
   },
   {
     c: "Mens Health",
-    img:"/images/",
+    img:"/images/TadalafilOralJelly.jpg",
     n: "Tadalafil Oral Jelly",
     d: [
       "Tadalafil Oral is used to sustain an erection in Erectile Dysfunction or impotent men. Tadalafil Oral Jelly is effective in causing an erection only if the patient is sexually stimulated. Tadalafil Jelly is especially convenient for men who desire to get fast therapeutic effect and have difficulties with swallowing conventional tablets.",
@@ -701,7 +701,7 @@ export const productData = [
   },
   {
     c: "Mens Health",
-    img:"/images/",
+    img:"/images/TadalafilSoft.jpg",
     n: "Tadalafil Soft Tablets",
     d: [
       "Tadalafil is a medicine used in the treatment of erectile dysfunction (impotence). Tadalafil is called a phosphodiesterase type 5 inhibitor, and works by preventing the action of a chemical in the body called phosphodiesterase type 5.",
