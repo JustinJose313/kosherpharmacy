@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { productData, productHeadings } from "../../../public/data/productData";
+import { useCart } from "react-use-cart";
 
 const Categories = () => {
-  const data = [...Array(5)];
+  const { addItem } = useCart();
   const [toggle, setToggle] = useState(true);
   const [category, setCategory] = useState("Antacids");
 
@@ -87,7 +88,9 @@ const Categories = () => {
             </div>
           </div>
           <div className="md:col-span-8 space-y-4" id="categoryContainer">
-          <h2 className="text-2xl font-bold text-brand-100 mb-4">{category}</h2>
+            <h2 className="text-2xl font-bold text-brand-100 mb-4">
+              {category}
+            </h2>
             {productData.map((each, i) => {
               if (category === each.c) {
                 return (
@@ -97,7 +100,11 @@ const Categories = () => {
                   >
                     <img
                       className="w-full md:w-4/12"
-                      src="https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
+                      src={
+                        each.img
+                          ? each.img
+                          : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
+                      }
                       alt=""
                     />
                     <div className="flex-1 p-4">
@@ -126,13 +133,15 @@ const Categories = () => {
                           </ul>
                         </div>
                       )}
-                      {each.id && (
-
+                      {each.pid && (
                         <p className="font-semibold text-xl mt-6 text-brand-200">
-                        {each.id}
-                      </p>
-                        )}
-                      <button className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition">
+                          {each.pid}
+                        </p>
+                      )}
+                      <button
+                        onClick={() => addItem(each)}
+                        className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition"
+                      >
                         Add to Cart
                       </button>
                     </div>

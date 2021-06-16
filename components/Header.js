@@ -1,8 +1,10 @@
 import React, { useState, useRef } from "react";
 import Link from "next/link";
 import { useClickOutside } from "../customHooks/useClickOutside";
+import { useCart } from "react-use-cart";
 
 const Header = () => {
+  const { totalUniqueItems } = useCart();
   const data = [
     {
       h: "Home",
@@ -24,7 +26,7 @@ const Header = () => {
   return (
     <>
       <div className="flex w-full items-center justify-center bg-transparent">
-        <img className='h-24' src="/Logo.png" alt="" />
+        <img className="h-24" src="/Logo.png" alt="" />
       </div>
       <div className="sticky top-0 z-50 h-auto">
         <div ref={domNode} className="">
@@ -98,22 +100,24 @@ const Header = () => {
                 })}
               </div>
               <div>
-                <div className="flex items-center justify-center">
-                  <svg
-                    className="text-white mr-2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    height="24"
-                  >
-                    <path fill="none" d="M0 0h24v24H0z" />
-                    <path
-                      d="M6 9h13.938l.5-2H8V5h13.72a1 1 0 0 1 .97 1.243l-2.5 10a1 1 0 0 1-.97.757H5a1 1 0 0 1-1-1V4H2V2h3a1 1 0 0 1 1 1v6zm0 14a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm12 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
-                      fill="currentColor"
-                    />
-                  </svg>{" "}
-                  <span className="text-white">0</span>
-                </div>
+                <Link href='/cart'>
+                  <div className="flex items-center justify-center cursor-pointer">
+                    <svg
+                      className="text-white mr-2"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      height="24"
+                    >
+                      <path fill="none" d="M0 0h24v24H0z" />
+                      <path
+                        d="M6 9h13.938l.5-2H8V5h13.72a1 1 0 0 1 .97 1.243l-2.5 10a1 1 0 0 1-.97.757H5a1 1 0 0 1-1-1V4H2V2h3a1 1 0 0 1 1 1v6zm0 14a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm12 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
+                        fill="currentColor"
+                      />
+                    </svg>{" "}
+                    <span className="text-white">{totalUniqueItems}</span>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
