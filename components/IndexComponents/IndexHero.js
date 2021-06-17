@@ -11,7 +11,7 @@ const IndexHero = () => {
     const nextSlide = () => {
       setCurrent((current) => (current === length - 1 ? 0 : current + 1));
     };
-    timeout.current = setTimeout(nextSlide, 3000);
+    timeout.current = setTimeout(nextSlide, 4000);
 
     return function () {
       if (timeout.current) {
@@ -38,9 +38,9 @@ const IndexHero = () => {
               <AnimatePresence initial={true}>
                 {i === current && (
                   <motion.div
-                    initial={{ opacity: 0, scale: 1.1 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    exit={{ opacity: 0, scale: 0.9 }}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
                     className="absolute top-0 left-0 w-full h-full flex items-center justify-center"
                   >
                     <img

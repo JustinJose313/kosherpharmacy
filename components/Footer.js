@@ -14,7 +14,7 @@ const Footer = () => {
     },
     {
       h: "Browse categories",
-      url: "/",
+      url: "#categories",
     },
     {
       h: "Terms and Conditions",

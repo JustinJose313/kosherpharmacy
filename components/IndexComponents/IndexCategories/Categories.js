@@ -99,7 +99,7 @@ const Categories = () => {
                     className="bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full"
                   >
                     <img
-                      className="w-full md:w-4/12"
+                      className="w-full md:w-4/12 p-4"
                       src={
                         each.img
                           ? each.img

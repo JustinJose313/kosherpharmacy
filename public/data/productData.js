@@ -1341,7 +1341,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:103,
-    img: "/images/Analgesics/FluoresceinInjection.jpg",
+    img: "/images/Analgesics/Paracetamol Infusion.jpg",
     n: "Paracetamol Infusion",
     pid: "CAS NO: 103-90-2",
     d: [

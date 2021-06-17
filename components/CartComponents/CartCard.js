@@ -9,7 +9,11 @@ const CartCard = ({ data = {} }) => {
       <div className="flex flex-1">
         <img
           className="w-16 lg:w-28 mr-4"
-          src="https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
+          src={
+            data.img
+              ? data.img
+              : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
+          }
           alt=""
         />
         <div className="flex flex-col ">
