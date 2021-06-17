@@ -5,7 +5,7 @@ export const productData = [
     price: 100,
     //Ashutosh please enter id to all objects starting from 1
     id: 1,
-    img: "/images/Lansoprazole-Capsules.jpg",
+    img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
     n: "Lansoprazole Capsules",
     pid: "CAS NO.: 103577-45-3",
     d: [
@@ -16,7 +16,8 @@ export const productData = [
     c: "Antacids",
     quantity: 1,
     price: 100,
-    img: "/images/Omeprazole-Capsules.jpg",
+    id:2,
+    img: "/images/Anta-cids/Omeprazole-Capsules.jpg",
     n: "Omeprazole Capsules",
     pid: "CAS NO:73590-58-6",
     d: [
@@ -29,8 +30,9 @@ export const productData = [
   {
     c: "Antacids",
     quantity: 1,
+    id:3,
     price: 100,
-    img: "/images/PantoprazoleTablets&Injections.jpg",
+    img: "/images/Anta-cids/PantoprazoleTablets&Injections.jpg",
     n: "Pantoprazole Tablets & Injections",
     pid: "CAS NO:164579-32-2",
     d: [
@@ -43,7 +45,8 @@ export const productData = [
     c: "Antacids",
     quantity: 1,
     price: 100,
-    img: "/images/RanitidineTab.jpg",
+    id: 4,
+    img: "/images/Anta-cids/RanitidineTab.jpg",
     n: "Ranitidine Tablets and Injection",
     pid: "CAS NO: 66357-35-5",
     d: [
@@ -55,7 +58,8 @@ export const productData = [
     c: "Anthelmintics",
     quantity: 1,
     price: 100,
-    img: "/images/AlbendazoleTablets.jpg",
+    id: 5,
+    img: "/images/Anthelmintics/AlbendazoleTablets.jpg",
     n: "Albendazole Tablets",
     pid: "CAS NO:54965-21-8",
     d: [
@@ -66,7 +70,8 @@ export const productData = [
     c: "Anthelmintics",
     quantity: 1,
     price: 100,
-    img: "/images/MebendazoleTablets.jpg",
+    id:6,
+    img: "/images/Anthelmintics/MebendazoleTablets.jpg",
     n: "Mebendazole Tablets",
     pid: "CAS NO: 31431-39-7",
     d: [
@@ -77,7 +82,8 @@ export const productData = [
     c: "Antibacterial Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/TinidazoleTablets.jpg",
+    id:7,
+    img: "/images/Antibacterial/TinidazoleTablets.jpg",
     n: "Tinidazole Tablets",
     pid: "CAS NO: 19387-91-8",
     d: [
@@ -88,7 +94,8 @@ export const productData = [
     c: "Antibacterial Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/SecnidazoleTablets.jpg",
+    id:8,
+    img: "/images/Antibacterial/SecnidazoleTablets.jpg",
     n: "Secnidazole Tablets",
     pid: "CAS NO.: 3366-95-8",
     d: [
@@ -101,7 +108,8 @@ export const productData = [
     c: "Antibiotic Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/CefotaximeSodiumInjection.jpg",
+    id:9,
+    img: "/images/Anti-biotic/CefotaximeSodiumInjection.jpg",
     n: "Cefotaxime Sodium Injection ",
     pid: "CAS NO:64485-93-4.",
     d: [
@@ -113,7 +121,8 @@ export const productData = [
     c: "Antibiotic Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/CefaclorTablets.jpg",
+    id:10,
+    img: "/images/Anti-biotic/CefaclorTablets.jpg",
     n: "Cefaclor Tablets",
     pid: "CAS NO:56-12-2",
     d: [
@@ -124,7 +133,8 @@ export const productData = [
     c: "Antibiotic Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/CefdinirTablets.jpg",
+    id:11,
+    img: "/images/Anti-biotic/CefdinirTablets.jpg",
     n: "Cefdinir Tablets",
     pid: "CAS NO:91832-40-5",
     d: [
@@ -135,7 +145,8 @@ export const productData = [
     c: "Antibiotic Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/Cefepimeinjection.jpg",
+    id:12,
+    img: "/images/Anti-biotic/Cefepimeinjection.jpg",
     n: "Cefepime injection",
     pid: "CAS NO: 88040-23-7",
     d: [
@@ -146,7 +157,8 @@ export const productData = [
     c: "Antibiotic Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/CefiximeTablet.jpg",
+    id:13,
+    img: "/images/Anti-biotic/CefiximeTablet.jpg",
     n: "Cefixime Tablet ",
     pid: "CAS NO:79350-37-1",
     d: [
@@ -158,7 +170,8 @@ export const productData = [
     c: "Antibiotic Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/CeftazidimeInjection.jpg",
+    id:14,
+    img: "/images/Anti-biotic/CeftazidimeInjection.jpg",
     n: "Ceftazidime Injection",
     pid: "CAS NO: 72558-82-8",
     d: [
@@ -177,7 +190,8 @@ export const productData = [
     c: "Antibiotic Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/CeftriaxoneInjection.jpg",
+    id:15,
+    img: "/images/Anti-biotic/CeftriaxoneInjection.jpg",
     n: "Ceftriaxone Injection",
     pid: "CAS NO: 73384-59-5",
     d: [
@@ -188,7 +202,8 @@ export const productData = [
     c: "Antibiotic Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/CefoperazoneInjection.jpg",
+    id:16,
+    img: "/images/Anti-biotic/CefoperazoneInjection.jpg",
     n: "Cefoperazone Injection",
     pid: "CAS NO:74578-69-1",
     d: [
@@ -199,7 +214,8 @@ export const productData = [
     c: "Antibiotic Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/MeropenemInjection.jpg",
+    id:17,
+    img: "/images/Anti-biotic/MeropenemInjection.jpg",
     n: "Meropenem Injection ",
     pid: "CAS NO:96036-03-2",
     d: [
@@ -210,7 +226,8 @@ export const productData = [
     c: "Antibiotic Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/ErythromycinTablet.jpg",
+    id:18,
+    img: "/images/Anti-biotic/ErythromycinTablet.jpg",
     n: "Erythromycin Tablet",
     pid: "CAS NO: 114-07-8",
     d: [
@@ -222,7 +239,8 @@ export const productData = [
     c: "Antibiotic Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/Ciprofloxacintablet.jpg",
+    id:19,
+    img: "/images/Anti-biotic/Ciprofloxacintablet.jpg",
     n: "Ciprofloxacin tablet",
     pid: "CAS NO:86393-32-0/85721-33-1",
     d: [
@@ -234,7 +252,8 @@ export const productData = [
     c: "Antibiotic Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/Gatifloxacintablet.jpg",
+    id:20,
+    img: "/images/Anti-biotic/Gatifloxacintablet.jpg",
     n: "Gatifloxacin tablet ",
     pid: "CAS NO:180200-66-2",
     d: [
@@ -259,7 +278,8 @@ export const productData = [
     c: "Antibiotic Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/Gentamycininjection.jpg",
+    id:21,
+    img: "/images/Anti-biotic/Gentamycininjection.jpg",
     n: "Gentamycin injection",
     pid: "CAS NO:1405-41-0",
     d: [
@@ -271,7 +291,8 @@ export const productData = [
     c: "Antibiotic Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/LevofloxacinTablet.jpg",
+    id:22,
+    img: "/images/Anti-biotic/LevofloxacinTablet.jpg",
     n: "Levofloxacin Tablet ",
     pid: "CAS NO:100986-85-4",
     d: [
@@ -294,7 +315,8 @@ export const productData = [
     c: "Antibiotic Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/OfloxacinTablet.jpg",
+    id:23,
+    img: "/images/Anti-biotic/OfloxacinTablet.jpg",
     n: "Ofloxacin Tablet",
     pid: "CAS NO: 82419-36-1",
     d: [
@@ -305,7 +327,8 @@ export const productData = [
     c: "Anticancer Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/",
+    id:24,
+    img: "/images/Anti-Cancer-Medicines/Anastrazole-Tablets.jpg",
     n: "Anastrazole Tablets",
     pid: "CAS NO:120511-73-1",
     d: [
@@ -317,7 +340,8 @@ export const productData = [
     c: "Anticancer Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/DocetaxelInjection.jpg",
+    id:25,
+    img: "/images/Anti-Cancer-Medicines/DocetaxelInjection.jpg",
     n: "Docetaxel Injection",
     pid: "CAS NO:114977-28-5",
     d: [
@@ -328,7 +352,8 @@ export const productData = [
     c: "Anticancer Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/DoxarubicinInjection.jpg",
+    id:26,
+    img: "/images/Anti-Cancer-Medicines/DoxarubicinInjection.jpg",
     n: "Doxarubicin Injection",
     pid: "CAS NO:25316-40-9",
     d: [
@@ -339,7 +364,8 @@ export const productData = [
     c: "Anticancer Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/GranisetronTablets.jpg",
+    id:27,
+    img: "/images/Anti-Cancer-Medicines/GranisetronTablets.jpg",
     n: "Granisetron Tablets",
     pid: "CAS NO: 109889-09-0",
     d: [
@@ -351,7 +377,8 @@ export const productData = [
     c: "Anticancer Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/MethotrexateTablets.jpg",
+    id:28,
+    img: "/images/Anti-Cancer-Medicines/MethotrexateTablets.jpg",
     n: "Methotrexate Tablets",
     pid: "CAS NO:59-05-2",
     d: [
@@ -363,7 +390,8 @@ export const productData = [
     c: "Anticancer Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/PaclitaxelInjection.jpg",
+    id:29,
+    img: "/images/Anti-Cancer-Medicines/PaclitaxelInjection.jpg",
     n: "Paclitaxel Injection",
     pid: "CAS NO:33069-62-4",
     d: [
@@ -376,7 +404,8 @@ export const productData = [
     c: "Anticancer Medicines",
     quantity: 1,
     price: 100,
-    img: "/images/TamoxifenTablets.jpg",
+    id:30,
+    img: "/images/Anti-Cancer-Medicines/TamoxifenTablets.jpg",
     n: "Tamoxifen Tablets",
     pid: "CAS NO:54965-24",
     d: [
@@ -388,7 +417,8 @@ export const productData = [
     c: "Antidiabetic Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Gilbenclamide.jpg",
+    id:31,
+    img: "/images/Antidiabetic-Drugs/Gilbenclamide.jpg",
     n: "Gilbenclamide Tablets",
     pid: "CAS :10238-21-8",
     d: [
@@ -400,7 +430,8 @@ export const productData = [
     c: "Antidiabetic Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Gliclazide.jpg",
+    id:32,
+    img: "/images/Antidiabetic-Drugs/Gliclazide.jpg",
     n: "Gliclazide Tablets",
     pid: "CAS NO: 21187-98-4",
     d: [
@@ -411,7 +442,8 @@ export const productData = [
     c: "Antidiabetic Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Glimepiride.jpg",
+    id:33,
+    img: "/images/Antidiabetic-Drugs/Glimepiride.jpg",
     n: "Glimepiride Tablets",
     pid: "CAS NO:93479-97-1",
     d: [
@@ -422,7 +454,8 @@ export const productData = [
     c: "Antidiabetic Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Glipizide.jpg",
+    id:34,
+    img: "/images/Antidiabetic-Drugs/Glipizide.jpg",
     n: "Glipizide Tablets",
     pid: "CAS NO:29094-61-9",
     d: [
@@ -433,7 +466,8 @@ export const productData = [
     c: "Antidiabetic Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Metformin.jpg",
+    id:35,
+    img: "/images/Antidiabetic-Drugs/Metformin.jpg",
     n: "Metformin Tablets",
     pid: "CAS NO:657-24-9",
     d: [
@@ -445,7 +479,8 @@ export const productData = [
     c: "Antidiabetic Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Pioglitazone.jpg",
+    id:36,
+    img: "/images/Antidiabetic-Drugs/Pioglitazone.jpg",
     n: "Pioglitazone Tablets",
     pid: "CAS NO:112529-15-4",
     d: [
@@ -457,7 +492,8 @@ export const productData = [
     c: "Antimalarial Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Artemether.jpg",
+    id:37,
+    img: "/images/Antimalarial-Drugs/Artemether.jpg",
     n: "Artemether Capsules",
     pid: "CAS NO:71939-50-9",
     d: [
@@ -468,7 +504,8 @@ export const productData = [
     c: "Antimalarial Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Quininesulphate.jpg",
+    id:38,
+    img: "/images/Antimalarial-Drugs/Quininesulphate.jpg",
     n: "Quinine sulphate injections",
     pid: "CAS NO:6119-70-6",
     d: [
@@ -477,10 +514,11 @@ export const productData = [
     ],
   },
   {
-    c: "Antiobesity Drugs",
+    c: "Antimalarial Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/",
+    id:39,
+    img: "/images/Antimalarial-Drugs/Quininesulphate.jpg",
     n: "Quinine sulphate injections",
     pid: "CAS NO:96829-58-2",
     d: [
@@ -492,7 +530,8 @@ export const productData = [
     c: "Antiobesity Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Orlistat Capsules.jpg",
+    id:40,
+    img: "/images/Anti-Obesity-Drugs/Orlistat-Capsules.jpg",
     n: "Orlistat Capsules",
     pid: "CAS NO:96829-58-2",
     d: [
@@ -504,7 +543,8 @@ export const productData = [
     c: "Cardiovascular Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Atorvastatin.jpg",
+    id:41,
+    img: "/images/cardiovascular/Atorvastatin.jpg",
     n: "Atorvastatin Tablets",
     pid: "CAS NO:134523-00-5",
     d: [
@@ -515,7 +555,8 @@ export const productData = [
     c: "Cardiovascular Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Diltiazem.jpg",
+    id:42,
+    img: "/images/cardiovascular/Diltiazem.jpg",
     n: "Diltiazem Tablets",
     pid: "CAS NO: 42399-41-7",
     d: [
@@ -526,7 +567,8 @@ export const productData = [
     c: "Cardiovascular Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Clopidogrel.jpg",
+    id:43,
+    img: "/images/cardiovascular/Clopidogrel.jpg",
     n: "Clopidogrel Tablets",
     pid: "CAS NO:135046-48-9",
     d: [
@@ -539,7 +581,8 @@ export const productData = [
     c: "Cardiovascular Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/DopamineInjection.jpg",
+    id:44,
+    img: "/images/cardiovascular/DopamineInjection.jpg",
     n: "Dopamine Injection",
     pid: "CAS NO:62-31-7",
     d: [
@@ -551,7 +594,8 @@ export const productData = [
     c: "Cardiovascular Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Metoprolol.jpg",
+    id:45,
+    img: "/images/cardiovascular/Metoprolol.jpg",
     n: "Metoprolol Tablets",
     pid: "CAS NO:51384-51-1",
     d: [
@@ -562,7 +606,8 @@ export const productData = [
     c: "Cardiovascular Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Ramipril.jpg",
+    id:46,
+    img: "/images/cardiovascular/Ramipril.jpg",
     n: "Ramipril Tablets",
     pid: "CAS NO:87333-19-5",
     d: [
@@ -575,7 +620,8 @@ export const productData = [
     c: "Cardiovascular Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Simvastatin.jpg",
+    id:47,
+    img: "/images/cardiovascular/Simvastatin.jpg",
     n: "Simvastatin Tablets",
     pid: "CAS NO:79902-63-9",
     d: [
@@ -588,7 +634,8 @@ export const productData = [
     c: "Endocrine Disorder Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/EthinylEstradiol.jpg",
+    id:48,
+    img: "/images/Endocrine-Disorder-Drugs/EthinylEstradiol.jpg",
     n: "Ethinyl Estradiol Tablet",
     pid: "CAS NO: 57-63-6",
     d: [
@@ -600,7 +647,8 @@ export const productData = [
     c: "Endocrine Disorder Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Bromocriptine.jpg",
+    id:49,
+    img: "/images/Endocrine-Disorder-Drugs/Bromocriptine.jpg",
     n: "Bromocriptine Tablet",
     pid: "CAS NO: 25614-03-3",
     d: [
@@ -612,7 +660,8 @@ export const productData = [
     c: "Endocrine Disorder Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Medroxyprogesterone.jpg",
+    id:50,
+    img: "/images/Endocrine-Disorder-Drugs/Medroxyprogesterone.jpg",
     n: "Medroxyprogesterone Tablets & Injection",
     pid: "CAS NO:71-58-9",
     d: [
@@ -624,7 +673,8 @@ export const productData = [
     c: "Gynaecological Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/CabergolineTablets.jpg",
+    id:51,
+    img: "/images/Gynaecological-Drugs/CabergolineTablets.jpg",
     n: "Cabergoline Tablets",
     pid: "CAS NO:81409-90-7",
     d: [
@@ -636,7 +686,8 @@ export const productData = [
     c: "Gynaecological Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/ClomipheneCitrate.jpg",
+    id:52,
+    img: "/images/Gynaecological-Drugs/ClomipheneCitrate.jpg",
     n: "Clomiphene Citrate Tablets",
     pid: "CAS NO:911-45-5",
     d: [
@@ -657,7 +708,8 @@ export const productData = [
     c: "Gynaecological Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/EstradiolTablets.jpg",
+    id:53,
+    img: "/images/Gynaecological-Drugs/EstradiolTablets.jpg",
     n: "Estradiol Tablets",
     pid: "CAS NO:50-28-2",
     d: [
@@ -668,7 +720,8 @@ export const productData = [
     c: "Gynaecological Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/IbandronateSodium.jpg",
+    id:54,
+    img: "/images/Gynaecological-Drugs/IbandronateSodium.jpg",
     n: "Ibandronate Sodium Tablets",
     pid: "CAS NO:114084-78-5",
     d: [
@@ -679,7 +732,8 @@ export const productData = [
     c: "Gynaecological Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Raloxifene.jpg",
+    id:55,
+    img: "/images/Gynaecological-Drugs/Raloxifene.jpg",
     n: "Raloxifene Tablets",
     pid: "CAS NO:84449-90-1",
     d: [
@@ -690,7 +744,8 @@ export const productData = [
     c: "Gynaecological Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Risedronate.jpg",
+    id:56,
+    img: "/images/Gynaecological-Drugs/Risedronate.jpg",
     n: "Risedronate Tablets",
     pid: "CAS NO:105462-24-6",
     d: [
@@ -702,7 +757,8 @@ export const productData = [
     c: "Mens Health",
     quantity: 1,
     price: 100,
-    img: "/images/DapoxetineTablets.jpg",
+    id:57,
+    img: "/images/Men's-Health/DapoxetineTablets.jpg",
     n: "Dapoxetine Tablets",
     pid: "CAS NO: 119356-77-3",
     d: [
@@ -713,7 +769,8 @@ export const productData = [
     c: "Mens Health",
     quantity: 1,
     price: 100,
-    img: "/images/SildenafilDapoxetine.jpg",
+    id:59,
+    img: "/images/Men's-Health/SildenafilDapoxetine.jpg",
     n: "Sildenafil + Dapoxetine Tablets",
     d: [
       "Dapoxetine is the best-known medication for the treatment of premature ejaculation in men. Dapoxetine works by inhibiting the serotonin transporter, increasing serotonin’s action at the post synaptic cleft, and as a consequence promoting ejaculatory delay.",
@@ -723,7 +780,8 @@ export const productData = [
     c: "Mens Health",
     quantity: 1,
     price: 100,
-    img: "/images/FinasterideTablets.jpg",
+    id:60,
+    img: "/images/Men's-Health/FinasterideTablets.jpg",
     n: "Finasteride Tablets",
     pid: "CAS NO: 98319-26-7",
     d: [
@@ -734,7 +792,8 @@ export const productData = [
     c: "Mens Health",
     quantity: 1,
     price: 100,
-    img: "/images/SildenafilCitrateTablets.jpg",
+    id:61,
+    img: "/images/Men's-Health/SildenafilCitrateTablets.jpg",
     n: "Sildenafil Citrate Tablets",
     pid: "CAS NO:171599-83-0",
     d: [
@@ -745,7 +804,8 @@ export const productData = [
     c: "Mens Health",
     quantity: 1,
     price: 100,
-    img: "/images/SildenafilCitrateSoftTablet.jpg",
+    id:61,
+    img: "/images/Men's-Health/SildenafilCitrateSoftTablet.jpg",
     n: "Sildenafil Citrate Soft Tablet",
     pid: "CAS NO: 139755-83-2",
     d: [
@@ -756,7 +816,8 @@ export const productData = [
     c: "Mens Health",
     quantity: 1,
     price: 100,
-    img: "/images/SildenafilOralJelly.jpg",
+    id:62,
+    img: "/images/Men's-Health/SildenafilOralJelly.jpg",
     n: "Sildenafil - Oral Jelly",
     pid: "CAS NO: 139755-83-2",
     d: [
@@ -768,7 +829,8 @@ export const productData = [
     c: "Mens Health",
     quantity: 1,
     price: 100,
-    img: "/images/SildenafilEffervesent.jpg",
+    id:63,
+    img: "/images/Men's-Health/SildenafilEffervesent.jpg",
     n: "Sildenafil Effervesent Tablets",
     d: [
       "Sildenafil Effervescent is a soluble tablet - simply dissolve in a glass of water. The product is sold in pots of 7 tablets. Each tablet contains 100mg of Sildenafil Citrate.",
@@ -778,7 +840,8 @@ export const productData = [
     c: "Mens Health",
     quantity: 1,
     price: 100,
-    img: "/images/SildenafilPoloChewable.jpg",
+    id:64,
+    img: "/images/Men's-Health/SildenafilPoloChewable.jpg",
     n: "Sildenafil Polo Chewable Tablets",
     d: [
       "Sildenafil Polo Chewable Tablets works faster than oral jelly and lasts for 4-6 hours.",
@@ -789,7 +852,8 @@ export const productData = [
     c: "Mens Health",
     quantity: 1,
     price: 100,
-    img: "/images/FemaleSildenafil.jpg",
+    id:65,
+    img: "/images/Men's-Health/FemaleSildenafil.jpg",
     n: "Female Sildenafil",
     d: [
       "Female Sildenafil Citrate (Sildenafil) is scientifically formulated to provide intense sexual satisfaction for women seeking ultimate pleasure.",
@@ -800,7 +864,8 @@ export const productData = [
     c: "Mens Health",
     quantity: 1,
     price: 100,
-    img: "/images/VardenafilTablets.jpg",
+    id:66,
+    img: "/images/Men's-Health/VardenafilTablets.jpg",
     n: "Vardenafil Tablets",
     pid: "CAS NO: 224785-90-4",
     d: [
@@ -811,7 +876,8 @@ export const productData = [
     c: "Mens Health",
     quantity: 1,
     price: 100,
-    img: "/images/VardenafiloralJelly.jpg",
+    id:67,
+    img: "/images/Men's-Health/VardenafiloralJelly.jpg",
     n: "Vardenafil oral Jelly",
     d: [
       "Vardenafil Oral jelly is a mode of treating male impotence and is easy to consume. Each 5 gram sachet of Oral Jelly contains 20 mg of the active ingredient Vardenafil.",
@@ -821,7 +887,8 @@ export const productData = [
     c: "Mens Health",
     quantity: 1,
     price: 100,
-    img: "/images/TadalafilTablets.jpg",
+    id:68,
+    img: "/images/Men's-Health/TadalafilTablets.jpg",
     n: "Tadalafil Tablets",
     pid: "CAS NO:0171596-29",
     d: [
@@ -833,7 +900,8 @@ export const productData = [
     c: "Mens Health",
     quantity: 1,
     price: 100,
-    img: "/images/TadalafilOralJelly.jpg",
+    id:69,
+    img: "/images/Men's-Health/TadalafilOralJelly.jpg",
     n: "Tadalafil Oral Jelly",
     d: [
       "Tadalafil Oral is used to sustain an erection in Erectile Dysfunction or impotent men. Tadalafil Oral Jelly is effective in causing an erection only if the patient is sexually stimulated. Tadalafil Jelly is especially convenient for men who desire to get fast therapeutic effect and have difficulties with swallowing conventional tablets.",
@@ -843,7 +911,8 @@ export const productData = [
     c: "Mens Health",
     quantity: 1,
     price: 100,
-    img: "/images/TadalafilSoft.jpg",
+    id:70,
+    img: "/images/Men's-Health/TadalafilSoft.jpg",
     n: "Tadalafil Soft Tablets",
     d: [
       "Tadalafil is a medicine used in the treatment of erectile dysfunction (impotence). Tadalafil is called a phosphodiesterase type 5 inhibitor, and works by preventing the action of a chemical in the body called phosphodiesterase type 5.",
@@ -855,7 +924,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/Testoeolin.jpg",
+    id:71,
+    img: "/images/Steroid-Hormones/Testoeolin.jpg",
     n: "Testoeolin(Testosterone Propionate injection)",
     pid: "CAS NO:58-22-0",
     d: [
@@ -868,7 +938,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/TrenHBC.jpg",
+    id:72,
+    img: "/images/Steroid-Hormones/TrenHBC.jpg",
     n: "Testeonate 250 (Testosterone Enanthate Injection)",
     pid: "CAS No.: 58-22-0",
     d: [
@@ -881,7 +952,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/TrenHBC.jpg",
+    id:73,
+    img: "/images/Steroid-Hormones/TrenHBC.jpg",
     n: "Tren HBC (Trenbolone Hexa Hydrochloro Benzylcarbonate Injections)",
     pid: "CAS NO:5721-91-5",
     d: [
@@ -893,7 +965,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/Trenace100.jpg",
+    id:74,
+    img: "/images/Steroid-Hormones/Trenace100.jpg",
     n: "Trenace 100 (Trenbolone Acetate Injection)",
     pid: "CAS NO:10161-34-9",
     d: [
@@ -905,7 +978,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/Boldinex200.jpg",
+    id:75,
+    img: "/images/Steroid-Hormones/Boldinex200.jpg",
     n: "Boldinex 200 (Boldenone Undecylenate Injection/Vial)",
     pid: "CAS NO: 846-48-0",
     d: [
@@ -917,7 +991,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/Decanate200(NandroloneDecanoateInjectionVial).jpg",
+    id:76,
+    img: "/images/Steroid-Hormones/Decanate200(NandroloneDecanoateInjectionVial).jpg",
     n: "Decanate 200 (Nandrolone Decanoate Injection/Vial)",
     pid: "CAS NO:360-70-3",
     d: [
@@ -932,7 +1007,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/Drostronate100(DrostanolonePropionate100mg-ml).jpg",
+    id:78,
+    img: "/images/Steroid-Hormones/Drostronate100(DrostanolonePropionate100mg-ml).jpg",
     n: "Drostronate 100 (Drostanolone Propionate 100 mg/ml)",
     d: [
       "Drostronate 100 is a derivative of dihydrotestosterone.",
@@ -948,7 +1024,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/ChlorodehydroMethylteststeroneTablets.jpg",
+    id:79,
+    img: "/images/Steroid-Hormones/ChlorodehydroMethylteststeroneTablets.jpg",
     n: "Chlorodehydro Methylteststerone Tablets",
     pid: "CAS NO: 2446-23-3",
     d: [
@@ -961,7 +1038,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/ClenbuterolTablets.jpg",
+    id:80,
+    img: "/images/Steroid-Hormones/ClenbuterolTablets.jpg",
     n: "Clenbuterol Tablets",
     pid: "CAS NO:82030-87-3",
     d: [
@@ -981,7 +1059,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/EstradepoInjection.jpg",
+    id:81,
+    img: "/images/Steroid-Hormones/EstradepoInjection.jpg",
     n: "Estradepo Injection",
     d: [
       "Estradepo injection is available in 10mg/ml.",
@@ -992,7 +1071,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/HumanChorionicGonadotrophin(HCG).jpg",
+    id:82,
+    img: "/images/Steroid-Hormones/HumanChorionicGonadotrophin(HCG).jpg",
     n: "Human Chorionic Gonadotrophin (HCG)",
     pid: "CAS NO:146479-72-3",
     d: [
@@ -1005,7 +1085,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/",
+    id:83,
+    img: "/images/Steroid-Hormones/Methandienonetablet.jpg",
     n: "Methandienone tablet",
     pid: "CAS NO:72-63-9",
     d: [
@@ -1016,7 +1097,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/Methandienonetablet.jpg",
+    id:84,
+    img: "/images/Steroid-Hormones/methenolone.jpg",
     n: "Methenolone Enanthate",
     pid: "CAS NO: 303-42-4",
     d: [
@@ -1028,7 +1110,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/OxandroloneTabletsUSP(Oxanex).jpg",
+    id:85,
+    img: "/images/Steroid-Hormones/OxandroloneTabletsUSP(Oxanex).jpg",
     n: "Oxandrolone Tablets USP (Oxanex)",
     pid: "CAS NO:53-39-4",
     d: [
@@ -1040,7 +1123,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/SomatropininjectionUSP.jpg",
+    id:86,
+    img: "/images/Steroid-Hormones/SomatropininjectionUSP.jpg",
     n: "Somatropin injection USP",
     d: [
       "HGH Somatropin is available in 10IU, 4 IU/Vial 2 Vials per Box. HGH increases lean muscle mass while reducing body fat and reducing muscle breakdown.",
@@ -1051,7 +1135,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/Stanozololinjection.jpg",
+    id:87,
+    img: "/images/Steroid-Hormones/Stanozololinjection.jpg",
     n: "Stanozolol Tablets USP",
     pid: "CAS NO:10418-03-8",
     d: [
@@ -1063,7 +1148,8 @@ export const productData = [
     c: "Steroids",
     quantity: 1,
     price: 100,
-    img: "/images/Stanozololinjection.jpg",
+    id:88,
+    img: "/images/Steroid-Hormones/Stanozololinjection.jpg",
     n: "Stanozolol injection",
     pid: "CAS NO:10418-03-8",
     d: [
@@ -1075,7 +1161,8 @@ export const productData = [
     c: "Thyroid Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/LevothyroxineTablets.jpg",
+    id:89,
+    img: "/images/Thyroid-Drugs/LevothyroxineTablets.jpg",
     n: "Levothyroxine Tablets",
     pid: "CAS NO:51-48-9",
     d: [
@@ -1088,7 +1175,8 @@ export const productData = [
     c: "Thyroid Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/LiothyronineTablets.jpg",
+    id:90,
+    img: "/images/Thyroid-Drugs/LiothyronineTablets.jpg",
     n: "Liothyronine Tablets",
     pid: "CAS NO: 6893-02-3",
     d: [
@@ -1100,7 +1188,8 @@ export const productData = [
     c: "Veterinary Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/AlbendazoleBolus.jpg",
+    id:91,
+    img: "/images/Veterinary-Drugs/AlbendazoleBolus.jpg",
     n: "Albendazole Bolus",
     pid: "CAS NO: 54965-21-8",
     d: [
@@ -1111,7 +1200,8 @@ export const productData = [
     c: "Veterinary Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/FebendazoleBolus.jpg",
+    id:92,
+    img: "/images/Veterinary-Drugs/FebendazoleBolus.jpg",
     n: "Febendazole Bolus",
     d: [
       "Available in 1.5gm and 3gm compositions. Fenbendazole is used in both large and small animals. In dogs, it is useful against roundworms, hookworms, and the more difficult to treat whipworms.",
@@ -1122,7 +1212,8 @@ export const productData = [
     c: "Veterinary Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Closental.jpg",
+    id:93,
+    img: "/images/Veterinary-Drugs/Closental.jpg",
     n: "Closental",
     pid: "CAS NO: 0057808-65-8",
     d: [
@@ -1133,7 +1224,8 @@ export const productData = [
     c: "Veterinary Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Cypermethrininsecticide.jpg",
+    id:94,
+    img: "/images/Veterinary-Drugs/Cypermethrininsecticide.jpg",
     n: "Cypermethrin insecticide",
     pid: "CAS NO: 52315-07-08",
     d: [
@@ -1144,7 +1236,8 @@ export const productData = [
     c: "Veterinary Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Chloropheneraminemaleate.jpg",
+    id:95,
+    img: "/images/Veterinary-Drugs/Chloropheneraminemaleate.jpg",
     n: "Chloropheneramine maleate",
     d: [""],
     ul: {
@@ -1161,7 +1254,8 @@ export const productData = [
     c: "Veterinary Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/IvermectinBolusandinjection.jpg",
+    id:96,
+    img: "/images/Veterinary-Drugs/IvermectinBolusandinjection.jpg",
     n: "Ivermectin Bolus and injection",
     d: [
       "Ivermectin is available in injection 1% and bolus for veterinary medicine. It is administered in combination with other medications to treat a broad spectrum of animal parasites.",
@@ -1171,7 +1265,8 @@ export const productData = [
     c: "Veterinary Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Meloxicambolusandsuspension.jpg",
+    id:97,
+    img: "/images/Veterinary-Drugs/Meloxicambolusandsuspension.jpg",
     n: "Meloxicam bolus and suspension",
     d: [
       "Meloxicam is a non-steroidal anti-inflammatory drug with analgesic and fever reducer effects.",
@@ -1182,7 +1277,8 @@ export const productData = [
     c: "Veterinary Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/OxyclozanideBolus.jpg",
+    id:98,
+    img: "/images/Veterinary-Drugs/OxyclozanideBolus.jpg",
     n: "Oxyclozanide Bolus",
     d: [
       "It is used in the treatment and control of Fascioliasis in ruminants mainly domestic animals like Cattle, Sheep and Goats.",
@@ -1192,7 +1288,8 @@ export const productData = [
     c: "Veterinary Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/Sulphadimidinebolus.jpg",
+    id:99,
+    img: "/images/Veterinary-Drugs/Sulphadimidinebolus.jpg",
     n: "Sulphadimidine bolus",
     pid: "CAS NO: 0000057-68-1",
     d: [
@@ -1203,7 +1300,8 @@ export const productData = [
     c: "Antiviral Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/AciclovirTablets.jpg",
+    id:100,
+    img: "/images/Antiviral-Drugs/AciclovirTablets.jpg",
     n: "Aciclovir Tablets",
     pid: "CAS NO: 59277-89-3",
     d: [
@@ -1216,7 +1314,8 @@ export const productData = [
     c: "Antiviral Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/ValacyclovirTablets.jpg",
+    id:101,
+    img: "/images/Antiviral-Drugs/ValacyclovirTablets.jpg",
     n: "Valacyclovir Tablets",
     pid: "CAS NO: 124832-27-5",
     d: [
@@ -1228,7 +1327,8 @@ export const productData = [
     c: "Antiviral Drugs",
     quantity: 1,
     price: 100,
-    img: "/images/RibavarineCapsules.jpg",
+    id:102,
+    img: "/images/Antiviral-Drugs/RibavarineCapsules.jpg",
     n: "Ribavarine Capsules",
     pid: "CAS NO:66510-90-5",
     d: [
@@ -1240,7 +1340,8 @@ export const productData = [
     c: "Analgesics",
     quantity: 1,
     price: 100,
-    img: "/images/FluoresceinInjection.jpg",
+    id:103,
+    img: "/images/Analgesics/FluoresceinInjection.jpg",
     n: "Paracetamol Infusion",
     pid: "CAS NO: 103-90-2",
     d: [
@@ -1252,7 +1353,8 @@ export const productData = [
     c: "Others",
     quantity: 1,
     price: 100,
-    img: "/images/FluoresceinInjection.jpg",
+    id:104,
+    img: "/images/Others/FluoresceinInjection.jpg",
     n: "Fluorescein Injection",
     pid: "CAS NO: 2321-07-5",
     d: [
@@ -1263,7 +1365,8 @@ export const productData = [
     c: "Others",
     quantity: 1,
     price: 100,
-    img: "/images/Haefolic.jpg",
+    id:105,
+    img: "/images/Others/Haefolic.jpg",
     n: "Haefolic",
     d: ["Iron capsule contain ferrous fumarate with vit.B12 and folic acid."],
   },
@@ -1271,7 +1374,8 @@ export const productData = [
     c: "Others",
     quantity: 1,
     price: 100,
-    img: "/images/SinarestNasaldrop.jpg",
+    id:106,
+    img: "/images/Others/SinarestNasaldrop.jpg",
     n: "Sinarest Nasal drop",
     d: [
       "SINAREST-Nasal Drops is a long acting and topical nasal decongestant. SINAREST Nasal Drops are indicated for relief of nasal congestion due to a cold, upper respiratory allergies or sinusitis.",
@@ -1281,7 +1385,8 @@ export const productData = [
     c: "Herbal & Ayurvedic Products",
     quantity: 1,
     price: 100,
-    img: "/images/SlimfastCapsule.jpg",
+    id:107,
+    img: "/images/Herbal-Ayurvedic/SlimfastCapsule.jpg",
     n: "Slimfast Capsule",
     d: [
       "Slimfast capsule is an all-natural weight loss supplement. It contain a proprietary mix of herbal ingredients that work to increase metabolism, burn fat, and safety suppress appetite..",
@@ -1291,7 +1396,8 @@ export const productData = [
     c: "Herbal & Ayurvedic Products",
     quantity: 1,
     price: 100,
-    img: "/images/HerbalSildenafilCitrateCapsule.jpg",
+    id:108,
+    img: "/images/Herbal-Ayurvedic/HerbalSildenafilCitrateCapsule.jpg",
     n: "Herbal Sildenafil Citrate Capsule",
     d: [
       "Herbal sildenafil citrate , an oral therapy for erectile dysfunction, is the citrate salt of sildenafil, a selective inhibitor of cyclic guanosine monophosphate (cGMP)-specific phosphodiesterase type 5 (PDE5).",
