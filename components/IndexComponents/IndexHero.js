@@ -32,33 +32,76 @@ const IndexHero = () => {
   return (
     <div className="overflow-hidden relative heroHeight">
       <div className="w-full h-full flex justify-center items-center overflow-hidden relative">
-        {sliderData.map((each, i) => {
-          return (
-            <div className="w-full h-full" key={i}>
-              <AnimatePresence initial={true}>
-                {i === current && (
-                  <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    className="absolute top-0 left-0 w-full h-full flex items-center justify-center"
-                  >
-                    <img
-                      className="absolute top-0 left-0 w-full h-full object-cover"
-                      src={each.img}
-                      alt={each.title}
-                    />
-                    <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                      <h1 className="text-brand-100 text-4xl sm:text-7xl font-semibold">
-                        {each.title}
-                      </h1>
-                    </div>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
-          );
-        })}
+        <div className="w-full h-full">
+          <AnimatePresence initial={true}>
+            {current === 0 && (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                className="absolute top-0 left-0 w-full h-full flex items-center justify-center"
+              >
+                <img
+                  className="absolute top-0 left-0 w-full h-full object-cover"
+                  src="/assets/slider/pure.jpg"
+                  alt=""
+                />
+                <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+                  <h1 className="uppercase text-brand-100 text-4xl sm:text-9xl font-semibold">
+                    PURE
+                  </h1>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+        <div className="w-full h-full">
+          <AnimatePresence initial={true}>
+            {current === 1 && (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                className="absolute top-0 left-0 w-full h-full flex items-center justify-center"
+              >
+                <img
+                  className="absolute top-0 left-0 w-full h-full object-cover"
+                  src="/assets/slider/g.jpg"
+                  alt=""
+                />
+                <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+                  <h1 className="uppercase text-white text-4xl sm:text-9xl font-semibold">
+                    genuine
+                  </h1>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+        <div className="w-full h-full">
+          <AnimatePresence initial={true}>
+            {current === 2 && (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                className="absolute top-0 left-0 w-full h-full flex items-center justify-center"
+              >
+                <img
+                  className="absolute top-0 left-0 w-full h-full object-cover"
+                  src="/assets/slider/pure.jpg"
+                  alt=""
+                />
+                <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+                  <h1 className="uppercase text-brand-100 text-4xl sm:text-9xl font-semibold">
+                    Authentic
+                  </h1>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+
         <div className="flex absolute bottom-10 right-10 z-10 ">
           <button
             onClick={prevSlide}
