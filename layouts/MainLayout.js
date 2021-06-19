@@ -4,9 +4,9 @@ import Header from "../components/Header";
 
 const MainLayout = ({ children }) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <div className="">{children}</div>
+      <div className="flex-1">{children}</div>
       <Footer />
     </div>
   );

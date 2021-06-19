@@ -59,7 +59,7 @@ const IndexContact = () => {
             className="p-4 md:p-8 bg-white"
           >
             <div className="flex flex-col space-y-2">
-              <label className="font-semibold" htmlFor="name">
+              <label className="text-sm" htmlFor="name">
                 Your Name
               </label>
               <input
@@ -78,7 +78,7 @@ const IndexContact = () => {
               )}
             </div>
             <div className="flex flex-col space-y-2 mt-6">
-              <label className="font-semibold" htmlFor="email">
+              <label className="text-sm" htmlFor="email">
                 Your Email
               </label>
               <input
@@ -97,7 +97,7 @@ const IndexContact = () => {
               )}
             </div>
             <div className="flex flex-col space-y-2 mt-6">
-              <label className="font-semibold" htmlFor="message">
+              <label className="text-sm" htmlFor="message">
                 Your Message
               </label>
               <textarea
