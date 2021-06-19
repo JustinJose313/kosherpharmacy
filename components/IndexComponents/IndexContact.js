@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
+import axios from "axios";
 
 const IndexContact = () => {
+  const [success, setSuccess] = useState(false)
+  const [loading, setLoading] = useState(false)
   const validationSchema = Yup.object().shape({
     name: Yup.string().min(3).max(50).required("Your Name is required"),
-    subject: Yup.string().min(3).max(50).required("Subject is required"),
+    email: Yup.string().email("Invalid Email").required("Subject is required"),
     message: Yup.string().min(3).max(100).required("Message is required"),
   });
   const {
@@ -17,8 +20,22 @@ const IndexContact = () => {
     resolver: yupResolver(validationSchema),
     mode: "onBlur",
   });
-  const onSubmit = (values) => console.log(values);
-  console.log(errors ? errors.name : "");
+  const onSubmit = async (values) => {
+    setLoading(true)
+    try {
+      const response = await axios.post(
+        `${process.env.NEXT_PUBLIC_URL}/api/contact`,
+        values
+      );
+      response.status === 200 && setSuccess(true)
+      setLoading(false)
+      setSuccess(false)
+
+    } catch (error) {
+      console.log(error);
+      setLoading(false)
+    }
+  };
 
   return (
     <div className="bg-gradient-to-br from-brand-100 to-brand-200">
@@ -47,7 +64,11 @@ const IndexContact = () => {
               </label>
               <input
                 {...register("name")}
-                className={`${errors.name ? "focus:border-red-500" : "focus:border-brand-100"} bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white`}
+                className={`${
+                  errors.name
+                    ? "focus:border-red-500"
+                    : "focus:border-brand-100"
+                } bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white`}
                 id="name"
                 type="text"
                 placeholder=""
@@ -57,18 +78,22 @@ const IndexContact = () => {
               )}
             </div>
             <div className="flex flex-col space-y-2 mt-6">
-              <label className="font-semibold" htmlFor="subject">
-                Subject
+              <label className="font-semibold" htmlFor="email">
+                Your Email
               </label>
               <input
-                {...register("subject")}
-                className={`${errors.subject ? "focus:border-red-500" : "focus:border-brand-100"} bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white`}
-                id="subject"
-                type="text"
+                {...register("email")}
+                className={`${
+                  errors.email
+                    ? "focus:border-red-500"
+                    : "focus:border-brand-100"
+                } bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white`}
+                id="email"
+                type="email"
                 placeholder=""
               />
-              {errors.subject && (
-                <p className="text-red-500">{errors.subject?.message}</p>
+              {errors.email && (
+                <p className="text-red-500">{errors.email?.message}</p>
               )}
             </div>
             <div className="flex flex-col space-y-2 mt-6">
@@ -78,7 +103,11 @@ const IndexContact = () => {
               <textarea
                 {...register("message")}
                 rows="4"
-                className={`${errors.message ? "focus:border-red-500" : "focus:border-brand-100"} bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white`}
+                className={`${
+                  errors.message
+                    ? "focus:border-red-500"
+                    : "focus:border-brand-100"
+                } bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white`}
                 id="message"
                 type="text"
                 placeholder=""
@@ -90,9 +119,10 @@ const IndexContact = () => {
             <div className="flex justify-end mt-4">
               <button
                 type="submit"
-                className="px-5 py-3 w-full md:w-auto text-white bg-brand-100 hover:bg-brand-200 transition shadow-md"
+                disabled={loading}
+                className="px-5 py-3 disabled:opacity-50 w-full md:w-auto text-white bg-brand-100 hover:bg-brand-200 transition shadow-md"
               >
-                Send Feedback
+                {success ? "Feedback Sent!" : "Send Feedback"}
               </button>
             </div>
           </form>
