@@ -3,6 +3,8 @@ import { useCart } from "react-use-cart";
 import CartCard from "./CartCard";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 import * as Yup from "yup";
 import axios from "axios";
 
@@ -10,9 +12,10 @@ const CartPage = () => {
   const { isEmpty, items } = useCart();
   const [success, setSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [phone, setPhone] = useState("");
   const validationSchema = Yup.object().shape({
     name: Yup.string().min(3).max(50).required("Your Name is required"),
-    email: Yup.string().email("Invalid Email").required("Subject is required"),
+    email: Yup.string().email("Invalid Email").required("Email is required"),
   });
   const {
     handleSubmit,
@@ -26,8 +29,8 @@ const CartPage = () => {
     setLoading(true);
     try {
       const response = await axios.post(
-        `${process.env.NEXT_PUBLIC_URL}/api/contact`,
-        values
+        `${process.env.NEXT_PUBLIC_URL}/api/cart`,
+        { ...values, phone: phone, items: items }
       );
       response.status === 200 && setSuccess(true);
       setLoading(false);
@@ -43,7 +46,9 @@ const CartPage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
           {isEmpty ? (
             <div className="lg:col-span-8 flex items-center justify-center">
-              <p className='text-3xl sm:text-4xl font-bold text-brand-100'>Cart is Empty</p>
+              <p className="text-3xl sm:text-4xl font-bold text-brand-100">
+                Cart is Empty
+              </p>
             </div>
           ) : (
             <div className="space-y-4 lg:col-span-8">
@@ -52,10 +57,7 @@ const CartPage = () => {
               })}
             </div>
           )}
-          <form
-            onSubmit={handleSubmit(onSubmit)}
-            className="p-4 lg:col-span-4"
-          >
+          <form onSubmit={handleSubmit(onSubmit)} className="p-4 lg:col-span-4">
             <div className="p-4 md:p-8 bg-white shadow-xl border border-brand-100">
               <div className="flex flex-col space-y-2">
                 <label className="text-sm" htmlFor="name">
@@ -94,6 +96,24 @@ const CartPage = () => {
                 {errors.email && (
                   <p className="text-red-500">{errors.email?.message}</p>
                 )}
+              </div>
+              <div className="flex flex-col space-y-2 mt-6">
+                <label className="text-sm" htmlFor="email">
+                  Your Mobile Number
+                </label>
+                <PhoneInput
+                  inputStyle={{
+                    width: "100%",
+                    borderRadius: "4px",
+                    paddingTop: "8px",
+                    paddingBottom: "8px",
+                  }}
+                  buttonStyle={{ borderRadius: "4px" }}
+                  country={"in"}
+                  required
+                  value={phone}
+                  onChange={(phone) => setPhone(phone)}
+                />
               </div>
 
               <div className="mt-4">

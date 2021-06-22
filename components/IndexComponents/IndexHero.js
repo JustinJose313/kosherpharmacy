@@ -89,11 +89,11 @@ const IndexHero = () => {
               >
                 <img
                   className="absolute top-0 left-0 w-full h-full object-cover"
-                  src="/assets/slider/pure.jpg"
+                  src="/assets/slider/authentic.jpg"
                   alt=""
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                  <h1 className="uppercase text-brand-100 text-4xl sm:text-9xl font-semibold">
+                  <h1 className="uppercase text-white text-4xl sm:text-9xl font-semibold">
                     Authentic
                   </h1>
                 </div>
