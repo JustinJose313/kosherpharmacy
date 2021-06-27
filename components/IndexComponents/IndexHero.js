@@ -105,7 +105,7 @@ const IndexHero = () => {
         <div className="flex absolute bottom-10 right-10 z-10 ">
           <button
             onClick={prevSlide}
-            className="mr-4 p-4 bg-black rounded-full text-white select-none cursor-pointer hover:bg-brand-100 transition"
+            className="focus:outline-none mr-4 p-4 bg-black rounded-full text-white select-none cursor-pointer hover:bg-brand-100 transition"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +122,7 @@ const IndexHero = () => {
           </button>
           <button
             onClick={nextSlide}
-            className="mr-4 p-4 bg-black rounded-full text-white select-none cursor-pointer hover:bg-brand-100 transition"
+            className="focus:outline-none mr-4 p-4 bg-black rounded-full text-white select-none cursor-pointer hover:bg-brand-100 transition"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
