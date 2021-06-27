@@ -32,8 +32,22 @@ export const productData = [
     quantity: 1,
     id:3,
     price: 100,
-    img: "/images/Anta-cids/PantoprazoleTablets&Injections.jpg",
-    n: "Pantoprazole Tablets & Injections",
+    img: "/images/Anta-cids/Pantoprazole-Injections.jpg",
+    n: "Pantoprazole Injections",
+    pid: "CAS NO:164579-32-2",
+    d: [
+      "Pantoprazole used for short-term treatment of erosion and ulceration of the esophagus caused by gastro esophageal reflux disease.",
+      "Pantoprazole, like other proton-pump inhibitors, blocks the enzyme in the wall of the stomach that produces acid. By blocking the enzyme, the production of acid is decreased, and this allows the stomach and esophagus to heal.",
+      "Pantoprazole is available in 20mg & 40mg tablets. It is also available in injections.",
+    ],
+  },
+  {
+    c: "Antacids",
+    quantity: 1,
+    id:301,
+    price: 100,
+    img: "/images/Anta-cids/Pantoprazole-Tablets.jpg",
+    n: "Pantoprazole Tablets",
     pid: "CAS NO:164579-32-2",
     d: [
       "Pantoprazole used for short-term treatment of erosion and ulceration of the esophagus caused by gastro esophageal reflux disease.",
@@ -47,7 +61,20 @@ export const productData = [
     price: 100,
     id: 4,
     img: "/images/Anta-cids/RanitidineTab.jpg",
-    n: "Ranitidine Tablets and Injection",
+    n: "Ranitidine Tablets",
+    pid: "CAS NO: 66357-35-5",
+    d: [
+      "Ranitidine is used to treat ulcers; gastro esophageal reflux disease (GERD), a condition in which backward flow of acid from the stomach causes heartburn and injury of the food pipe (esophagus); and conditions where the stomach produces too much acid",
+      "Ranitidine is available in 150 mg, 300 mg tablets. It is also available in injection.",
+    ],
+  },
+  {
+    c: "Antacids",
+    quantity: 1,
+    price: 100,
+    id: 4,
+    img: "/images/Anta-cids/Ranitidine-Injections.jpg",
+    n: "Ranitidine Injection",
     pid: "CAS NO: 66357-35-5",
     d: [
       "Ranitidine is used to treat ulcers; gastro esophageal reflux disease (GERD), a condition in which backward flow of acid from the stomach causes heartburn and injury of the food pipe (esophagus); and conditions where the stomach produces too much acid",
@@ -59,7 +86,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id: 5,
-    img: "/images/Anthelmintics/AlbendazoleTablets.jpg",
+    img: "/images/Anthelmintics/AlbendazoleBolusTablet.jpg",
     n: "Albendazole Tablets",
     pid: "CAS NO:54965-21-8",
     d: [
@@ -83,7 +110,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:7,
-    img: "/images/Antibacterial/TinidazoleTablets.jpg",
+    img: "/images/Antibacterial/Tinidazole-Tablets.jpg",
     n: "Tinidazole Tablets",
     pid: "CAS NO: 19387-91-8",
     d: [
@@ -122,7 +149,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:10,
-    img: "/images/Anti-biotic/CefaclorTablets.jpg",
+    img: "/images/Anti-biotic/CefaclorTablets.jpeg",
     n: "Cefaclor Tablets",
     pid: "CAS NO:56-12-2",
     d: [
@@ -171,7 +198,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:14,
-    img: "/images/Anti-biotic/CeftazidimeInjection.jpg",
+    img: "/images/Anti-biotic/CeftazidimeInjection.jpeg",
     n: "Ceftazidime Injection",
     pid: "CAS NO: 72558-82-8",
     d: [
@@ -227,7 +254,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:18,
-    img: "/images/Anti-biotic/ErythromycinTablet.jpg",
+    img: "/images/Anti-biotic/ErythromycinTablet.jpeg",
     n: "Erythromycin Tablet",
     pid: "CAS NO: 114-07-8",
     d: [
@@ -253,7 +280,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:20,
-    img: "/images/Anti-biotic/Gatifloxacintablet.jpg",
+    img: "/images/Anti-biotic/Gatifloxacintablets.jpg",
     n: "Gatifloxacin tablet ",
     pid: "CAS NO:180200-66-2",
     d: [
@@ -328,8 +355,8 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:24,
-    img: "/images/Anti-Cancer-Medicines/Anastrazole-Tablets.jpg",
-    n: "Anastrazole Tablets",
+    img: "/images/Anti-Cancer-Medicines/Anastrozole-Tablets.jpg",
+    n: "Anastrozole Tablets",
     pid: "CAS NO:120511-73-1",
     d: [
       "Anastrozole is called non-steroidal aromatase inhibitors.Anastrozole tablets USP 1mg is used to treat breast cancer in women whose breast cancer has worsened after taking tamoxifen & who have experienced menopause .",
@@ -353,8 +380,8 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:26,
-    img: "/images/Anti-Cancer-Medicines/DoxarubicinInjection.jpg",
-    n: "Doxarubicin Injection",
+    img: "/images/Anti-Cancer-Medicines/DoxorubicinInjection.png",
+    n: "Doxorubicin Injection",
     pid: "CAS NO:25316-40-9",
     d: [
       "Doxorubicin 10 mg/5ml is an anthracycline type of chemotherapy that is used alone or with other treatments/medications to treat several different types of cancer. Doxorubicin works by slowing or stopping the growth of cancer cells.",
@@ -391,7 +418,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:29,
-    img: "/images/Anti-Cancer-Medicines/PaclitaxelInjection.jpg",
+    img: "/images/Anti-Cancer-Medicines/PaclitaxelInjection.jpeg",
     n: "Paclitaxel Injection",
     pid: "CAS NO:33069-62-4",
     d: [
@@ -405,7 +432,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:30,
-    img: "/images/Anti-Cancer-Medicines/TamoxifenTablets.jpg",
+    img: "/images/Anti-Cancer-Medicines/TamoxifenTablets.png",
     n: "Tamoxifen Tablets",
     pid: "CAS NO:54965-24",
     d: [
@@ -505,12 +532,12 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:38,
-    img: "/images/Antimalarial-Drugs/Quininesulphate.jpg",
-    n: "Quinine sulphate injections",
-    pid: "CAS NO:6119-70-6",
+    img: "/images/Antimalarial-Drugs/ArtesunateInjections.jpg",
+    n: "Artesunate Injections",
+    pid: "CAS NO:71939-50-9",
     d: [
-      "Treatment of malaria (falciparum malaria, or if the infective species is not known, or if the infection is mixed).",
-      "Quinine sulphate is used in treating and preventing night-time leg cramps in adults and elderly people. Quinine should only be used if the cramps cause regular and frequent disruption of sleep and other measures, such as stretching exercises, have not worked.",
+      "Artesunate is part of the artemisinin group of drugs that treat malaria. It is a semi-synthetic derivative of artemisinin that is water-soluble and may therefore be given by injection.",
+       "It is used to treat Falciparum malaria.",
     ],
   },
   {
@@ -531,7 +558,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:40,
-    img: "/images/Anti-Obesity-Drugs/Orlistat-Capsules.jpg",
+    img: "/images/Anti-Obesity-Drugs/OrlistatCapsules.png",
     n: "Orlistat Capsules",
     pid: "CAS NO:96829-58-2",
     d: [
@@ -556,7 +583,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:42,
-    img: "/images/cardiovascular/Diltiazem.jpg",
+    img: "/images/cardiovascular/Diltiazem.png",
     n: "Diltiazem Tablets",
     pid: "CAS NO: 42399-41-7",
     d: [
@@ -582,7 +609,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:44,
-    img: "/images/cardiovascular/DopamineInjection.jpg",
+    img: "/images/cardiovascular/DopamineInjection.jpeg",
     n: "Dopamine Injection",
     pid: "CAS NO:62-31-7",
     d: [
@@ -595,7 +622,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:45,
-    img: "/images/cardiovascular/Metoprolol.jpg",
+    img: "/images/cardiovascular/Metoprolol.png",
     n: "Metoprolol Tablets",
     pid: "CAS NO:51384-51-1",
     d: [
@@ -621,7 +648,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:47,
-    img: "/images/cardiovascular/Simvastatin.jpg",
+    img: "/images/cardiovascular/Simvastatin.png",
     n: "Simvastatin Tablets",
     pid: "CAS NO:79902-63-9",
     d: [
@@ -687,7 +714,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:52,
-    img: "/images/Gynaecological-Drugs/ClomipheneCitrate.jpg",
+    img: "/images/Gynaecological-Drugs/ClomipheneCitrate.jpeg",
     n: "Clomiphene Citrate Tablets",
     pid: "CAS NO:911-45-5",
     d: [
@@ -888,7 +915,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:68,
-    img: "/images/Men's-Health/TadalafilTablets.jpg",
+    img: "/images/Men's-Health/TadalafilTablets.png",
     n: "Tadalafil Tablets",
     pid: "CAS NO:0171596-29",
     d: [
@@ -1176,7 +1203,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:90,
-    img: "/images/Thyroid-Drugs/LiothyronineTablets.jpg",
+    img: "/images/Thyroid-Drugs/LiothyronineTablets.png",
     n: "Liothyronine Tablets",
     pid: "CAS NO: 6893-02-3",
     d: [
@@ -1213,7 +1240,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:93,
-    img: "/images/Veterinary-Drugs/Closental.jpg",
+    img: "/images/Veterinary-Drugs/Closental.png",
     n: "Closental",
     pid: "CAS NO: 0057808-65-8",
     d: [
@@ -1237,7 +1264,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:95,
-    img: "/images/Veterinary-Drugs/Chloropheneraminemaleate.jpg",
+    img: "/images/Veterinary-Drugs/Chloropheneramine.jpg",
     n: "Chloropheneramine maleate",
     d: [""],
     ul: {
