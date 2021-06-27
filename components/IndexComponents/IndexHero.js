@@ -47,7 +47,7 @@ const IndexHero = () => {
                   alt=""
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                  <h1 className="uppercase text-brand-100 text-4xl md:text-9xl font-semibold">
+                  <h1 className="uppercase text-brand-100 text-4xl md:text-6xl lg:text-9xl font-semibold">
                     PURE
                   </h1>
                 </div>
@@ -70,7 +70,7 @@ const IndexHero = () => {
                   alt=""
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                  <h1 className="uppercase text-white text-4xl md:text-9xl font-semibold">
+                  <h1 className="uppercase text-white text-4xl md:text-6xl lg:text-9xl font-semibold">
                     genuine
                   </h1>
                 </div>
@@ -93,7 +93,7 @@ const IndexHero = () => {
                   alt=""
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                  <h1 className="uppercase text-white text-4xl md:text-9xl font-semibold">
+                  <h1 className="uppercase text-white text-4xl md:text-6xl lg:text-9xl font-semibold">
                     Authentic
                   </h1>
                 </div>
