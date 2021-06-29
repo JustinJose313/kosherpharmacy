@@ -445,7 +445,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:31,
-    img: "/images/Antidiabetic-Drugs/Gilbenclamide.jpg",
+    img: "/images/Antidiabetic-Drugs/Gilbenclamide.png",
     n: "Gilbenclamide Tablets",
     pid: "CAS :10238-21-8",
     d: [
@@ -458,7 +458,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:32,
-    img: "/images/Antidiabetic-Drugs/Gliclazide.jpg",
+    img: "/images/Antidiabetic-Drugs/Gliclazide.jpeg",
     n: "Gliclazide Tablets",
     pid: "CAS NO: 21187-98-4",
     d: [
@@ -494,7 +494,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:35,
-    img: "/images/Antidiabetic-Drugs/Metformin.jpg",
+    img: "/images/Antidiabetic-Drugs/Metformin.jpeg",
     n: "Metformin Tablets",
     pid: "CAS NO:657-24-9",
     d: [
@@ -1368,7 +1368,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:103,
-    img: "/images/Analgesics/Paracetamol Infusion.jpg",
+    img: "/images/Analgesics/ParacetamolInfusion.jpeg",
     n: "Paracetamol Infusion",
     pid: "CAS NO: 103-90-2",
     d: [
@@ -1424,7 +1424,7 @@ export const productData = [
     quantity: 1,
     price: 100,
     id:108,
-    img: "/images/Herbal-Ayurvedic/HerbalSildenafilCitrateCapsule.jpg",
+    img: "/images/Herbal-Ayurvedic/HerbalSildenafilCitrateCapsule.png",
     n: "Herbal Sildenafil Citrate Capsule",
     d: [
       "Herbal sildenafil citrate , an oral therapy for erectile dysfunction, is the citrate salt of sildenafil, a selective inhibitor of cyclic guanosine monophosphate (cGMP)-specific phosphodiesterase type 5 (PDE5).",

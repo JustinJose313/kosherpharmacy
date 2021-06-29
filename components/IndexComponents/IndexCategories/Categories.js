@@ -14,8 +14,7 @@ const Categories = () => {
           <div className="md:col-span-4 mb-6">
             <h2 className="text-2xl font-bold">Categories</h2>
             <p className="text-gray-500 max-w-md mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-              ducimus consequuntur corporis dolorem excepturi
+              
             </p>
             <div className="mt-6">
               <div
