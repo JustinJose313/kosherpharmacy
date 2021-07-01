@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
 html {
   scroll-behavior: smooth;
   scroll-padding: 40px 0 0 0;
 }
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: white;
-  background: #48BCD1;
+  background: #48bcd1;
 }
 
 ::selection {
   color: white;
-  background: #48BCD1;
+  background: #48bcd1;
 }
 html,
 body {
@@ -37,6 +38,9 @@ a {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .hideScroll {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.softTextShadow {
+  text-shadow: 0px 0px 16px rgb(6, 36, 32);
 }

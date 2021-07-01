@@ -47,7 +47,7 @@ const IndexHero = () => {
                   alt=""
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                  <h1 className="uppercase text-brand-100 text-4xl md:text-6xl lg:text-9xl font-semibold">
+                  <h1 className="uppercase tracking-widest text-brand-100 text-4xl md:text-6xl lg:text-9xl font-semibold">
                     PURE
                   </h1>
                 </div>
@@ -55,6 +55,7 @@ const IndexHero = () => {
             )}
           </AnimatePresence>
         </div>
+
         <div className="w-full h-full">
           <AnimatePresence initial={true}>
             {current === 1 && (
@@ -66,12 +67,12 @@ const IndexHero = () => {
               >
                 <img
                   className="absolute top-0 left-0 w-full h-full object-cover"
-                  src="/assets/slider/test2.jpg"
+                  src="/assets/slider/authentic.jpg"
                   alt=""
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                  <h1 className="bg-gray-700 uppercase text-yellow-400 text-4xl md:text-6xl lg:text-9xl font-semibold">
-                    genuine
+                  <h1 className="uppercase text-white text-4xl md:text-6xl lg:text-large font-semibold">
+                    Authentic
                   </h1>
                 </div>
               </motion.div>
@@ -89,12 +90,12 @@ const IndexHero = () => {
               >
                 <img
                   className="absolute top-0 left-0 w-full h-full object-cover"
-                  src="/assets/slider/authentic.jpg"
+                  src="/assets/slider/test2.jpg"
                   alt=""
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                  <h1 className="uppercase text-white text-4xl md:text-6xl lg:text-9xl font-semibold">
-                    Authentic
+                  <h1 className="softTextShadow uppercase text-yellow-400 text-4xl md:text-6xl lg:text-9xl font-semibold">
+                    genuine
                   </h1>
                 </div>
               </motion.div>
