@@ -41,7 +41,10 @@ const CartPage = () => {
       );
       response.status === 200 && setSuccess(true);
       setLoading(false);
-      setSuccess(false);
+      setSuccess(true);
+      setTimeout(() => {
+        setSuccess(false)
+      }, 5000)
     } catch (error) {
       console.log(error);
       setLoading(false);
@@ -70,17 +73,35 @@ const CartPage = () => {
                 <label className="text-sm" htmlFor="name">
                   Your Name
                 </label>
-                <input
-                  {...register("name")}
-                  className={`${
-                    errors.name
-                      ? "focus:border-red-500"
-                      : "focus:border-brand-100"
-                  } bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white`}
-                  id="name"
-                  type="text"
-                  placeholder=""
-                />
+                <div className="mt-1 relative rounded-md shadow-sm">
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                    <svg
+                      className="h-4 w-4 text-brand-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      height="24"
+                    >
+                      <path fill="none" d="M0 0h24v24H0z" />
+                      <path
+                        d="M2 22a8 8 0 1 1 16 0H2zm8-9c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm10 4h4v2h-4v-2zm-3-5h7v2h-7v-2zm2-5h5v2h-5V7z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <input
+                    type="text"
+                    {...register("name")}
+                    name="name"
+                    id="name"
+                    className={`${
+                      errors.name
+                        ? "focus:border-red-500"
+                        : "focus:border-brand-100"
+                    } bg-gray-100 pl-10 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white`}
+                    placeholder="eg: John Doe"
+                  />
+                </div>
                 {errors.name && (
                   <p className="text-red-500">{errors.name?.message}</p>
                 )}
@@ -89,17 +110,35 @@ const CartPage = () => {
                 <label className="text-sm" htmlFor="email">
                   Your Email
                 </label>
-                <input
-                  {...register("email")}
-                  className={`${
-                    errors.email
-                      ? "focus:border-red-500"
-                      : "focus:border-brand-100"
-                  } bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white`}
-                  id="email"
-                  type="email"
-                  placeholder=""
-                />
+                <div className="mt-1 relative rounded-md shadow-sm">
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                    <svg
+                      className="h-4 w-4 text-brand-100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      height="24"
+                    >
+                      <path fill="none" d="M0 0h24v24H0z" />
+                      <path
+                        d="M2 5.5V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H2.992A.993.993 0 0 1 2 20.007V19h18V7.3l-8 7.2-10-9zM0 10h5v2H0v-2zm0 5h8v2H0v-2z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <input
+                    type="email"
+                    {...register("email")}
+                    name="email"
+                    id="email"
+                    className={`${
+                      errors.email
+                        ? "focus:border-red-500"
+                        : "focus:border-brand-100"
+                    } bg-gray-100 pl-10 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white`}
+                    placeholder="eg: user@user.com"
+                  />
+                </div>
                 {errors.email && (
                   <p className="text-red-500">{errors.email?.message}</p>
                 )}
@@ -111,7 +150,7 @@ const CartPage = () => {
                 <div className="mt-1 relative rounded-md shadow-sm">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                     <svg
-                      className="h-4 w-4"
+                      className="h-4 w-4 text-brand-100"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                       width="24"
