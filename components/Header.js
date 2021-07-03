@@ -1,23 +1,22 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
+import { useRouter } from "next/router";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { useClickOutside } from "../customHooks/useClickOutside";
 import { useCart } from "react-use-cart";
 
 const Header = () => {
+  const router = useRouter();
+  console.log(router);
   const { totalUniqueItems } = useCart();
   const data = [
     {
-      h: "Home",
-      url: "/",
+      h: "FAQ",
+      url: "/faq",
     },
     {
-      h: "Home",
-      url: "/",
-    },
-    {
-      h: "Home",
-      url: "/",
+      h: "Terms",
+      url: "/term-condition",
     },
   ];
   const [menu, setMenu] = useState(false);
@@ -66,25 +65,24 @@ const Header = () => {
                   )}
                 </button>
                 <div className="hidden md:flex">
-                  <a
-                    href="#categories"
-                    className="flex items-center hover:animate-pulse justify-center font-semibold px-6 py-2 bg-brand-200 transition text-white"
-                  >
-                    <svg
-                      className="mr-2 h-4 w-4"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      height="24"
-                    >
-                      <path fill="none" d="M0 0h24v24H0z" />
-                      <path
-                        d="M3 4h18v2H3V4zm0 7h12v2H3v-2zm0 7h18v2H3v-2z"
-                        fill="currentColor"
-                      />
-                    </svg>
-                    Browse Categories
-                  </a>
+                  <Link href={router.pathname !== "/" ? "/" : "#categories"}>
+                    <a className="flex items-center hover:animate-pulse justify-center font-semibold px-6 py-2 bg-brand-200 transition text-white">
+                      <svg
+                        className="mr-2 h-4 w-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="24"
+                        height="24"
+                      >
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path
+                          d="M3 4h18v2H3V4zm0 7h12v2H3v-2zm0 7h18v2H3v-2z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      Browse Categories
+                    </a>
+                  </Link>
                   {data.map((each, i) => {
                     return (
                       <Link href={each.url} key={i}>
