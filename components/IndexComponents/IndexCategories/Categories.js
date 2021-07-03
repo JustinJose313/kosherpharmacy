@@ -5,6 +5,7 @@ import { useCart } from "react-use-cart";
 const Categories = () => {
   const { addItem } = useCart();
   const [toggle, setToggle] = useState(true);
+  const [group, setGroup] = useState("pharmacy");
   const [category, setCategory] = useState("Antacids");
 
   return (
@@ -16,10 +17,13 @@ const Categories = () => {
             <p className="text-gray-500 max-w-md mt-4"></p>
             <div className="mt-6">
               <div
-                onClick={() => setToggle((prev) => !prev)}
+                onClick={() => {
+                  setGroup("pharmacy");
+                  setToggle(true);
+                }}
                 className="bg-brand-100 cursor-pointer font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full"
               >
-                Show Categories
+                Pharmaceuticals
                 {toggle ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -48,6 +52,7 @@ const Categories = () => {
                   </svg>
                 )}
               </div>
+
               {toggle && (
                 <div className="border">
                   {productHeadings.map((each, i) => {
@@ -82,70 +87,288 @@ const Categories = () => {
                   })}
                 </div>
               )}
+              <div
+                onClick={() => {
+                  setGroup("surgical");
+                  setToggle(false);
+                }}
+                className="bg-brand-100 mt-4 cursor-pointer font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full"
+              >
+                Surgical
+                {toggle ? (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M12 10.828l-4.95 4.95-1.414-1.414L12 8l6.364 6.364-1.414 1.414z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                )}
+              </div>
+              <div
+                onClick={() => {
+                  setGroup("veterinary");
+                  setToggle(false);
+                }}
+                className="bg-brand-100 mt-4 cursor-pointer font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full"
+              >
+                veterinary
+                {toggle ? (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M12 10.828l-4.95 4.95-1.414-1.414L12 8l6.364 6.364-1.414 1.414z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                )}
+              </div>
             </div>
           </div>
           <div className="md:col-span-8 space-y-4" id="categoryContainer">
-            <h2 className="text-2xl font-bold text-brand-100 mb-4">
-              {category}
-            </h2>
-            {productData.map((each, i) => {
-              if (category === each.c) {
-                return (
-                  <div
-                    key={i}
-                    className="bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full"
-                  >
-                    <img
-                      className="w-full md:w-4/12 p-4"
-                      src={
-                        each.img
-                          ? each.img
-                          : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
-                      }
-                      alt={each.img ? each.img : "Kosher Pharaceutical Product"}
-                    />
-                    <div className="flex-1 p-4">
-                      <h2 className="uppercase font-semibold">{each.n}</h2>
-                      {each.d.map((e, i) => {
-                        return (
-                          <p className="text-gray-500 my-2" key={i}>
-                            {e}
-                          </p>
-                        );
-                      })}
-                      {each.ul && (
-                        <div>
-                          <p className="text-gray-500 mt-4 mb-2">{each.ul.h}</p>
-
-                          <ul className="ml-6">
-                            {each.ul.list.map((l, i) => {
-                              return (
-                                <li key={i}>
-                                  <p className="text-gray-500 capitalize">
-                                    {l}
-                                  </p>
-                                </li>
-                              );
-                            })}
-                          </ul>
-                        </div>
-                      )}
-                      {each.pid && (
-                        <p className="font-semibold text-xl mt-6 text-brand-200">
-                          {each.pid}
-                        </p>
-                      )}
-                      <button
-                        onClick={() => addItem(each)}
-                        className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition"
+            {group === "pharmacy" && (
+              <>
+                <h2 className="text-2xl font-bold text-brand-100 mb-4">
+                  {category}
+                </h2>
+                {productData.pharmacy.map((each, i) => {
+                  if (category === each.c) {
+                    return (
+                      <div
+                        key={i}
+                        className="bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full"
                       >
-                        Add to Cart
-                      </button>
-                    </div>
-                  </div>
-                );
-              }
-            })}
+                        <img
+                          className="w-full md:w-4/12 p-4"
+                          src={
+                            each.img
+                              ? each.img
+                              : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
+                          }
+                          alt={
+                            each.img ? each.img : "Kosher Pharaceutical Product"
+                          }
+                        />
+                        <div className="flex-1 p-4">
+                          <h2 className="uppercase font-semibold">{each.n}</h2>
+                          {each.d.map((e, i) => {
+                            return (
+                              <p className="text-gray-500 my-2" key={i}>
+                                {e}
+                              </p>
+                            );
+                          })}
+                          {each.ul && (
+                            <div>
+                              <p className="text-gray-500 mt-4 mb-2">
+                                {each.ul.h}
+                              </p>
+
+                              <ul className="ml-6">
+                                {each.ul.list.map((l, i) => {
+                                  return (
+                                    <li key={i}>
+                                      <p className="text-gray-500 capitalize">
+                                        {l}
+                                      </p>
+                                    </li>
+                                  );
+                                })}
+                              </ul>
+                            </div>
+                          )}
+                          {each.pid && (
+                            <p className="font-semibold text-xl mt-6 text-brand-200">
+                              {each.pid}
+                            </p>
+                          )}
+                          <button
+                            onClick={() => addItem(each)}
+                            className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition"
+                          >
+                            Add to Cart
+                          </button>
+                        </div>
+                      </div>
+                    );
+                  }
+                })}
+              </>
+            )}
+            {group === "surgical" && (
+              <>
+                <h2 className="text-2xl font-bold text-brand-100 mb-4">
+                  {category}
+                </h2>
+                {productData.surgical.map((each, i) => {
+                  if (category === each.c) {
+                    return (
+                      <div
+                        key={i}
+                        className="bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full"
+                      >
+                        <img
+                          className="w-full md:w-4/12 p-4"
+                          src={
+                            each.img
+                              ? each.img
+                              : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
+                          }
+                          alt={
+                            each.img ? each.img : "Kosher Pharaceutical Product"
+                          }
+                        />
+                        <div className="flex-1 p-4">
+                          <h2 className="uppercase font-semibold">{each.n}</h2>
+                          {each.d.map((e, i) => {
+                            return (
+                              <p className="text-gray-500 my-2" key={i}>
+                                {e}
+                              </p>
+                            );
+                          })}
+                          {each.ul && (
+                            <div>
+                              <p className="text-gray-500 mt-4 mb-2">
+                                {each.ul.h}
+                              </p>
+
+                              <ul className="ml-6">
+                                {each.ul.list.map((l, i) => {
+                                  return (
+                                    <li key={i}>
+                                      <p className="text-gray-500 capitalize">
+                                        {l}
+                                      </p>
+                                    </li>
+                                  );
+                                })}
+                              </ul>
+                            </div>
+                          )}
+                          {each.pid && (
+                            <p className="font-semibold text-xl mt-6 text-brand-200">
+                              {each.pid}
+                            </p>
+                          )}
+                          <button
+                            onClick={() => addItem(each)}
+                            className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition"
+                          >
+                            Add to Cart
+                          </button>
+                        </div>
+                      </div>
+                    );
+                  }
+                })}
+              </>
+            )}
+            {group === "veterinary" && (
+              <>
+                <h2 className="text-2xl font-bold text-brand-100 mb-4">
+                  {category}
+                </h2>
+                {productData.veterinary.map((each, i) => {
+                  if (category === each.c) {
+                    return (
+                      <div
+                        key={i}
+                        className="bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full"
+                      >
+                        <img
+                          className="w-full md:w-4/12 p-4"
+                          src={
+                            each.img
+                              ? each.img
+                              : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
+                          }
+                          alt={
+                            each.img ? each.img : "Kosher Pharaceutical Product"
+                          }
+                        />
+                        <div className="flex-1 p-4">
+                          <h2 className="uppercase font-semibold">{each.n}</h2>
+                          {each.d.map((e, i) => {
+                            return (
+                              <p className="text-gray-500 my-2" key={i}>
+                                {e}
+                              </p>
+                            );
+                          })}
+                          {each.ul && (
+                            <div>
+                              <p className="text-gray-500 mt-4 mb-2">
+                                {each.ul.h}
+                              </p>
+
+                              <ul className="ml-6">
+                                {each.ul.list.map((l, i) => {
+                                  return (
+                                    <li key={i}>
+                                      <p className="text-gray-500 capitalize">
+                                        {l}
+                                      </p>
+                                    </li>
+                                  );
+                                })}
+                              </ul>
+                            </div>
+                          )}
+                          {each.pid && (
+                            <p className="font-semibold text-xl mt-6 text-brand-200">
+                              {each.pid}
+                            </p>
+                          )}
+                          <button
+                            onClick={() => addItem(each)}
+                            className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition"
+                          >
+                            Add to Cart
+                          </button>
+                        </div>
+                      </div>
+                    );
+                  }
+                })}
+              </>
+            )}
           </div>
         </div>
       </div>
