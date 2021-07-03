@@ -6,10 +6,10 @@ const Seo = ({ data = {} }) => {
   const router = useRouter();
   return (
     <Head>
-      <title>{data.title ? data.title : "StartupColab"}</title>
+      <title>{data.title ? data.title : "Kosher Pharmaceuticals"}</title>
       <meta
         name="description"
-        content={data.desc ? data.desc : "StartupColab"}
+        content={data.desc ? data.desc : "Kosher Pharmaceuticals"}
       ></meta>
       <meta
         property="og:url"
@@ -17,11 +17,11 @@ const Seo = ({ data = {} }) => {
       ></meta>
       <meta
         property="og:title"
-        content={data.title ? data.title : "StartupColab"}
+        content={data.title ? data.title : "Kosher Pharmaceuticals"}
       ></meta>
       <meta
         property="og:description"
-        content={data.desc ? data.desc : "StartupColab"}
+        content={data.desc ? data.desc : "Kosher Pharmaceuticals"}
       ></meta>
       <meta
         name="author"

@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:creator" content="@kosherpharmacy" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_IE" />
-        <meta property="og:site_name" content="startupcolab" />
+        <meta property="og:site_name" content="kosherpharmaceuticals" />
       </Head>
       <CartProvider>
         <Component {...pageProps} />

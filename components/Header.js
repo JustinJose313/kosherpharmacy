@@ -7,7 +7,6 @@ import { useCart } from "react-use-cart";
 
 const Header = () => {
   const router = useRouter();
-  console.log(router);
   const { totalUniqueItems } = useCart();
   const data = [
     {

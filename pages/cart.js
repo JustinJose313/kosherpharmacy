@@ -1,18 +1,27 @@
-import React from 'react'
-import dynamic from 'next/dynamic'
+import React from "react";
+import dynamic from "next/dynamic";
 
-export const CartPage = dynamic(() => import('../components/CartComponents/CartPage'), {
-  ssr: false,
-})
-// import CartPage from '../components/CartComponents/CartPage'
-import MainLayout from '../layouts/MainLayout'
+export const CartPage = dynamic(
+  () => import("../components/CartComponents/CartPage"),
+  {
+    ssr: false,
+  }
+);
+import MainLayout from "../layouts/MainLayout";
 
 const cart = () => {
-    return (
-        <MainLayout>
-            <CartPage />
-        </MainLayout>
-    )
-}
+  const SEOData = {
+    title: "Kosher Pharmaceuticals - Cart Page",
+    desc: "We export prescription and over-the-counter (OTC) pharmaceuticals, nutritional products, active pharmaceutical ingredients (API) and veterinary medicines. Our product list constitutes a huge product assortment to suit every customer in major therapeutic categories or targeted segments enabling customers to return fully satisfied and contended.",
+    author: "Kosher Pharmaceuticals",
+    ogImg: `${process.env.NEXT_PUBLIC_URL}/logo.png`,
+    ogImgAlt: "Kosher Pharmaceuticals",
+  };
+  return (
+    <MainLayout data={SEOData}>
+      <CartPage />
+    </MainLayout>
+  );
+};
 
-export default cart
+export default cart;
