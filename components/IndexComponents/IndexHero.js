@@ -30,7 +30,7 @@ const IndexHero = () => {
     return null;
   }
   return (
-    <div className="overflow-hidden relative heroHeight">
+    <section className="overflow-hidden relative heroHeight">
       <div className="w-full h-full flex justify-center items-center overflow-hidden relative">
         <div className="w-full h-full">
           <AnimatePresence initial={true}>
@@ -44,7 +44,7 @@ const IndexHero = () => {
                 <img
                   className="absolute top-0 left-0 w-full h-full object-cover"
                   src="/assets/slider/pure.jpg"
-                  alt=""
+                  alt="pure pharmaceutical products"
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
                   <h1 className="uppercase tracking-widest text-brand-100 text-4xl md:text-6xl lg:text-9xl font-semibold">
@@ -68,7 +68,7 @@ const IndexHero = () => {
                 <img
                   className="absolute top-0 left-0 w-full h-full object-cover"
                   src="/assets/slider/authentic.jpg"
-                  alt=""
+                  alt="Authentic pharmaceutical products"
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
                   <h1 className="uppercase text-white text-4xl md:text-6xl lg:text-large font-semibold">
@@ -91,7 +91,7 @@ const IndexHero = () => {
                 <img
                   className="absolute top-0 left-0 w-full h-full object-cover"
                   src="/assets/slider/test2.jpg"
-                  alt=""
+                  alt="Genuine pharmaceutical products"
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
                   <h1 className="softTextShadow uppercase text-yellow-400 text-4xl md:text-6xl lg:text-9xl font-semibold">
@@ -140,7 +140,7 @@ const IndexHero = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const Top5 = () => {
   return (
-    <div>
+    <section>
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
         <h2 className="lg:text-center font-bold text-3xl sm:text-4xl">
           What do you need today?
@@ -88,7 +88,7 @@ const Top5 = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

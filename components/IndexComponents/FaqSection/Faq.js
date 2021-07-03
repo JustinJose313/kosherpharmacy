@@ -2,7 +2,7 @@ import React from "react";
 
 const Faq = () => {
   return (
-    <div className="bg-white">
+    <section className="bg-white">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
         <div className="lg:grid lg:grid-cols-3 lg:gap-8">
           <div>
@@ -68,7 +68,7 @@ const Faq = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

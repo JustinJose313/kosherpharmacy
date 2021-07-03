@@ -13,10 +13,10 @@ const MainLayout = ({ data, children }) => {
           <img className="h-24 py-2 cursor-pointer" src="/logo.svg" alt="" />
         </div>
       </Link>
-      <div className="sticky top-0 z-50">
+      <header className="sticky top-0 z-50">
         <Header />
-      </div>
-      <div className="flex-1">{children}</div>
+      </header>
+      <main className="flex-1">{children}</main>
       <Footer />
     </div>
   );

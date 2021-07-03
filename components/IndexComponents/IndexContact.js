@@ -38,7 +38,7 @@ const IndexContact = () => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-brand-100 to-brand-200">
+    <section className="bg-gradient-to-br from-brand-100 to-brand-200">
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
         <h2 className="text-white text-3xl sm:text-4xl font-bold mb-6 text-center">
           Send us your feedback
@@ -128,7 +128,7 @@ const IndexContact = () => {
           </form>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
