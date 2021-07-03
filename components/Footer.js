@@ -27,23 +27,23 @@ const Footer = () => {
   ];
   return (
     <div>
-      <div className="bg-gray-800">
+      <div className="bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-6 lg:gap-6">
             <div>
-              <img className="h-24" src="/Logo.png" alt="" />
-              <p className="text-gray-100 mt-2">
+              <img className="h-24" src="/logo.svg" alt="" />
+              <p className="text-gray-800 mt-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quaerat, delectus!
               </p>
             </div>
             <div className="flex flex-col">
-              <h5 className="font-bold mb-2 md:mb-4 text-white">Contact</h5>
+              <h5 className="font-bold mb-2 md:mb-4 text-gray-900">Contact</h5>
               {contactInfo.map((each, i) => {
                 return (
                   <div key={i} className="flex items-center py-1">
                     <svg
-                      className="text-gray-100 h-5 w-5 mr-2"
+                      className="text-brand-100 h-5 w-5 mr-2"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                       width="24"
@@ -55,19 +55,19 @@ const Footer = () => {
                         fill="currentColor"
                       />
                     </svg>
-                    <p className="text-gray-100">{each}</p>
+                    <p className="text-gray-700">{each}</p>
                   </div>
                 );
               })}
             </div>
             <div className="flex flex-col">
-              <h5 className="font-bold mb-2 md:mb-4 text-white">
+              <h5 className="font-bold mb-2 md:mb-4 text-gray-900">
                 Useful links
               </h5>
               {links.map((each, i) => {
                 return (
                   <Link key={i} href={each.url}>
-                    <p className="text-gray-100 py-1 cursor-pointer hover:text-white hover:underline">
+                    <p className="text-gray-700 py-1 cursor-pointer hover:text-gray-900 hover:underline">
                       {each.h}
                     </p>
                   </Link>
@@ -75,27 +75,27 @@ const Footer = () => {
               })}
             </div>
             <div className="flex flex-col">
-              <h5 className="font-bold mb-2 md:mb-4 text-white">Address</h5>
-              <p className="text-gray-100">
+              <h5 className="font-bold mb-2 md:mb-4 text-gray-900">Address</h5>
+              <p className="text-gray-700">
                 Kosher Pharmaceuticals G-6, Thomas Compound, Holy Cross Road, I.
                 C. Colony, Borivali West Mumbai 400103
               </p>
               <div className="my-4">
                 <div className="flex items-center">
-                  <p className="text-sm text-gray-100 flex-1">
+                  <p className="text-sm text-gray-700 flex-1">
                     info@kosherpharmaceuticals.com
                   </p>
                 </div>
                 <div className="flex items-center">
-                  <p className="text-sm text-gray-100">
+                  <p className="text-sm text-gray-700">
                     kosherpharmaceuticals@gmail.com
                   </p>
                 </div>
               </div>
-              <div className="flex items-center space-x-4 mt-2 text-gray-100">
+              <div className="flex items-center space-x-4 mt-2 text-gray-700">
                 <a
                   href="skype:kosherpharmaceuticals?call"
-                  className="cursor-pointer text-gray-200 hover:text-white"
+                  className="cursor-pointer text-gray-500 hover:text-brand-100"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +112,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="https://www.facebook.com/kosherpharmaceuticals/"
-                  className="cursor-pointer text-gray-200 hover:text-white"
+                  className="cursor-pointer text-gray-500 hover:text-brand-100"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +129,7 @@ const Footer = () => {
                 </a>
                 <a
                   href=""
-                  className="cursor-pointer text-gray-200 hover:text-white"
+                  className="cursor-pointer text-gray-500 hover:text-brand-100"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +146,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="mailto: info@kosherpharmaceuticals.com"
-                  className="cursor-pointer text-gray-200 hover:text-white"
+                  className="cursor-pointer text-gray-500 hover:text-brand-100"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -164,7 +164,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <p className="pt-4 text-center text-gray-100">
+          <p className="pt-4 text-center text-gray-500">
             Kosher Pharmaceuticals © {new Date().getFullYear()}
           </p>
         </div>

@@ -100,21 +100,22 @@ const Header = () => {
                 </div>
                 <div>
                   <Link href="/cart">
-                    <div className="bg-brand-200 p-4 flex items-center justify-center cursor-pointer">
+                    <div className="bg-brand-200 mr-2 rounded-full relative p-4 flex items-center justify-center cursor-pointer">
                       <svg
-                        className="text-white mr-2"
-                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-6 h-6 text-white "
+                        fill="none"
+                        stroke="currentColor"
                         viewBox="0 0 24 24"
-                        width="24"
-                        height="24"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        <path fill="none" d="M0 0h24v24H0z" />
                         <path
-                          d="M6 9h13.938l.5-2H8V5h13.72a1 1 0 0 1 .97 1.243l-2.5 10a1 1 0 0 1-.97.757H5a1 1 0 0 1-1-1V4H2V2h3a1 1 0 0 1 1 1v6zm0 14a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm12 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
-                          fill="currentColor"
-                        />
-                      </svg>{" "}
-                      <span className="text-white font-bold">
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                        ></path>
+                      </svg>
+                      <span className="text-white font-bold absolute top-0 w-5 h-5 rounded-full flex items-center justify-center p-1 right-0 bg-indigo-900 text-xs">
                         {totalUniqueItems}
                       </span>
                     </div>
@@ -134,7 +135,7 @@ const Header = () => {
             >
               <div className="flex h-full flex-col overflow-y-scroll">
                 <div className="flex items-center justify-between">
-                  <img className="w-1/3" src="/Logo.png" alt="" />
+                  <img className="w-1/3" src="/logo.svg" alt="" />
                   <button
                     onClick={() => setMenu(false)}
                     className="text-gray-800 hover:text-brand-100 flex items-center focus:outline-none"
