@@ -18,6 +18,8 @@ const normalizePhoneNum = (value) => {
 
 const CartPage = () => {
   const { isEmpty, items } = useCart();
+  const [variation, setVariation] = useState([]);
+  console.log(variation);
   const [success, setSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
   const validationSchema = Yup.object().shape({
@@ -43,8 +45,8 @@ const CartPage = () => {
       setLoading(false);
       setSuccess(true);
       setTimeout(() => {
-        setSuccess(false)
-      }, 5000)
+        setSuccess(false);
+      }, 5000);
     } catch (error) {
       console.log(error);
       setLoading(false);
@@ -63,7 +65,9 @@ const CartPage = () => {
           ) : (
             <div className="space-y-4 lg:col-span-8">
               {items.map((each, i) => {
-                return <CartCard key={i} data={each} />;
+                return (
+                  <CartCard key={i} data={each} setVariation={setVariation} variation={variation}/>
+                );
               })}
             </div>
           )}

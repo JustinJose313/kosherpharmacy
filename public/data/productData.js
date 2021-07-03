@@ -1434,17 +1434,377 @@ export const productData = {
   ],
   surgical: [
     {
-      c: "Antacids",
+      c: "Surgical",
       quantity: 1,
       price: 100,
       //Ashutosh please enter id to all objects starting from 1
       id: 1,
       img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Lansoprazole Capsules",
-      pid: "CAS NO.: 103577-45-3",
-      d: [
-        "Lansoprazole is used in treatment of  ulcers of the stomach and duodenum, NSAID-induced ulcers and in the treatment of gastroesophageal reflux disease.",
+      n: "Face Mask",
+      s: ["2 Ply/3 Ply Tie"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 2,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Face Mask (in loop)",
+      s: ["2 Ply/3 Ply Loop"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 3,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Surgeon Cap",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 4,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Bouffant Cap",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 5,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Shoe Cover P.E. Non-Woven",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 6,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Bed Sheet",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 7,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Drape Sheet",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 8,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Patient Gown",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 9,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Surgeon Gown",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 10,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Surgeon Pant/Shirt",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 11,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Sterile Latex surgical Gloves Powdered",
+      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 12,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Sterile Latex surgical Gloves Powder-free",
+      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 13,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Non- Sterile surgical Gloves Powdered",
+      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 14,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Non- Sterile surgical Gloves Powder Free",
+      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 15,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Examination Gloves Powdered",
+      s: ["Small, Medium, Large"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 16,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Examination Gloves Powder Free",
+      s: ["Small, Medium, Large"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 17,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Nitrile Gloves",
+      s: ["Small, Medium, Large"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 18,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Normal Delivery Kit",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 19,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Caesarean Kit",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 20,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Dental Surgery Kit",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 21,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Neuro Kit",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 22,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Ortho Kit",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 23,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Plastic Surgery Major Kit",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 24,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Garbage Kit",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 25,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "General Surgery Kit",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 26,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Angiogram Kit",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 27,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "ENT	Kit",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 28,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Laparoscopy Kit",
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 29,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Rolled Bandage",
+      s: ["5 cm X 4 Mtr", "7.5 cm X 4 Mtr", "10 cm X 4 Mtr", "15 cm X 4 Mtr"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 30,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Laparotomy Sponge",
+      s: [
+        "30 cm X 30 cm 8 ply",
+        "30 cm X 30 cm 12 ply",
+        "30 cm X 30 cm 16 ply",
       ],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 31,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Laparotomy Sponge With X Ray Detectable Thread",
+      s: [
+        "30 cm X 30 cm 8 ply",
+        "30 cm X 30 cm 12 ply",
+        "30 cm X 30 cm 16 ply",
+      ],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 32,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Gauze Swab",
+      s: [
+        "5 cm X 5 cm 8 ply",
+        "7.5 cm X 7.5 cm 8 ply",
+        "10 cm X 10 cm 8 ply",
+        "5 cm X 5 cm 12 ply",
+        "7.5 cm X 7.5 cm 12 ply",
+        "10 cm X 10 cm 12 ply",
+      ],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 33,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Gauze Swab With X Ray Detectable Thread",
+      s: [
+        "5 cm X 5 cm 8 ply",
+        "7.5 cm X 7.5 cm 8 ply",
+        "10 cm X 10 cm 8 ply",
+        "5 cm X 5 cm 12 ply",
+        "7.5 cm X 7.5 cm 12 ply",
+        "10 cm X 10 cm 12 ply",
+      ],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 34,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Absorbent Gauze",
+      s: ["90 cm X 18 mtr", "100 cm X 18 mtr", "120 cm X 18 mtr"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 35,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "Linen Guard/Under Pad",
+      s: ["60 cm X 60 cm", "60 cm X 90 cm"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 36,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "60 cm X 90 cm",
+      s: ["6 cm X 4 mtr", "8 cm X 4 mtr", "10 cm X 4 mtr", "15 cm X 4 mtr"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 37,
+      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
+      n: "IV Cannula",
+      s: ["18G,20G,22G,24G"],
     },
   ],
   veterinary: [

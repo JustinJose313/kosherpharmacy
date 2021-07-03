@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { useCart } from "react-use-cart";
 
-const CartCard = ({ data = {} }) => {
+const CartCard = ({ data = {}, setVariation, variation }) => {
   const { updateItemQuantity, removeItem } = useCart();
+  const [R, setR] = useState(data.s ? data.s[0] : "");
   return (
     <div className="p-4 bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full">
       <div className="flex w-full flex-col md:flex-row md:items-center lg:justify-between">
@@ -17,7 +18,7 @@ const CartCard = ({ data = {} }) => {
             alt=""
           />
           <div className="flex flex-col ">
-            <p className='font-bold'>{data.n}</p>
+            <p className="font-bold">{data.n}</p>
             <p className="text-sm font-medium text-brand-100">{data.c}</p>
           </div>
         </div>

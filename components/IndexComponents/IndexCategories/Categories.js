@@ -233,139 +233,159 @@ const Categories = () => {
             )}
             {group === "surgical" && (
               <>
-                <h2 className="text-2xl font-bold text-brand-100 mb-4">
-                  {category}
+                <h2 className="text-2xl font-bold text-brand-100 mb-4 capitalize">
+                  {group}
                 </h2>
                 {productData.surgical.map((each, i) => {
-                  if (category === each.c) {
-                    return (
-                      <div
-                        key={i}
-                        className="bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full"
-                      >
-                        <img
-                          className="w-full md:w-4/12 p-4"
-                          src={
-                            each.img
-                              ? each.img
-                              : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
-                          }
-                          alt={
-                            each.img ? each.img : "Kosher Pharaceutical Product"
-                          }
-                        />
-                        <div className="flex-1 p-4">
-                          <h2 className="uppercase font-semibold">{each.n}</h2>
-                          {each.d.map((e, i) => {
+                  return (
+                    <div
+                      key={i}
+                      className="bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full"
+                    >
+                      <img
+                        className="w-full md:w-4/12 p-4"
+                        src={
+                          each.img
+                            ? each.img
+                            : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
+                        }
+                        alt={
+                          each.img ? each.img : "Kosher Pharaceutical Product"
+                        }
+                      />
+                      <div className="flex-1 p-4">
+                        <h2 className="uppercase font-semibold">{each.n}</h2>
+                        {each.d &&
+                          each.d.map((e, i) => {
                             return (
                               <p className="text-gray-500 my-2" key={i}>
                                 {e}
                               </p>
                             );
                           })}
-                          {each.ul && (
-                            <div>
-                              <p className="text-gray-500 mt-4 mb-2">
-                                {each.ul.h}
-                              </p>
 
-                              <ul className="ml-6">
-                                {each.ul.list.map((l, i) => {
-                                  return (
-                                    <li key={i}>
-                                      <p className="text-gray-500 capitalize">
-                                        {l}
-                                      </p>
-                                    </li>
-                                  );
-                                })}
-                              </ul>
-                            </div>
-                          )}
-                          {each.pid && (
-                            <p className="font-semibold text-xl mt-6 text-brand-200">
-                              {each.pid}
+                        {each.s && (
+                          <div>
+                            <p className='mt-2 mb-1 font-medium'>Available variations: </p>
+                            {each.s.map((e, i) => {
+                              return (
+                                <p className="text-gray-500 my-1" key={i}>
+                                  {e}
+                                </p>
+                              );
+                            })}
+                          </div>
+                        )}
+                        {each.ul && (
+                          <div>
+                            <p className="text-gray-500 mt-4 mb-2">
+                              {each.ul.h}
                             </p>
-                          )}
-                          <button
-                            onClick={() => addItem(each)}
-                            className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition"
-                          >
-                            Add to Cart
-                          </button>
-                        </div>
+
+                            <ul className="ml-6">
+                              {each.ul.list.map((l, i) => {
+                                return (
+                                  <li key={i}>
+                                    <p className="text-gray-500 capitalize">
+                                      {l}
+                                    </p>
+                                  </li>
+                                );
+                              })}
+                            </ul>
+                          </div>
+                        )}
+                        {each.pid && (
+                          <p className="font-semibold text-xl mt-6 text-brand-200">
+                            {each.pid}
+                          </p>
+                        )}
+                        <button
+                          onClick={() => addItem(each)}
+                          className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition"
+                        >
+                          Add to Cart
+                        </button>
                       </div>
-                    );
-                  }
+                    </div>
+                  );
                 })}
               </>
             )}
             {group === "veterinary" && (
               <>
-                <h2 className="text-2xl font-bold text-brand-100 mb-4">
-                  {category}
+                <h2 className="text-2xl font-bold text-brand-100 mb-4 capitalize">
+                  {group}
                 </h2>
                 {productData.veterinary.map((each, i) => {
-                  if (category === each.c) {
-                    return (
-                      <div
-                        key={i}
-                        className="bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full"
-                      >
-                        <img
-                          className="w-full md:w-4/12 p-4"
-                          src={
-                            each.img
-                              ? each.img
-                              : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
-                          }
-                          alt={
-                            each.img ? each.img : "Kosher Pharaceutical Product"
-                          }
-                        />
-                        <div className="flex-1 p-4">
-                          <h2 className="uppercase font-semibold">{each.n}</h2>
-                          {each.d.map((e, i) => {
+                  return (
+                    <div
+                      key={i}
+                      className="bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full"
+                    >
+                      <img
+                        className="w-full md:w-4/12 p-4"
+                        src={
+                          each.img
+                            ? each.img
+                            : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
+                        }
+                        alt={
+                          each.img ? each.img : "Kosher Pharaceutical Product"
+                        }
+                      />
+                      <div className="flex-1 p-4">
+                        <h2 className="uppercase font-semibold">{each.n}</h2>
+                        {each.d &&
+                          each.d.map((e, i) => {
                             return (
                               <p className="text-gray-500 my-2" key={i}>
                                 {e}
                               </p>
                             );
                           })}
-                          {each.ul && (
-                            <div>
-                              <p className="text-gray-500 mt-4 mb-2">
-                                {each.ul.h}
+                        {each.s &&
+                          each.s.map((e, i) => {
+                            console.log(each);
+                            return (
+                              <p className="text-gray-500 my-2" key={i}>
+                                {e}
                               </p>
-
-                              <ul className="ml-6">
-                                {each.ul.list.map((l, i) => {
-                                  return (
-                                    <li key={i}>
-                                      <p className="text-gray-500 capitalize">
-                                        {l}
-                                      </p>
-                                    </li>
-                                  );
-                                })}
-                              </ul>
-                            </div>
-                          )}
-                          {each.pid && (
-                            <p className="font-semibold text-xl mt-6 text-brand-200">
-                              {each.pid}
+                            );
+                          })}
+                        {each.ul && (
+                          <div>
+                            <p className="text-gray-500 mt-4 mb-2">
+                              {each.ul.h}
                             </p>
-                          )}
-                          <button
-                            onClick={() => addItem(each)}
-                            className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition"
-                          >
-                            Add to Cart
-                          </button>
-                        </div>
+
+                            <ul className="ml-6">
+                              {each.ul.list.map((l, i) => {
+                                return (
+                                  <li key={i}>
+                                    <p className="text-gray-500 capitalize">
+                                      {l}
+                                    </p>
+                                  </li>
+                                );
+                              })}
+                            </ul>
+                          </div>
+                        )}
+                        {each.pid && (
+                          <p className="font-semibold text-xl mt-6 text-brand-200">
+                            {each.pid}
+                          </p>
+                        )}
+                        <button
+                          onClick={() => addItem(each)}
+                          className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition"
+                        >
+                          Add to Cart
+                        </button>
                       </div>
-                    );
-                  }
+                    </div>
+                  );
                 })}
               </>
             )}
