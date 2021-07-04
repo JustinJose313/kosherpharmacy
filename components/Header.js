@@ -14,7 +14,7 @@ const Header = () => {
       url: "/faq",
     },
     {
-      h: "Terms",
+      h: "Terms & Conditions",
       url: "/term-condition",
     },
   ];
@@ -163,20 +163,20 @@ const Header = () => {
                       Home
                     </span>
                   </Link>
-                  <Link href="#categories">
+                  <Link href="/faq">
                     <span
                       onClick={() => setMenu(false)}
                       className="text-7xl text-right hover:text-brand-100 focus:underline transition font-bold"
                     >
-                      Browse
+                      FAQ's
                     </span>
                   </Link>
-                  <Link href="/">
+                  <Link href="/term-condition">
                     <span
                       onClick={() => setMenu(false)}
                       className="text-7xl hover:text-brand-100 focus:underline transition font-bold"
                     >
-                      Service
+                      Terms
                     </span>
                   </Link>
                 </div>

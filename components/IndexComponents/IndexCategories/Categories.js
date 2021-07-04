@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import Link from "next/link";
 import { productData, productHeadings } from "../../../public/data/productData";
 import { useCart } from "react-use-cart";
 
@@ -7,6 +8,13 @@ const Categories = () => {
   const [toggle, setToggle] = useState(true);
   const [group, setGroup] = useState("pharmacy");
   const [category, setCategory] = useState("Antacids");
+
+  useEffect(() => {
+    const w = window.innerWidth;
+    if (w <= 768) {
+      setToggle(false);
+    }
+  }, []);
 
   return (
     <section id="categories">
@@ -19,9 +27,11 @@ const Categories = () => {
               <div
                 onClick={() => {
                   setGroup("pharmacy");
-                  setToggle(true);
+                  setToggle((prev) => !prev);
                 }}
-                className="bg-brand-100 cursor-pointer font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full"
+                className={`${
+                  group === "pharmacy" ? "bg-brand-200" : "bg-brand-100"
+                } cursor-pointer font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full`}
               >
                 Pharmaceuticals
                 {toggle ? (
@@ -87,15 +97,17 @@ const Categories = () => {
                   })}
                 </div>
               )}
-              <div
-                onClick={() => {
-                  setGroup("surgical");
-                  setToggle(false);
-                }}
-                className="bg-brand-100 mt-4 cursor-pointer font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full"
-              >
-                Surgical
-                {toggle ? (
+              <Link href="#categoryContainer">
+                <div
+                  onClick={() => {
+                    setGroup("surgical");
+                    setToggle(false);
+                  }}
+                  className={`${
+                    group === "surgical" ? "bg-brand-200" : "bg-brand-100"
+                  } mt-2 cursor-pointer font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full`}
+                >
+                  Surgical
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -104,11 +116,23 @@ const Categories = () => {
                   >
                     <path fill="none" d="M0 0h24v24H0z" />
                     <path
-                      d="M12 10.828l-4.95 4.95-1.414-1.414L12 8l6.364 6.364-1.414 1.414z"
+                      d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
                       fill="currentColor"
                     />
                   </svg>
-                ) : (
+                </div>
+              </Link>
+              <Link href="#categoryContainer">
+                <div
+                  onClick={() => {
+                    setGroup("veterinary");
+                    setToggle(false);
+                  }}
+                  className={`${
+                    group === "veterinary" ? "bg-brand-200" : "bg-brand-100"
+                  } mt-2 cursor-pointer font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full`}
+                >
+                  veterinary
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -117,48 +141,12 @@ const Categories = () => {
                   >
                     <path fill="none" d="M0 0h24v24H0z" />
                     <path
-                      d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z"
+                      d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
                       fill="currentColor"
                     />
                   </svg>
-                )}
-              </div>
-              <div
-                onClick={() => {
-                  setGroup("veterinary");
-                  setToggle(false);
-                }}
-                className="bg-brand-100 mt-4 cursor-pointer font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full"
-              >
-                veterinary
-                {toggle ? (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    height="24"
-                  >
-                    <path fill="none" d="M0 0h24v24H0z" />
-                    <path
-                      d="M12 10.828l-4.95 4.95-1.414-1.414L12 8l6.364 6.364-1.414 1.414z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                ) : (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    height="24"
-                  >
-                    <path fill="none" d="M0 0h24v24H0z" />
-                    <path
-                      d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                )}
-              </div>
+                </div>
+              </Link>
             </div>
           </div>
           <div className="md:col-span-8 space-y-4" id="categoryContainer">
@@ -266,7 +254,9 @@ const Categories = () => {
 
                         {each.s && (
                           <div>
-                            <p className='mt-2 mb-1 font-medium'>Available variations: </p>
+                            <p className="mt-2 mb-1 font-medium">
+                              Available variations:{" "}
+                            </p>
                             {each.s.map((e, i) => {
                               return (
                                 <p className="text-gray-500 my-1" key={i}>

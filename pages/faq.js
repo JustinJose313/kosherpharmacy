@@ -56,7 +56,8 @@ const faq = () => {
             </p>
           </div>
           <div className="mt-20">
-            <dl className="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-10">
+            <div className="italic">-- Update in progress...</div>
+            {/* <dl className="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-10">
               {faqs.map((faq, i) => (
                 <div key={i}>
                   <dt className="font-semibold text-gray-900">
@@ -65,7 +66,7 @@ const faq = () => {
                   <dd className="mt-3 text-gray-500">{faq.answer}</dd>
                 </div>
               ))}
-            </dl>
+            </dl> */}
           </div>
         </div>
       </div>

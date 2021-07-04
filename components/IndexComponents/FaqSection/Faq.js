@@ -21,7 +21,10 @@ const Faq = () => {
             </p>
           </div>
           <div className="mt-12 lg:mt-0 lg:col-span-2">
-            <dl className="space-y-12">
+            <div className='italic'>
+              -- Update in progress...
+            </div>
+            {/* <dl className="space-y-12">
               <div>
                 <dt className="text-lg leading-6 font-medium text-gray-900">
                   How do you make holy water?
@@ -65,6 +68,7 @@ const Faq = () => {
                 </dd>
               </div>
             </dl>
+          */}
           </div>
         </div>
       </div>
