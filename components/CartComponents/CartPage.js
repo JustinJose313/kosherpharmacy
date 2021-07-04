@@ -27,6 +27,7 @@ const CartPage = () => {
   const validationSchema = Yup.object().shape({
     name: Yup.string().min(3).max(50).required("Your Name is required"),
     email: Yup.string().email("Invalid Email").required("Email is required"),
+    email: Yup.string().required("Phone number is required"),
   });
   const {
     handleSubmit,
