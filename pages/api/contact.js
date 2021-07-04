@@ -17,7 +17,11 @@ export default async (req, res) => {
       from: email,
       to: "pharmaceuticalskosher@gmail.com",
       subject: `Site Feedback form ${name}`,
-      html: `<p>${message}</p>`,
+      html: `<div style="margin-bottom:10px">
+      <p>Sender's name: ${name}</p>
+      <p>Sender's email: ${email}</p>
+      <p>${message}</p>
+      </div>`,
     });
     console.log("Message Sent", emailSend.messageId);
   } catch (error) {

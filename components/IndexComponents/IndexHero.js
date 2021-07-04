@@ -47,7 +47,7 @@ const IndexHero = () => {
                   alt="pure pharmaceutical products"
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                  <h1 className="uppercase tracking-widest text-brand-100 text-4xl md:text-6xl lg:text-9xl font-semibold">
+                  <h1 className="font-fancy uppercase tracking-widest text-brand-400 text-4xl md:text-6xl lg:text-9xl font-semibold">
                     PURE
                   </h1>
                 </div>
@@ -71,7 +71,7 @@ const IndexHero = () => {
                   alt="Authentic pharmaceutical products"
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                  <h1 className="uppercase text-white text-4xl md:text-6xl lg:text-large font-semibold">
+                  <h1 className="font-fancy uppercase text-white text-4xl md:text-6xl lg:text-large font-semibold">
                     Authentic
                   </h1>
                 </div>
@@ -94,7 +94,7 @@ const IndexHero = () => {
                   alt="Genuine pharmaceutical products"
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                  <h1 className="softTextShadow uppercase text-yellow-400 text-4xl md:text-6xl lg:text-9xl font-semibold">
+                  <h1 className="font-fancy softTextShadow uppercase text-yellow-400 text-4xl md:text-6xl lg:text-9xl font-semibold">
                     genuine
                   </h1>
                 </div>

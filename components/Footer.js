@@ -29,12 +29,12 @@ const Footer = () => {
             <div>
               <img className="h-24" src="/logo.svg" alt="" />
               <p className="text-gray-800 mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quaerat, delectus!
+                We believe in PURE, GENUINE & AUTHENTIC Products.
               </p>
               <div className="flex items-center space-x-4 mt-2 text-gray-700">
                 <a
                   href="skype:kosherpharmaceuticals?call"
+                  target="_blank"
                   className="cursor-pointer text-gray-500 hover:text-brand-100"
                 >
                   <svg
@@ -52,6 +52,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="https://www.facebook.com/kosherpharmaceuticals/"
+                  target="_blank"
                   className="cursor-pointer text-gray-500 hover:text-brand-100"
                 >
                   <svg
@@ -68,7 +69,8 @@ const Footer = () => {
                   </svg>
                 </a>
                 <a
-                  href=""
+                  href="https://in.linkedin.com/company/kosher-pharmaceuticals"
+                  target="_blank"
                   className="cursor-pointer text-gray-500 hover:text-brand-100"
                 >
                   <svg
@@ -86,6 +88,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="mailto: info@kosherpharmaceuticals.com"
+                  target="_blank"
                   className="cursor-pointer text-gray-500 hover:text-brand-100"
                 >
                   <svg

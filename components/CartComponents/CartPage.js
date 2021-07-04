@@ -5,6 +5,8 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
 import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const normalizePhoneNum = (value) => {
   return (
@@ -34,6 +36,8 @@ const CartPage = () => {
     resolver: yupResolver(validationSchema),
     mode: "onBlur",
   });
+
+  const notify = () => toast("Cart sent for enquiry!");
   const onSubmit = async (values) => {
     setLoading(true);
     try {
@@ -47,6 +51,7 @@ const CartPage = () => {
       setTimeout(() => {
         setSuccess(false);
       }, 5000);
+      notify();
     } catch (error) {
       console.log(error);
       setLoading(false);
@@ -54,6 +59,7 @@ const CartPage = () => {
   };
   return (
     <div className="bg-white">
+      <ToastContainer autoClose={2000} />
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
           {isEmpty ? (
@@ -66,7 +72,12 @@ const CartPage = () => {
             <div className="space-y-4 lg:col-span-8">
               {items.map((each, i) => {
                 return (
-                  <CartCard key={i} data={each} setVariation={setVariation} variation={variation}/>
+                  <CartCard
+                    key={i}
+                    data={each}
+                    setVariation={setVariation}
+                    variation={variation}
+                  />
                 );
               })}
             </div>

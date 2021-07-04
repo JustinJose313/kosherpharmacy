@@ -8,25 +8,26 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        'large' : "10rem"
+        large: "10rem",
       },
       colors: {
         brand: {
           100: "#48BCD1",
           200: "#348e9e",
           300: "#C0DCEC",
-          400: "#3d4da4"
+          400: "#3d4da4",
         },
       },
       fontFamily: {
-        'sans': ['"Montserrat"', 'system-ui',],
-       }
+        sans: ['"Montserrat"', "system-ui"],
+        fancy: ['"Spartan"', "system-ui"],
+      },
     },
   },
   variants: {
     extend: {
       animation: ["hover", "focus"],
-      opacity: ['disabled'],
+      opacity: ["disabled"],
     },
   },
   plugins: [

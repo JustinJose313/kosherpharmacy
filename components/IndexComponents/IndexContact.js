@@ -3,10 +3,12 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
 import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const IndexContact = () => {
-  const [success, setSuccess] = useState(false)
-  const [loading, setLoading] = useState(false)
+  const [success, setSuccess] = useState(false);
+  const [loading, setLoading] = useState(false);
   const validationSchema = Yup.object().shape({
     name: Yup.string().min(3).max(50).required("Your Name is required"),
     email: Yup.string().email("Invalid Email").required("Subject is required"),
@@ -20,25 +22,31 @@ const IndexContact = () => {
     resolver: yupResolver(validationSchema),
     mode: "onBlur",
   });
+
+  const notify = () => toast("Feedback sent successfully!");
   const onSubmit = async (values) => {
-    setLoading(true)
+    setLoading(true);
     try {
       const response = await axios.post(
         `${process.env.NEXT_PUBLIC_URL}/api/contact`,
         values
       );
-      response.status === 200 && setSuccess(true)
-      setLoading(false)
-      setSuccess(false)
-
+      response.status === 200 && setSuccess(true);
+      setLoading(false);
+      setSuccess(true);
+      setTimeout(() => {
+        setSuccess(false);
+      }, 5000);
+      notify();
     } catch (error) {
       console.log(error);
-      setLoading(false)
+      setLoading(false);
     }
   };
 
   return (
     <section className="bg-gradient-to-br from-brand-100 to-brand-200">
+      <ToastContainer autoClose={2000} />
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
         <h2 className="text-white text-3xl sm:text-4xl font-bold mb-6 text-center">
           Send us your feedback
