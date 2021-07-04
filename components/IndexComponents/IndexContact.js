@@ -27,10 +27,7 @@ const IndexContact = () => {
   const onSubmit = async (values) => {
     setLoading(true);
     try {
-      const response = await axios.post(
-        `/api/contact`,
-        values
-      );
+      const response = await axios.post(`/api/contact`, values);
       response.status === 200 && setSuccess(true);
       setLoading(false);
       setSuccess(true);
