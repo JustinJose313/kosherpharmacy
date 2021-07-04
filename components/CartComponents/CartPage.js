@@ -42,10 +42,10 @@ const CartPage = () => {
   const onSubmit = async (values) => {
     setLoading(true);
     try {
-      const response = await axios.post(
-        `${process.env.NEXT_PUBLIC_URL}/api/cart`,
-        { ...values, items: items ? items : null }
-      );
+      const response = await axios.post(`/api/cart`, {
+        ...values,
+        items: items ? items : null,
+      });
       response.status === 200 && setSuccess(true);
       setLoading(false);
       setSuccess(true);
