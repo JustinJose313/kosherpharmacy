@@ -7,22 +7,28 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontSize: {
+        large: "10rem",
+      },
       colors: {
         brand: {
-          50: "#f9fbfd",
-          70: "E1E4EA",
-          100: "#D6E3F8",
-          200: "#335eea",
-          300: "#253C78",
-          400: "#dfeff7",
-          yellow: "#F2AF29",
-          banner: "#9400D3",
+          100: "#48BCD1",
+          200: "#348e9e",
+          300: "#C0DCEC",
+          400: "#3d4da4",
         },
+      },
+      fontFamily: {
+        sans: ['"Montserrat"', "system-ui"],
+        fancy: ['"Spartan"', "system-ui"],
       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ["hover", "focus"],
+      opacity: ["disabled"],
+    },
   },
   plugins: [
     require("@tailwindcss/forms"),
