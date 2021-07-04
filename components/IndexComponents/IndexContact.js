@@ -28,7 +28,7 @@ const IndexContact = () => {
     setLoading(true);
     try {
       const response = await axios.post(
-        `${process.env.NEXT_PUBLIC_URL}/api/contact`,
+        `/api/contact`,
         values
       );
       response.status === 200 && setSuccess(true);

@@ -43,7 +43,7 @@ const CartPage = () => {
     setLoading(true);
     try {
       const response = await axios.post(
-        `${process.env.NEXT_PUBLIC_URL}/api/cart`,
+        `/api/cart`,
         { ...values, items: items ? items : null }
       );
       response.status === 200 && setSuccess(true);
