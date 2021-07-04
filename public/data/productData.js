@@ -1212,11 +1212,249 @@ export const productData = {
         "These steroidal tablets can be used alone or with other medicines and is effective in the treatment of goitre.",
       ],
     },
+   
+    {
+      c: "Antiviral Drugs",
+      quantity: 1,
+      price: 100,
+      id: 91,
+      img: "/images/Antiviral-Drugs/AciclovirTablets.jpg",
+      n: "Aciclovir Tablets",
+      pid: "CAS NO: 59277-89-3",
+      d: [
+        "Aciclovir is an antiviral medicine, which acts on infected cells by stopping the virus growing.",
+        "Aciclovir 200mg and 400mg tablets are used to treat or prevent herpes simplex infections of the skin and mucous membranes e.g. cold sores and genital herpes",
+        "Aciclovir 800mg tablets are used to treat chicken pox (varicella infection), shingles (herpes zoster infection)",
+      ],
+    },
+    {
+      c: "Antiviral Drugs",
+      quantity: 1,
+      price: 100,
+      id: 92,
+      img: "/images/Antiviral-Drugs/ValacyclovirTablets.jpg",
+      n: "Valacyclovir Tablets",
+      pid: "CAS NO: 124832-27-5",
+      d: [
+        "Valacyclovir 500 mg , 1000 mg is used for treating shingles (herpes zoster), cold sores (fever blisters or herpes labialis), and treating, suppressing, or reducing transmission of genital herpes in patients with normal immune systems.",
+        "It is also used to treat chickenpox in children and teenagers. It is also used to suppress genital herpes in patients with HIV infection.",
+      ],
+    },
+    {
+      c: "Antiviral Drugs",
+      quantity: 1,
+      price: 100,
+      id: 93,
+      img: "/images/Antiviral-Drugs/RibavarineCapsules.jpg",
+      n: "Ribavarine Capsules",
+      pid: "CAS NO:66510-90-5",
+      d: [
+        "Ribavirin is an antiviral drug. It is used in combination with interferon alfa-2b to treat some patients with chronic hepatitis C infection.",
+      ],
+    },
+
+    {
+      c: "Analgesics",
+      quantity: 1,
+      price: 100,
+      id: 94,
+      img: "/images/Analgesics/ParacetamolInfusion.jpeg",
+      n: "Paracetamol Infusion",
+      pid: "CAS NO: 103-90-2",
+      d: [
+        "Paracetamol is about as effective as aspirin at relieving mild to moderate pain and reducing fever, but unlike aspirin it has no anti-inflammatory effect.",
+        "Paracetamol infusion is given in hospital. (An infusion is a drip into a vein.) Paracetamol may be given in this way either because a patient is unable to take medicines by mouth, or because a rapid effect is needed. This infusion may be given for the short-term relief of moderate pain, particularly following surgery. It may also be used for reducing fever in the short-term.",
+      ],
+    },
+    {
+      c: "Others",
+      quantity: 1,
+      price: 100,
+      id: 95,
+      img: "/images/Others/FluoresceinInjection.jpg",
+      n: "Fluorescein Injection",
+      pid: "CAS NO: 2321-07-5",
+      d: [
+        "Fluorescein injection, USP is indicated in diagnostic fluorescein angiography or angioscopy of the retina and iris vasculature.",
+      ],
+    },
+    {
+      c: "Others",
+      quantity: 1,
+      price: 100,
+      id: 96,
+      img: "/images/Others/Haefolic.jpg",
+      n: "Haefolic",
+      d: ["Iron capsule contain ferrous fumarate with vit.B12 and folic acid."],
+    },
+    {
+      c: "Others",
+      quantity: 1,
+      price: 100,
+      id: 97,
+      img: "/images/Others/SinarestNasaldrop.jpg",
+      n: "Sinarest Nasal drop",
+      d: [
+        "SINAREST-Nasal Drops is a long acting and topical nasal decongestant. SINAREST Nasal Drops are indicated for relief of nasal congestion due to a cold, upper respiratory allergies or sinusitis.",
+      ],
+    },
+    {
+      c: "Herbal & Ayurvedic Products",
+      quantity: 1,
+      price: 100,
+      id: 98,
+      img: "/images/Herbal-Ayurvedic/SlimfastCapsule.jpg",
+      n: "Slimfast Capsule",
+      d: [
+        "Slimfast capsule is an all-natural weight loss supplement. It contain a proprietary mix of herbal ingredients that work to increase metabolism, burn fat, and safety suppress appetite..",
+      ],
+    },
+    {
+      c: "Herbal & Ayurvedic Products",
+      quantity: 1,
+      price: 100,
+      id: 99,
+      img: "/images/Herbal-Ayurvedic/HerbalSildenafilCitrateCapsule.png",
+      n: "Herbal Sildenafil Citrate Capsule",
+      d: [
+        "Herbal sildenafil citrate , an oral therapy for erectile dysfunction, is the citrate salt of sildenafil, a selective inhibitor of cyclic guanosine monophosphate (cGMP)-specific phosphodiesterase type 5 (PDE5).",
+      ],
+    },
+  ],
+  surgical: [
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 1,
+      img: "/images/Surgicals/Face-Mask-3-Ply.jpg",
+      n: "Face Mask", 
+      s: ["2 Ply/3 Ply Tie"],
+    },
+  
+    
+  
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 2,
+      img: "/images/Surgicals/Sterile-Latex-Surgical-Gloves-Powdered.jpg",
+      n: "Sterile Latex surgical Gloves Powdered",
+      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 3,
+      img: "/images/Surgicals/SterileLatexSurgicalGlovesPowderFree.jpg",
+      n: "Sterile Latex surgical Gloves Powder-free",
+      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 4,
+      img: "/images/Surgicals/NonSterileSurgicalGlovesPowdered.jpg",
+      n: "Non- Sterile surgical Gloves Powdered",
+      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 5,
+      img: "/images/Surgicals/Nonsterilesurgicalglovespowderfree.jpg",
+      n: "Non- Sterile surgical Gloves Powder Free",
+      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 6,
+      img: "/images/Surgicals/ExaminationGlovesPowdered.jpeg",
+      n: "Examination Gloves Powdered",
+      s: ["Small, Medium, Large"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 7,
+      img: "/images/Surgicals/ExaminationGlovesPowderFree.jpg",
+      n: "Examination Gloves Powder Free",
+      s: ["Small, Medium, Large"],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 8,
+      img: "/images/Surgicals/NitrileGloves.jpg",
+      n: "Nitrile Gloves",
+      s: ["Small, Medium, Large"],
+    },
+   
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 9,
+      img: "/images/Surgicals/Caesarean-Kit.JPG",
+      n: "Caesarean Kit",
+    },
+  
+   
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 10,
+      img: "/images/Surgicals/BasicDeliveryIntrumentsSet.jpg",
+      n: "Basic Delivery Intruments Set",
+      s: [""],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 11,
+      img: "/images/Surgicals/GeneralSurgeryBasicKit.jpeg",
+      n: "General Surgery Basic Kit",
+      s: [""],
+    },
+    {
+      c: "Surgical",
+      quantity: 1,
+      price: 100,
+      //Ashutosh please enter id to all objects starting from 1
+      id: 12,
+      img: "/images/Surgicals/OrthopedicKit.jpg",
+      n: "Orthopedic Kit ",
+      s: [""],
+    },
+    
+  ],
+  veterinary: [
     {
       c: "Veterinary Drugs",
       quantity: 1,
       price: 100,
-      id: 91,
+      id: 1,
       img: "/images/Veterinary-Drugs/AlbendazoleBolus.jpg",
       n: "Albendazole Bolus",
       pid: "CAS NO: 54965-21-8",
@@ -1228,7 +1466,7 @@ export const productData = {
       c: "Veterinary Drugs",
       quantity: 1,
       price: 100,
-      id: 92,
+      id: 2,
       img: "/images/Veterinary-Drugs/FebendazoleBolus.jpg",
       n: "Febendazole Bolus",
       d: [
@@ -1240,8 +1478,8 @@ export const productData = {
       c: "Veterinary Drugs",
       quantity: 1,
       price: 100,
-      id: 93,
-      img: "/images/Veterinary-Drugs/Closental.png",
+      id: 3,
+      img: "/images/Veterinary-Drugs/Closentel.jpg",
       n: "Closental",
       pid: "CAS NO: 0057808-65-8",
       d: [
@@ -1252,7 +1490,7 @@ export const productData = {
       c: "Veterinary Drugs",
       quantity: 1,
       price: 100,
-      id: 94,
+      id: 4,
       img: "/images/Veterinary-Drugs/Cypermethrininsecticide.jpg",
       n: "Cypermethrin insecticide",
       pid: "CAS NO: 52315-07-08",
@@ -1264,7 +1502,7 @@ export const productData = {
       c: "Veterinary Drugs",
       quantity: 1,
       price: 100,
-      id: 95,
+      id: 5,
       img: "/images/Veterinary-Drugs/Chloropheneramine.jpg",
       n: "Chloropheneramine maleate",
       d: [""],
@@ -1282,7 +1520,7 @@ export const productData = {
       c: "Veterinary Drugs",
       quantity: 1,
       price: 100,
-      id: 96,
+      id: 6,
       img: "/images/Veterinary-Drugs/IvermectinBolusandinjection.jpg",
       n: "Ivermectin Bolus and injection",
       d: [
@@ -1293,7 +1531,7 @@ export const productData = {
       c: "Veterinary Drugs",
       quantity: 1,
       price: 100,
-      id: 97,
+      id: 7,
       img: "/images/Veterinary-Drugs/Meloxicambolusandsuspension.jpg",
       n: "Meloxicam bolus and suspension",
       d: [
@@ -1305,8 +1543,8 @@ export const productData = {
       c: "Veterinary Drugs",
       quantity: 1,
       price: 100,
-      id: 98,
-      img: "/images/Veterinary-Drugs/OxyclozanideBolus.jpg",
+      id: 8,
+      img: "/images/Veterinary-Drugs/OxyclozanideBolus.png",
       n: "Oxyclozanide Bolus",
       d: [
         "It is used in the treatment and control of Fascioliasis in ruminants mainly domestic animals like Cattle, Sheep and Goats.",
@@ -1316,7 +1554,7 @@ export const productData = {
       c: "Veterinary Drugs",
       quantity: 1,
       price: 100,
-      id: 99,
+      id: 9,
       img: "/images/Veterinary-Drugs/Sulphadimidinebolus.jpg",
       n: "Sulphadimidine bolus",
       pid: "CAS NO: 0000057-68-1",
@@ -1324,503 +1562,133 @@ export const productData = {
         "Sulphadimidine bolus is used in haemorrhagic septicemia, foot rot, calf scours, calf diphtheria, bacterial enteritis, septicemia, bacterial pneumonia, metritis, coccidiosis, secondary bacterial complications associated with rinderpest.",
       ],
     },
+
     {
-      c: "Antiviral Drugs",
+      c: "Veterinary Drugs",
       quantity: 1,
       price: 100,
-      id: 100,
-      img: "/images/Antiviral-Drugs/AciclovirTablets.jpg",
-      n: "Aciclovir Tablets",
-      pid: "CAS NO: 59277-89-3",
+      id: 10,
+      img: "/images/Veterinary-Drugs/AmoxycillinInjection.jpg",
+      n: "Amoxycillin Injection",
+      pid: "",
       d: [
-        "Aciclovir is an antiviral medicine, which acts on infected cells by stopping the virus growing.",
-        "Aciclovir 200mg and 400mg tablets are used to treat or prevent herpes simplex infections of the skin and mucous membranes e.g. cold sores and genital herpes",
-        "Aciclovir 800mg tablets are used to treat chicken pox (varicella infection), shingles (herpes zoster infection)",
+        "",
       ],
     },
     {
-      c: "Antiviral Drugs",
+      c: "Veterinary Drugs",
       quantity: 1,
       price: 100,
-      id: 101,
-      img: "/images/Antiviral-Drugs/ValacyclovirTablets.jpg",
-      n: "Valacyclovir Tablets",
-      pid: "CAS NO: 124832-27-5",
+      id: 11,
+      img: "/images/Veterinary-Drugs/CalciumLiquidFeedSupplement.png",
+      n: "Calcium Liquid Feed Supplement",
+      pid: "",
       d: [
-        "Valacyclovir 500 mg , 1000 mg is used for treating shingles (herpes zoster), cold sores (fever blisters or herpes labialis), and treating, suppressing, or reducing transmission of genital herpes in patients with normal immune systems.",
-        "It is also used to treat chickenpox in children and teenagers. It is also used to suppress genital herpes in patients with HIV infection.",
+        "",
       ],
     },
     {
-      c: "Antiviral Drugs",
+      c: "Veterinary Drugs",
       quantity: 1,
       price: 100,
-      id: 102,
-      img: "/images/Antiviral-Drugs/RibavarineCapsules.jpg",
-      n: "Ribavarine Capsules",
-      pid: "CAS NO:66510-90-5",
+      id: 12,
+      img: "/images/Veterinary-Drugs/CeftriaxoneInjection.png",
+      n: "Ceftriaxone Injection",
+      pid: "",
       d: [
-        "Ribavirin is an antiviral drug. It is used in combination with interferon alfa-2b to treat some patients with chronic hepatitis C infection.",
+        "",
       ],
     },
 
     {
-      c: "Analgesics",
+      c: "Veterinary Drugs",
       quantity: 1,
       price: 100,
-      id: 103,
-      img: "/images/Analgesics/ParacetamolInfusion.jpeg",
-      n: "Paracetamol Infusion",
-      pid: "CAS NO: 103-90-2",
-      d: [
-        "Paracetamol is about as effective as aspirin at relieving mild to moderate pain and reducing fever, but unlike aspirin it has no anti-inflammatory effect.",
-        "Paracetamol infusion is given in hospital. (An infusion is a drip into a vein.) Paracetamol may be given in this way either because a patient is unable to take medicines by mouth, or because a rapid effect is needed. This infusion may be given for the short-term relief of moderate pain, particularly following surgery. It may also be used for reducing fever in the short-term.",
-      ],
-    },
-    {
-      c: "Others",
-      quantity: 1,
-      price: 100,
-      id: 104,
-      img: "/images/Others/FluoresceinInjection.jpg",
-      n: "Fluorescein Injection",
-      pid: "CAS NO: 2321-07-5",
-      d: [
-        "Fluorescein injection, USP is indicated in diagnostic fluorescein angiography or angioscopy of the retina and iris vasculature.",
-      ],
-    },
-    {
-      c: "Others",
-      quantity: 1,
-      price: 100,
-      id: 105,
-      img: "/images/Others/Haefolic.jpg",
-      n: "Haefolic",
-      d: ["Iron capsule contain ferrous fumarate with vit.B12 and folic acid."],
-    },
-    {
-      c: "Others",
-      quantity: 1,
-      price: 100,
-      id: 106,
-      img: "/images/Others/SinarestNasaldrop.jpg",
-      n: "Sinarest Nasal drop",
-      d: [
-        "SINAREST-Nasal Drops is a long acting and topical nasal decongestant. SINAREST Nasal Drops are indicated for relief of nasal congestion due to a cold, upper respiratory allergies or sinusitis.",
-      ],
-    },
-    {
-      c: "Herbal & Ayurvedic Products",
-      quantity: 1,
-      price: 100,
-      id: 107,
-      img: "/images/Herbal-Ayurvedic/SlimfastCapsule.jpg",
-      n: "Slimfast Capsule",
-      d: [
-        "Slimfast capsule is an all-natural weight loss supplement. It contain a proprietary mix of herbal ingredients that work to increase metabolism, burn fat, and safety suppress appetite..",
-      ],
-    },
-    {
-      c: "Herbal & Ayurvedic Products",
-      quantity: 1,
-      price: 100,
-      id: 108,
-      img: "/images/Herbal-Ayurvedic/HerbalSildenafilCitrateCapsule.png",
-      n: "Herbal Sildenafil Citrate Capsule",
-      d: [
-        "Herbal sildenafil citrate , an oral therapy for erectile dysfunction, is the citrate salt of sildenafil, a selective inhibitor of cyclic guanosine monophosphate (cGMP)-specific phosphodiesterase type 5 (PDE5).",
-      ],
-    },
-  ],
-  surgical: [
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 1,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Face Mask",
-      s: ["2 Ply/3 Ply Tie"],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 2,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Face Mask (in loop)",
-      s: ["2 Ply/3 Ply Loop"],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 3,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Surgeon Cap",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 4,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Bouffant Cap",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 5,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Shoe Cover P.E. Non-Woven",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 6,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Bed Sheet",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 7,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Drape Sheet",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 8,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Patient Gown",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 9,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Surgeon Gown",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 10,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Surgeon Pant/Shirt",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 11,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Sterile Latex surgical Gloves Powdered",
-      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 12,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Sterile Latex surgical Gloves Powder-free",
-      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
       id: 13,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Non- Sterile surgical Gloves Powdered",
-      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 14,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Non- Sterile surgical Gloves Powder Free",
-      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 15,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Examination Gloves Powdered",
-      s: ["Small, Medium, Large"],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 16,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Examination Gloves Powder Free",
-      s: ["Small, Medium, Large"],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 17,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Nitrile Gloves",
-      s: ["Small, Medium, Large"],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 18,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Normal Delivery Kit",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 19,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Caesarean Kit",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 20,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Dental Surgery Kit",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 21,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Neuro Kit",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 22,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Ortho Kit",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 23,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Plastic Surgery Major Kit",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 24,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Garbage Kit",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 25,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "General Surgery Kit",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 26,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Angiogram Kit",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 27,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "ENT	Kit",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 28,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Laparoscopy Kit",
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 29,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Rolled Bandage",
-      s: ["5 cm X 4 Mtr", "7.5 cm X 4 Mtr", "10 cm X 4 Mtr", "15 cm X 4 Mtr"],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 30,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Laparotomy Sponge",
-      s: [
-        "30 cm X 30 cm 8 ply",
-        "30 cm X 30 cm 12 ply",
-        "30 cm X 30 cm 16 ply",
-      ],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 31,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Laparotomy Sponge With X Ray Detectable Thread",
-      s: [
-        "30 cm X 30 cm 8 ply",
-        "30 cm X 30 cm 12 ply",
-        "30 cm X 30 cm 16 ply",
-      ],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 32,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Gauze Swab",
-      s: [
-        "5 cm X 5 cm 8 ply",
-        "7.5 cm X 7.5 cm 8 ply",
-        "10 cm X 10 cm 8 ply",
-        "5 cm X 5 cm 12 ply",
-        "7.5 cm X 7.5 cm 12 ply",
-        "10 cm X 10 cm 12 ply",
-      ],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 33,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Gauze Swab With X Ray Detectable Thread",
-      s: [
-        "5 cm X 5 cm 8 ply",
-        "7.5 cm X 7.5 cm 8 ply",
-        "10 cm X 10 cm 8 ply",
-        "5 cm X 5 cm 12 ply",
-        "7.5 cm X 7.5 cm 12 ply",
-        "10 cm X 10 cm 12 ply",
-      ],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 34,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Absorbent Gauze",
-      s: ["90 cm X 18 mtr", "100 cm X 18 mtr", "120 cm X 18 mtr"],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 35,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Linen Guard/Under Pad",
-      s: ["60 cm X 60 cm", "60 cm X 90 cm"],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 36,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "60 cm X 90 cm",
-      s: ["6 cm X 4 mtr", "8 cm X 4 mtr", "10 cm X 4 mtr", "15 cm X 4 mtr"],
-    },
-    {
-      c: "Surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 37,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "IV Cannula",
-      s: ["18G,20G,22G,24G"],
-    },
-  ],
-  veterinary: [
-    {
-      c: "Antacids",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 1,
-      img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
-      n: "Lansoprazole Capsules",
-      pid: "CAS NO.: 103577-45-3",
+      img: "/images/Veterinary-Drugs/LiverTonic.jpg",
+      n: "Liver Tonic",
+      pid: "",
       d: [
-        "Lansoprazole is used in treatment of  ulcers of the stomach and duodenum, NSAID-induced ulcers and in the treatment of gastroesophageal reflux disease.",
+        "",
       ],
     },
+
+    {
+      c: "Veterinary Drugs",
+      quantity: 1,
+      price: 100,
+      id: 13,
+      img: "/images/Veterinary-Drugs/Cyprohiptadine25mgCobaltChloride100mg.jpg",
+      n: "Cyprohiptadine 25mg CobaltChloride 100mg",
+      pid: "",
+      d: [
+        "",
+      ],
+    },
+    {
+      c: "Veterinary Drugs",
+      quantity: 1,
+      price: 100,
+      id: 13,
+      img: "/images/Veterinary-Drugs/NimesulideandParacetamolTablets.jpg",
+      n: "Nimesulide and Paracetamol Tablets",
+      pid: "",
+      d: [
+        "",
+      ],
+    },
+
+    {
+      c: "Veterinary Drugs",
+      quantity: 1,
+      price: 100,
+      id: 13,
+      img: "/images/Veterinary-Drugs/NorfloxacinandTinidazoleTablets.jpg",
+      n: "Norfloxacin and Tinidazole Tablets",
+      pid: "",
+      d: [
+        "",
+      ],
+    },
+
+    {
+      c: "Veterinary Drugs",
+      quantity: 1,
+      price: 100,
+      id: 13,
+      img: "/images/Veterinary-Drugs/OxyclozamideandLaevamisole.jpg",
+      n: "Oxyclozamide and Laevamisole",
+      pid: "",
+      d: [
+        "",
+      ],
+    },
+    {
+      c: "Veterinary Drugs",
+      quantity: 1,
+      price: 100,
+      id: 13,
+      img: "/images/Veterinary-Drugs/OxyclozamideandLaevamisole.jpg",
+      n: "Oxyclozamide and Laevamisole",
+      pid: "",
+      d: [
+        "",
+      ],
+    },
+
+    {
+      c: "Veterinary Drugs",
+      quantity: 1,
+      price: 100,
+      id: 13,
+      img: "/images/Veterinary-Drugs/TylosinTartrate.jpg",
+      n: "Tylosin Tartrate 20%",
+      pid: "",
+      d: [
+        "",
+      ],
+    },
+
   ],
 };
 
@@ -1839,7 +1707,6 @@ export const productHeadings = [
   "Mens Health",
   "Steroids",
   "Thyroid Drugs",
-  "Veterinary Drugs",
   "Antiviral Drugs",
   "Analgesics",
   "Others",
