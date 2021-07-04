@@ -3,11 +3,9 @@ import Link from "next/link";
 import { productData, productHeadings } from "../../../public/data/productData";
 import { useCart } from "react-use-cart";
 
-const Categories = () => {
+const Categories = ({ group, setGroup, category, setCategory }) => {
   const { addItem } = useCart();
   const [toggle, setToggle] = useState(true);
-  const [group, setGroup] = useState("pharmacy");
-  const [category, setCategory] = useState("Antacids");
 
   useEffect(() => {
     const w = window.innerWidth;
