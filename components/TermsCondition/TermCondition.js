@@ -3,8 +3,8 @@ import React from "react";
 const TermCondition = () => {
   return (
     <div>
-      <div className="max-w-5xl mx-auto p-2 md:p-4 pb-10 mt-10">
-        <div className="bg-white rounded-lg shadow-lg pb-4">
+      <div className="max-w-5xl mx-auto p-2 md:p-4 my-4 sm:my-10">
+        <div className="bg-white rounded-xl overflow-hidden shadow-lg pb-4">
           <div
             style={{
               backgroundImage: "linear-gradient(310deg ,#48BCD1,#004d5e)",
@@ -15,7 +15,7 @@ const TermCondition = () => {
             <div className="flex">
               <p className="font-medium text-gray-200">
                 Effective date:
-                <span>10th of May, 2021</span>{" "}
+                <span>5th of July, 2021</span>{" "}
               </p>
             </div>
           </div>
