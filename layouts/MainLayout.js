@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Seo from "../components/Seo";
 import Link from "next/link";
+import ScrollButton from "../components/ScrollButton";
 
 const MainLayout = ({ data, children }) => {
   return (
@@ -18,6 +19,7 @@ const MainLayout = ({ data, children }) => {
       </header>
       <main className="flex-1">{children}</main>
       <Footer />
+      <ScrollButton />
     </div>
   );
 };

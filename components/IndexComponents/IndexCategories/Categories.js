@@ -29,7 +29,7 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
                 }}
                 className={`${
                   group === "pharmacy" ? "bg-brand-200" : "bg-brand-100"
-                } cursor-pointer font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full`}
+                } cursor-pointer capitalize font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full`}
               >
                 Pharmaceuticals
                 {toggle ? (
@@ -103,7 +103,7 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
                   }}
                   className={`${
                     group === "surgical" ? "bg-brand-200" : "bg-brand-100"
-                  } mt-2 cursor-pointer font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full`}
+                  } mt-2 capitalize cursor-pointer font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full`}
                 >
                   Surgical
                   <svg
@@ -128,9 +128,9 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
                   }}
                   className={`${
                     group === "veterinary" ? "bg-brand-200" : "bg-brand-100"
-                  } mt-2 cursor-pointer font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full`}
+                  } mt-2 capitalize cursor-pointer font-bold flex items-center justify-between hover:bg-brand-200 text-white p-4 w-full`}
                 >
-                  veterinary
+                  Veterinary
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -206,9 +206,22 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
                           )}
                           <button
                             onClick={() => addItem(each)}
-                            className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition"
+                            className="text-white focus:outline-none focus:ring-2 ring-brand-200 flex items-center font-bold shadow-xl bg-brand-100 hover:bg-brand-200 px-8 py-3 mt-4 transition"
                           >
                             Add to Cart
+                            <svg
+                              className="ml-2 h-4 w-4"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                              width="24"
+                              height="24"
+                            >
+                              <path fill="none" d="M0 0h24v24H0z" />
+                              <path
+                                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                fill="currentColor"
+                              />
+                            </svg>
                           </button>
                         </div>
                       </div>
@@ -290,9 +303,22 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
                         )}
                         <button
                           onClick={() => addItem(each)}
-                          className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition"
+                          className="text-white focus:outline-none focus:ring-2 ring-brand-200 flex items-center font-bold shadow-xl bg-brand-100 hover:bg-brand-200 px-8 py-3 mt-4 transition"
                         >
                           Add to Cart
+                          <svg
+                            className="ml-2 h-4 w-4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                          >
+                            <path fill="none" d="M0 0h24v24H0z" />
+                            <path
+                              d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                              fill="currentColor"
+                            />
+                          </svg>
                         </button>
                       </div>
                     </div>
@@ -367,9 +393,22 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
                         )}
                         <button
                           onClick={() => addItem(each)}
-                          className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition"
+                          className="text-white focus:outline-none focus:ring-2 ring-brand-200 flex items-center font-bold shadow-xl bg-brand-100 hover:bg-brand-200 px-8 py-3 mt-4 transition"
                         >
                           Add to Cart
+                          <svg
+                            className="ml-2 h-4 w-4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                          >
+                            <path fill="none" d="M0 0h24v24H0z" />
+                            <path
+                              d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                              fill="currentColor"
+                            />
+                          </svg>
                         </button>
                       </div>
                     </div>
