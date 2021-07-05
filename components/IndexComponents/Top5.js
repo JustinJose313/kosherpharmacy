@@ -6,10 +6,10 @@ const Top5 = ({ group, setGroup, category, setCategory }) => {
     <section>
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
         <h2 className="lg:text-center font-bold text-3xl sm:text-4xl">
-          What do you need today?
+          Our Top 5 Categories 
         </h2>
         <p className="lg:text-center text-gray-500 mt-2 mb-6">
-          Check our featured products and deals
+          Check our featured categories.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <Link href="#categoryContainer">
@@ -101,7 +101,7 @@ const Top5 = ({ group, setGroup, category, setCategory }) => {
               <div
                 style={{
                   backgroundImage:
-                    "url(https://images.unsplash.com/photo-1584515933487-779824d29309?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)",
+                    "url(https://images.unsplash.com/photo-1587854692152-cbe660dbde88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)",
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
@@ -127,7 +127,7 @@ const Top5 = ({ group, setGroup, category, setCategory }) => {
               <div
                 style={{
                   backgroundImage:
-                    "url(https://images.unsplash.com/photo-1584515933487-779824d29309?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)",
+                    "url(https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)",
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
