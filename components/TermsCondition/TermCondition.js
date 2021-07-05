@@ -14,7 +14,7 @@ const TermCondition = () => {
             <h1 className="text-3xl font-bold">Terms & Conditions</h1>
             <div className="flex">
               <p className="font-medium text-gray-200">
-                Effective date:
+                Effective date:{" "}
                 <span>5th of July, 2021</span>{" "}
               </p>
             </div>
