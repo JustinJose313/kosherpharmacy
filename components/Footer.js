@@ -2,11 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const Footer = () => {
-  const contactInfo = [
-    "022 - 28907869",
-    "+91 - 9769768968",
-    "+91 - 9998484145",
-  ];
+  const contactInfo = ["022 - 28907869", "+91 - 9769768968"];
   const links = [
     {
       h: "Home",
@@ -23,13 +19,13 @@ const Footer = () => {
   ];
   return (
     <footer>
-      <div className="bg-gray-100">
+      <div className="bg-white border-t border-brand-100">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-6 lg:gap-6">
             <div>
               <img className="h-24" src="/logo.svg" alt="" />
               <p className="text-gray-800 mt-2">
-                We believe in PURE, GENUINE & AUTHENTIC Products.
+                We believe in PURE - GENUINE - AUTHENTIC Products.
               </p>
               <div className="flex items-center space-x-4 mt-2 text-gray-700">
                 <a

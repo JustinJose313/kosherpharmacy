@@ -39,6 +39,7 @@ const IndexHero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
+                transition={{ duration: 2 }}
                 className="absolute top-0 left-0 w-full h-full flex items-center justify-center"
               >
                 <img
@@ -55,7 +56,6 @@ const IndexHero = () => {
             )}
           </AnimatePresence>
         </div>
-
         <div className="w-full h-full">
           <AnimatePresence initial={true}>
             {current === 1 && (
@@ -63,16 +63,17 @@ const IndexHero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
+                transition={{ duration: 2 }}
                 className="absolute top-0 left-0 w-full h-full flex items-center justify-center"
               >
                 <img
                   className="absolute top-0 left-0 w-full h-full object-cover"
-                  src="/assets/slider/authentic.jpg"
-                  alt="Authentic pharmaceutical products"
+                  src="/assets/slider/test2.jpg"
+                  alt="Genuine pharmaceutical products"
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                  <h1 className="font-fancy uppercase text-white text-4xl md:text-6xl lg:text-large font-semibold">
-                    Authentic
+                  <h1 className="font-fancy softTextShadow uppercase text-yellow-400 text-4xl md:text-6xl lg:text-9xl font-semibold">
+                    genuine
                   </h1>
                 </div>
               </motion.div>
@@ -86,16 +87,17 @@ const IndexHero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
+                transition={{ duration: 2 }}
                 className="absolute top-0 left-0 w-full h-full flex items-center justify-center"
               >
                 <img
                   className="absolute top-0 left-0 w-full h-full object-cover"
-                  src="/assets/slider/test2.jpg"
-                  alt="Genuine pharmaceutical products"
+                  src="/assets/slider/authentic.jpg"
+                  alt="Authentic pharmaceutical products"
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                  <h1 className="font-fancy softTextShadow uppercase text-yellow-400 text-4xl md:text-6xl lg:text-9xl font-semibold">
-                    genuine
+                  <h1 className="font-fancy uppercase text-white text-4xl md:text-6xl lg:text-large font-semibold">
+                    Authentic
                   </h1>
                 </div>
               </motion.div>
