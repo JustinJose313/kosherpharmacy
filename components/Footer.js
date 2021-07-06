@@ -25,7 +25,7 @@ const Footer = () => {
             <div>
               <img className="h-24" src="/logo.svg" alt="" />
               <p className="text-gray-800 mt-2">
-                We believe in PURE - GENUINE - AUTHENTIC Products.
+                We believe in PURE - GENUINE - AUTHENTIC Products
               </p>
               <div className="flex items-center space-x-4 mt-2 text-gray-700">
                 <a
