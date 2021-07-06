@@ -748,6 +748,18 @@ export const productData = {
       c: "Gynaecological Drugs",
       quantity: 1,
       price: 100,
+      id: 81,
+      img: "/images/Steroid-Hormones/EstradepoInjection.jpg",
+      n: "Estradepo Injection",
+      d: [
+        "Estradepo injection is available in 10mg/ml.",
+        "Packing: 5 ampoules in a mono carton.",
+      ],
+    },
+    {
+      c: "Gynaecological Drugs",
+      quantity: 1,
+      price: 100,
       id: 55,
       img: "/images/Gynaecological-Drugs/IbandronateSodium.jpg",
       n: "Ibandronate Sodium Tablets",
@@ -953,8 +965,8 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 72,
-      img: "/images/Steroid-Hormones/Testoeolin.jpg",
-      n: "Testoeolin(Testosterone Propionate injection)",
+      img: "/images/Steroid-Hormones/testiolin.jpg",
+      n: "Testeolin (Testosterone Propionate injection)",
       pid: "CAS NO:58-22-0",
       d: [
         "Testosterone Propionate is the shortest ester attached to the Testosterone hormone.",
@@ -994,7 +1006,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 75,
-      img: "/images/Steroid-Hormones/Trenace100.jpg",
+      img: "/images/Steroid-Hormones/trenace100.jpg",
       n: "Trenace 100 (Trenbolone Acetate Injection)",
       pid: "CAS NO:10161-34-9",
       d: [
@@ -1007,11 +1019,11 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 76,
-      img: "/images/Steroid-Hormones/Boldinex200.jpg",
-      n: "Boldinex 200 (Boldenone Undecylenate Injection/Vial)",
+      img: "/images/Steroid-Hormones/boldinex250.jpg",
+      n: "Boldinex 250 (Boldenone Undecylenate Injection/Vial)",
       pid: "CAS NO: 846-48-0",
       d: [
-        "Boldinex Inj. 200 mg/ml is a man-made steroid, similar to the naturally occurring steroid testosterone.",
+        "Boldinex Inj. 250 mg/ml is a man-made steroid, similar to the naturally occurring steroid testosterone.",
         "Boldenone Undecylenate is used to promote weight gain. Boldenone Undecylenate is also used to decrease muscle loss caused by treatment with corticosteroids and to reduce bone pain associated with osteoporosis. It produces a slow and steady anabolic effect while improving appetite leading to its long-term popularity. For Men: 200-500 mg IM per week.",
       ],
     },
@@ -1036,7 +1048,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 78,
-      img: "/images/Steroid-Hormones/Drostronate100(DrostanolonePropionate100mg-ml).jpg",
+      img: "/images/Steroid-Hormones/drostronate100.jpg",
       n: "Drostronate 100 (Drostanolone Propionate 100 mg/ml)",
       d: [
         "Drostronate 100 is a derivative of dihydrotestosterone.",
@@ -1082,18 +1094,6 @@ export const productData = {
           "complex therapy of bronchial spasm",
         ],
       },
-    },
-    {
-      c: "Steroids",
-      quantity: 1,
-      price: 100,
-      id: 81,
-      img: "/images/Steroid-Hormones/EstradepoInjection.jpg",
-      n: "Estradepo Injection",
-      d: [
-        "Estradepo injection is available in 10mg/ml.",
-        "Packing: 5 ampoules in a mono carton.",
-      ],
     },
     {
       c: "Steroids",
@@ -1330,7 +1330,7 @@ export const productData = {
       id: 100,
       img: "/images/Surgicals/Face-Mask-3-Ply.jpg",
       n: "Face Mask", 
-      s: ["2 Ply/3 Ply Tie"],
+      s: ["2 Ply / 3 Ply Tie"],
     },
   
     
@@ -1343,7 +1343,7 @@ export const productData = {
       id: 101,
       img: "/images/Surgicals/Sterile-Latex-Surgical-Gloves-Powdered.jpg",
       n: "Sterile Latex surgical Gloves Powdered",
-      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
+      s: ["6.0 / 6.5 / 7.0 / 7.5 / 8.0 / 8.5"],
     },
     {
       c: "Surgical",
@@ -1353,7 +1353,7 @@ export const productData = {
       id: 102,
       img: "/images/Surgicals/SterileLatexSurgicalGlovesPowderFree.jpg",
       n: "Sterile Latex surgical Gloves Powder-free",
-      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
+      s: ["6.0 / 6.5 / 7.0 / 7.5 / 8.0 / 8.5"],
     },
     {
       c: "Surgical",
@@ -1363,7 +1363,7 @@ export const productData = {
       id: 103,
       img: "/images/Surgicals/NonSterileSurgicalGlovesPowdered.jpg",
       n: "Non- Sterile surgical Gloves Powdered",
-      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
+      s: ["6.0 / 6.5 / 7.0 / 7.5 / 8.0 / 8.5"],
     },
     {
       c: "Surgical",
@@ -1373,7 +1373,7 @@ export const productData = {
       id: 104,
       img: "/images/Surgicals/Nonsterilesurgicalglovespowderfree.jpg",
       n: "Non- Sterile surgical Gloves Powder Free",
-      s: ["6.0,6.5,7.0,7.5,8.0,8.5"],
+      s: ["6.0 / 6.5 / 7.0 / 7.5 / 8.0 / 8.5"],
     },
     {
       c: "Surgical",
@@ -1383,7 +1383,7 @@ export const productData = {
       id: 105,
       img: "/images/Surgicals/ExaminationGlovesPowdered.jpeg",
       n: "Examination Gloves Powdered",
-      s: ["Small, Medium, Large"],
+      s: ["Small / Medium / Large"],
     },
     {
       c: "Surgical",
@@ -1393,7 +1393,7 @@ export const productData = {
       id: 106,
       img: "/images/Surgicals/ExaminationGlovesPowderFree.jpg",
       n: "Examination Gloves Powder Free",
-      s: ["Small, Medium, Large"],
+      s: ["Small / Medium / Large"],
     },
     {
       c: "Surgical",
@@ -1403,7 +1403,7 @@ export const productData = {
       id: 107,
       img: "/images/Surgicals/NitrileGloves.jpg",
       n: "Nitrile Gloves",
-      s: ["Small, Medium, Large"],
+      s: ["Small / Medium / Large"],
     },
    
     {

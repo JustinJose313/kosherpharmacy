@@ -115,7 +115,6 @@ const CartPage = () => {
                         ? "focus:border-red-500"
                         : "focus:border-brand-100"
                     } bg-gray-100 pl-10 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white`}
-                    placeholder="eg: John Doe"
                   />
                 </div>
                 {errors.name && (
@@ -152,7 +151,6 @@ const CartPage = () => {
                         ? "focus:border-red-500"
                         : "focus:border-brand-100"
                     } bg-gray-100 pl-10 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white`}
-                    placeholder="eg: user@user.com"
                   />
                 </div>
                 {errors.email && (
@@ -193,7 +191,6 @@ const CartPage = () => {
                         ? "focus:border-red-500"
                         : "focus:border-brand-100"
                     } bg-gray-100 pl-10 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white`}
-                    placeholder="eg: 0091 9987 9939 51"
                   />
                 </div>
                 {errors.phone && (
