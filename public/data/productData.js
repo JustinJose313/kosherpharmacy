@@ -965,7 +965,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 72,
-      img: "/images/Steroid-Hormones/testiolin.jpg",
+      img: "/images/Steroid-Hormones/testiolin.JPG",
       n: "Testeolin (Testosterone Propionate injection)",
       pid: "CAS NO:58-22-0",
       d: [
@@ -1006,7 +1006,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 75,
-      img: "/images/Steroid-Hormones/trenace100.jpg",
+      img: "/images/Steroid-Hormones/trenace100.JPG",
       n: "Trenace 100 (Trenbolone Acetate Injection)",
       pid: "CAS NO:10161-34-9",
       d: [
@@ -1019,7 +1019,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 76,
-      img: "/images/Steroid-Hormones/boldinex250.jpg",
+      img: "/images/Steroid-Hormones/boldinex250.JPG",
       n: "Boldinex 250 (Boldenone Undecylenate Injection/Vial)",
       pid: "CAS NO: 846-48-0",
       d: [
@@ -1048,7 +1048,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 78,
-      img: "/images/Steroid-Hormones/drostronate100.jpg",
+      img: "/images/Steroid-Hormones/drostronate100.JPG",
       n: "Drostronate 100 (Drostanolone Propionate 100 mg/ml)",
       d: [
         "Drostronate 100 is a derivative of dihydrotestosterone.",
@@ -1126,7 +1126,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 84,
-      img: "/images/Steroid-Hormones/methenolone.jpg",
+      img: "/images/Steroid-Hormones/methenolone.JPG",
       n: "Methenolone Enanthate",
       pid: "CAS NO: 303-42-4",
       d: [
