@@ -1006,7 +1006,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 75,
-      img: "/images/Steroid-Hormones/trenace100.JPG",
+      img: "/images/Steroid-Hormones/trenace100.jpg",
       n: "Trenace 100 (Trenbolone Acetate Injection)",
       pid: "CAS NO:10161-34-9",
       d: [
@@ -1126,7 +1126,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 84,
-      img: "/images/Steroid-Hormones/methenolone.JPG",
+      img: "/images/Steroid-Hormones/methenolone.jpg",
       n: "Methenolone Enanthate",
       pid: "CAS NO: 303-42-4",
       d: [
