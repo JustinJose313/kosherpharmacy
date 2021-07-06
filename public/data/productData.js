@@ -1006,7 +1006,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 75,
-      img: "/images/Steroid-Hormones/trenace100.jpg",
+      img: "/images/Steroid-Hormones/Trenace100.jpg",
       n: "Trenace 100 (Trenbolone Acetate Injection)",
       pid: "CAS NO:10161-34-9",
       d: [
