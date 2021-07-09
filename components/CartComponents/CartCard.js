@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useCart } from "react-use-cart";
-import Image from "next/image";
 
 const CartCard = ({ data = {}, setVariation, variation }) => {
   const { updateItemQuantity, removeItem } = useCart();
@@ -9,7 +8,7 @@ const CartCard = ({ data = {}, setVariation, variation }) => {
     <div className="p-4 bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full">
       <div className="flex w-full flex-col md:flex-row md:items-center lg:justify-between">
         <div className="flex flex-1">
-          <Image
+          <img
             className="w-16 h-16 lg:w-28 lg:h-28 mr-4"
             width="100"
             height="100"
