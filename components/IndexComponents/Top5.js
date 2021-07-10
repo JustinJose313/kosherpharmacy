@@ -5,12 +5,9 @@ const Top5 = ({ group, setGroup, category, setCategory }) => {
   return (
     <section>
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
-        <h2 className="lg:text-center font-bold text-3xl sm:text-4xl">
-          Our Top 5 Categories 
+        <h2 className="lg:text-center font-bold text-3xl sm:text-4xl mt-4 mb-6">
+          Our Top 5 Categories
         </h2>
-        <p className="lg:text-center text-gray-500 mt-2 mb-6">
-          Check our featured categories.
-        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <Link href="#categoryContainer">
             <div
