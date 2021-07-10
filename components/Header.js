@@ -8,20 +8,6 @@ import { useCart } from "react-use-cart";
 const Header = () => {
   const router = useRouter();
   const { totalUniqueItems } = useCart();
-  const data = [
-    {
-      h: "FAQ",
-      url: "/faq",
-    },
-    {
-      h: "About us",
-      url: "/about",
-    },
-    {
-      h: "Terms & Conditions",
-      url: "/term-condition",
-    },
-  ];
   const [menu, setMenu] = useState(false);
   let domNode = useClickOutside(() => {
     setMenu(false);
@@ -31,15 +17,15 @@ const Header = () => {
       <div className="sticky top-0 z-40">
         <div className="">
           <div className="">
-            <div className="bg-brand-100">
+            <div className="bg-white border-t border-b border-brand-100">
               <div className="max-w-7xl mx-auto flex justify-between">
                 <button
                   onClick={() => setMenu((prev) => !prev)}
-                  className="focus:outline-none hover:bg-brand-200 p-4 transition block md:hidden cursor-pointer"
+                  className="focus:outline-none group hover:bg-brand-200 p-4 transition block md:hidden cursor-pointer"
                 >
                   {menu ? (
                     <svg
-                      className="h-4 w-4 text-white"
+                      className="h-4 w-4 text-brand-200 group-hover:text-white"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                       width="24"
@@ -53,7 +39,7 @@ const Header = () => {
                     </svg>
                   ) : (
                     <svg
-                      className="h-4 w-4 text-white"
+                      className="h-4 w-4 text-brand-200 group-hover:text-white"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                       width="24"
@@ -69,7 +55,7 @@ const Header = () => {
                 </button>
                 <div className="hidden md:flex">
                   <Link href={router.pathname !== "/" ? "/" : "#categories"}>
-                    <a className="flex items-center hover:animate-pulse justify-center font-semibold px-6 py-2 bg-brand-200 transition text-white">
+                    <a className="flex items-center justify-center font-semibold px-6 py-2 transition text-brand-200  hover:bg-brand-200 hover:text-white">
                       <svg
                         className="mr-2 h-4 w-4"
                         xmlns="http://www.w3.org/2000/svg"
@@ -86,22 +72,10 @@ const Header = () => {
                       Browse Categories
                     </a>
                   </Link>
-                  {data.map((each, i) => {
-                    return (
-                      <Link href={each.url} key={i}>
-                        <a
-                          className="flex items-center font-semibold px-6 py-2 hover:bg-brand-200 transition text-white"
-                          href=""
-                        >
-                          {each.h}
-                        </a>
-                      </Link>
-                    );
-                  })}
                 </div>
                 <div>
                   <Link href="/cart">
-                    <div className="bg-white mr-2 rounded-full relative p-4 flex items-center justify-center cursor-pointer">
+                    <div className="bg-white border border-brand-100 hover:shadow-lg transition mr-2 rounded-full relative p-4 flex items-center justify-center cursor-pointer">
                       <svg
                         className="w-6 h-6 text-brand-200"
                         fill="none"
@@ -116,7 +90,7 @@ const Header = () => {
                           d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
                         ></path>
                       </svg>
-                      <span className="text-white font-bold absolute top-0 w-5 h-5 rounded-full flex items-center justify-center p-1 right-0 bg-brand-200 text-xs">
+                      <span className="text-white font-bold absolute top-1 w-5 h-5 rounded-full flex items-center justify-center p-1 right-0 bg-brand-200 text-xs">
                         {totalUniqueItems}
                       </span>
                     </div>
