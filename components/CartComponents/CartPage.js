@@ -74,7 +74,7 @@ const CartPage = () => {
           ) : (
             <div className="space-y-4 lg:col-span-8">
               <Link href="/#categories">
-                <div className="flex cursor-pointer transition group items-center font-bold hover:text-brand-100 transition">
+                <div className="flex cursor-pointer group items-center font-bold hover:text-brand-100 transition">
                   <svg
                     className="mr-3"
                     xmlns="http://www.w3.org/2000/svg"
