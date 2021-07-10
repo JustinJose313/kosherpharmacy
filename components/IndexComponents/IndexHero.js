@@ -92,7 +92,7 @@ const IndexHero = () => {
               >
                 <img
                   className="absolute top-0 left-0 w-full h-full object-cover"
-                  src="/assets/slider/authentic.jpg"
+                  src="/assets/slider/authentic.png"
                   alt="Authentic pharmaceutical products"
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
