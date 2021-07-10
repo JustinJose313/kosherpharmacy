@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 export default async (req, res) => {
-  const { name, email, phone, items } = req.body;
+  const { name, email, phone, message, items } = req.body;
 
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
@@ -36,9 +36,10 @@ export default async (req, res) => {
       <div style="margin-bottom:10px">
       <p>Name: ${name}</p>
       <p>Email: ${email}</p>
-      <p>Phone ${phone}</p>
+      <p>Phone: ${phone}</p>
       </div>
-      ${content}</div>`,
+      ${content}</div>
+      <p>Message: ${message}</p>`,
     });
     console.log("Message Sent", emailSend.messageId);
   } catch (error) {

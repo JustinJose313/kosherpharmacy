@@ -14,6 +14,10 @@ const Header = () => {
       url: "/faq",
     },
     {
+      h: "About us",
+      url: "/about",
+    },
+    {
       h: "Terms & Conditions",
       url: "/term-condition",
     },
@@ -154,11 +158,11 @@ const Header = () => {
                   </button>
                 </div>
 
-                <div className="flex-1 flex flex-col items-end justify-center">
+                <div className="flex-1 flex flex-col items-end justify-center space-y-4">
                   <Link href="/">
                     <span
                       onClick={() => setMenu(false)}
-                      className="text-7xl hover:text-brand-100 focus:underline transition font-bold"
+                      className="text-5xl hover:text-brand-100 focus:underline transition font-bold"
                     >
                       Home
                     </span>
@@ -166,17 +170,25 @@ const Header = () => {
                   <Link href="/faq">
                     <span
                       onClick={() => setMenu(false)}
-                      className="text-7xl text-right hover:text-brand-100 focus:underline transition font-bold"
+                      className="text-5xl text-right hover:text-brand-100 focus:underline transition font-bold"
                     >
                       FAQ's
+                    </span>
+                  </Link>
+                  <Link href="/about">
+                    <span
+                      onClick={() => setMenu(false)}
+                      className="text-5xl text-right hover:text-brand-100 focus:underline transition font-bold"
+                    >
+                      About Us
                     </span>
                   </Link>
                   <Link href="/term-condition">
                     <span
                       onClick={() => setMenu(false)}
-                      className="text-7xl hover:text-brand-100 focus:underline transition font-bold"
+                      className="text-5xl hover:text-brand-100 focus:underline transition font-bold"
                     >
-                      Terms
+                      Our Terms
                     </span>
                   </Link>
                 </div>

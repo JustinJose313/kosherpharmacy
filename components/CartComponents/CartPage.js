@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 import { useCart } from "react-use-cart";
 import CartCard from "./CartCard";
 import { useForm } from "react-hook-form";
@@ -27,7 +28,8 @@ const CartPage = () => {
   const validationSchema = Yup.object().shape({
     name: Yup.string().min(3).max(50).required("Your Name is required"),
     email: Yup.string().email("Invalid Email").required("Email is required"),
-    email: Yup.string().required("Phone number is required"),
+    phone: Yup.string().required("Phone number is required"),
+    message: Yup.string().max(150),
   });
   const {
     handleSubmit,
@@ -35,7 +37,7 @@ const CartPage = () => {
     formState: { errors },
   } = useForm({
     resolver: yupResolver(validationSchema),
-    mode: "onBlur",
+    mode: "onChange",
   });
 
   const notify = () => toast("Cart sent for enquiry!");
@@ -71,6 +73,24 @@ const CartPage = () => {
             </div>
           ) : (
             <div className="space-y-4 lg:col-span-8">
+              <Link href="/#categories">
+                <div className="flex cursor-pointer transition group items-center font-bold hover:text-brand-100 transition">
+                  <svg
+                    className="mr-3"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  See more products
+                </div>
+              </Link>
               {items.map((each, i) => {
                 return (
                   <CartCard
@@ -195,6 +215,28 @@ const CartPage = () => {
                 </div>
                 {errors.phone && (
                   <p className="text-red-500">{errors.phone?.message}</p>
+                )}
+              </div>
+              <div className="flex flex-col space-y-2 mt-6">
+                <label className="text-sm" htmlFor="message">
+                  Your Message
+                </label>
+                <div className="mt-1 relative rounded-md shadow-sm">
+                  <textarea
+                    type="text"
+                    {...register("message")}
+                    name="message"
+                    id="message"
+                    rows="3"
+                    className={`${
+                      errors.message
+                        ? "focus:border-red-500"
+                        : "focus:border-brand-100"
+                    } bg-gray-100 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white`}
+                  />
+                </div>
+                {errors.message && (
+                  <p className="text-red-500">{errors.message?.message}</p>
                 )}
               </div>
 

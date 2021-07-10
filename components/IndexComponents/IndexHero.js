@@ -48,7 +48,7 @@ const IndexHero = () => {
                   alt="pure pharmaceutical products"
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                  <h1 className="font-fancy uppercase tracking-widest text-brand-400 text-4xl md:text-6xl lg:text-9xl font-semibold">
+                  <h1 className="font-fancy uppercase tracking-widest text-brand-400 text-4xl md:text-6xl lg:text-large font-semibold">
                     PURE
                   </h1>
                 </div>
@@ -72,7 +72,7 @@ const IndexHero = () => {
                   alt="Genuine pharmaceutical products"
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                  <h1 className="font-fancy softTextShadow uppercase text-yellow-400 text-4xl md:text-6xl lg:text-9xl font-semibold">
+                  <h1 className="font-fancy softTextShadow uppercase text-yellow-400 text-4xl md:text-6xl lg:text-large font-semibold">
                     genuine
                   </h1>
                 </div>
@@ -105,7 +105,7 @@ const IndexHero = () => {
           </AnimatePresence>
         </div>
 
-        <div className="flex absolute bottom-10 right-10 z-10 ">
+        {/* <div className="flex absolute bottom-10 right-10 z-10 ">
           <button
             onClick={prevSlide}
             className="focus:outline-none mr-4 p-4 bg-black rounded-full text-white select-none cursor-pointer hover:bg-brand-100 transition"
@@ -141,6 +141,7 @@ const IndexHero = () => {
             </svg>
           </button>
         </div>
+     */}
       </div>
     </section>
   );

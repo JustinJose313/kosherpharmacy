@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const Footer = () => {
-  const contactInfo = ["022 - 28907869", "+91 - 9769768968"];
+  const contactInfo = ["+91 - 9769768968", "022 - 28907869"];
   const links = [
     {
       h: "Home",
@@ -13,6 +13,10 @@ const Footer = () => {
       url: "/faq",
     },
     {
+      h: "About us",
+      url: "/about",
+    },
+    {
       h: "Terms & Conditions",
       url: "/term-condition",
     },
@@ -21,12 +25,10 @@ const Footer = () => {
     <footer>
       <div className="bg-white border-t border-brand-100">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-6 lg:gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-6 lg:gap-6">
             <div>
               <img className="h-24" src="/logo.svg" alt="" />
-              <p className="text-gray-800 mt-2">
-                We believe in PURE - GENUINE - AUTHENTIC Products
-              </p>
+              <p className="text-gray-800 mt-2">PURE ∙ GENUINE ∙ AUTHENTIC</p>
               <div className="flex items-center space-x-4 mt-2 text-gray-700">
                 <a
                   href="skype:kosherpharmaceuticals?call"
@@ -59,8 +61,8 @@ const Footer = () => {
                   >
                     <path fill="none" d="M0 0h24v24H0z" />
                     <path
-                      d="M14 19h5V5H5v14h7v-5h-2v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 13.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H16c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5zM4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"
-                      fill="currentCOlor"
+                      d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"
+                      fill="currentColor"
                     />
                   </svg>
                 </a>
@@ -77,7 +79,7 @@ const Footer = () => {
                   >
                     <path fill="none" d="M0 0h24v24H0z" />
                     <path
-                      d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h14V5H5zm2.5 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-1 1h2v7.5h-2V10zm5.5.43c.584-.565 1.266-.93 2-.93 2.071 0 3.5 1.679 3.5 3.75v4.25h-2v-4.25a1.75 1.75 0 0 0-3.5 0v4.25h-2V10h2v.43z"
+                      d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"
                       fill="currentColor"
                     />
                   </svg>
@@ -89,19 +91,36 @@ const Footer = () => {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
+                    className="h-6 w-6"
+                    fill="none"
                     viewBox="0 0 24 24"
-                    width="24"
-                    height="24"
+                    stroke="currentColor"
                   >
-                    <path fill="none" d="M0 0h24v24H0z" />
                     <path
-                      d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z"
-                      fill="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"
                     />
                   </svg>
                 </a>
               </div>
             </div>
+            <div className="flex flex-col">
+              <h5 className="font-bold mb-2 md:mb-4 text-gray-900">
+                Useful links
+              </h5>
+              {links.map((each, i) => {
+                return (
+                  <Link key={i} href={each.url}>
+                    <p className="text-gray-700 py-1 cursor-pointer hover:text-gray-900 hover:underline">
+                      {each.h}
+                    </p>
+                  </Link>
+                );
+              })}
+            </div>
+
             <div className="flex flex-col">
               <h5 className="font-bold mb-2 md:mb-4 text-gray-900">Contact</h5>
               {contactInfo.map((each, i) => {
@@ -124,43 +143,26 @@ const Footer = () => {
                   </div>
                 );
               })}
-            </div>
-            <div className="flex flex-col">
-              <h5 className="font-bold mb-2 md:mb-4 text-gray-900">
-                Useful links
-              </h5>
-              {links.map((each, i) => {
-                return (
-                  <Link key={i} href={each.url}>
-                    <p className="text-gray-700 py-1 cursor-pointer hover:text-gray-900 hover:underline">
-                      {each.h}
-                    </p>
-                  </Link>
-                );
-              })}
-            </div>
-            <div className="flex flex-col">
-              <h5 className="font-bold mb-2 md:mb-4 text-gray-900">Address</h5>
-              <p className="text-gray-700">
-                Kosher Pharmaceuticals G-6, Thomas Compound, Holy Cross Road, I.
-                C. Colony, Borivali West Mumbai 400103
-              </p>
-              <div className="my-4">
+              <div className="my-2">
                 <div className="flex items-center">
-                  <p className="text-sm text-gray-700 flex-1">
+                  <p className="text-gray-700 flex-1">
                     info@kosherpharmaceuticals.com
                   </p>
                 </div>
                 <div className="flex items-center">
-                  <p className="text-sm text-gray-700">
+                  <p className="text-gray-700">
                     kosherpharmaceuticals@gmail.com
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <p className="pt-4 text-center text-gray-500">
+          <p className="pt-6 text-sm text-center text-gray-400">
             Kosher Pharmaceuticals © {new Date().getFullYear()}
+          </p>
+          <p className="pt-2 text-sm text-center text-gray-400">
+            Kosher Pharmaceuticals G-6, Thomas Compound, Holy Cross Road, I. C.
+            Colony, Borivali West Mumbai 400103
           </p>
         </div>
       </div>
