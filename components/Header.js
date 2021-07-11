@@ -17,7 +17,7 @@ const Header = () => {
       <div className="sticky top-0 z-40">
         <div className="">
           <div className="">
-            <div className="bg-white border-t border-b border-brand-100">
+            <div className="bg-white">
               <div className="max-w-7xl mx-auto flex justify-between">
                 <button
                   onClick={() => setMenu((prev) => !prev)}
