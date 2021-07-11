@@ -12,16 +12,10 @@ const TermCondition = () => {
             className="rounded-t-lg text-white py-12 px-4 md:px-8"
           >
             <h1 className="text-3xl font-bold">Terms & Conditions</h1>
-            <div className="flex">
-              <p className="font-medium text-gray-200">
-                Effective date:{" "}
-                <span>5th of July, 2021</span>{" "}
-              </p>
-            </div>
           </div>
           <div className="px-4 md:px-8 py-4 text-sm md:text-base">
             {/* Page content */}
-            <div>
+            <div className='text-justify'>
               {/* <h2 className="text-3xl font-bold my-4">Terms & Conditions</h2> */}
               <p className="mt-2">
                 We reserve the right to change these Terms of Service at any
