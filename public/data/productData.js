@@ -2,6 +2,7 @@ export const productData = {
   pharmacy: [
     {
       c: "Antacids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       //Ashutosh please enter id to all objects starting from 1
@@ -15,6 +16,7 @@ export const productData = {
     },
     {
       c: "Antacids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 2,
@@ -30,6 +32,7 @@ export const productData = {
     },
     {
       c: "Antacids",
+      label: "pharmacy",
       quantity: 1,
       id: 3,
       price: 100,
@@ -44,6 +47,7 @@ export const productData = {
     },
     {
       c: "Antacids",
+      label: "pharmacy",
       quantity: 1,
       id: 4,
       price: 100,
@@ -58,6 +62,7 @@ export const productData = {
     },
     {
       c: "Antacids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 5,
@@ -71,6 +76,7 @@ export const productData = {
     },
     {
       c: "Antacids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 6,
@@ -84,6 +90,7 @@ export const productData = {
     },
     {
       c: "Anthelmintics",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 7,
@@ -96,6 +103,7 @@ export const productData = {
     },
     {
       c: "Anthelmintics",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 8,
@@ -108,6 +116,7 @@ export const productData = {
     },
     {
       c: "Antibacterial Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 9,
@@ -120,6 +129,7 @@ export const productData = {
     },
     {
       c: "Antibacterial Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 10,
@@ -134,6 +144,7 @@ export const productData = {
     },
     {
       c: "Antibiotic Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 11,
@@ -147,6 +158,7 @@ export const productData = {
     },
     {
       c: "Antibiotic Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 12,
@@ -159,6 +171,7 @@ export const productData = {
     },
     {
       c: "Antibiotic Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 13,
@@ -171,6 +184,7 @@ export const productData = {
     },
     {
       c: "Antibiotic Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 14,
@@ -183,6 +197,7 @@ export const productData = {
     },
     {
       c: "Antibiotic Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 15,
@@ -196,6 +211,7 @@ export const productData = {
     },
     {
       c: "Antibiotic Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 16,
@@ -216,6 +232,7 @@ export const productData = {
     },
     {
       c: "Antibiotic Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 17,
@@ -228,6 +245,7 @@ export const productData = {
     },
     {
       c: "Antibiotic Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 18,
@@ -240,6 +258,7 @@ export const productData = {
     },
     {
       c: "Antibiotic Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 19,
@@ -252,6 +271,7 @@ export const productData = {
     },
     {
       c: "Antibiotic Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 20,
@@ -265,6 +285,7 @@ export const productData = {
     },
     {
       c: "Antibiotic Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 21,
@@ -278,6 +299,7 @@ export const productData = {
     },
     {
       c: "Antibiotic Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 22,
@@ -304,6 +326,7 @@ export const productData = {
     },
     {
       c: "Antibiotic Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 23,
@@ -317,6 +340,7 @@ export const productData = {
     },
     {
       c: "Antibiotic Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 24,
@@ -341,6 +365,7 @@ export const productData = {
     },
     {
       c: "Antibiotic Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 25,
@@ -353,6 +378,7 @@ export const productData = {
     },
     {
       c: "Anticancer Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 26,
@@ -366,6 +392,7 @@ export const productData = {
     },
     {
       c: "Anticancer Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 27,
@@ -378,6 +405,7 @@ export const productData = {
     },
     {
       c: "Anticancer Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 28,
@@ -390,6 +418,7 @@ export const productData = {
     },
     {
       c: "Anticancer Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 29,
@@ -403,6 +432,7 @@ export const productData = {
     },
     {
       c: "Anticancer Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 30,
@@ -416,6 +446,7 @@ export const productData = {
     },
     {
       c: "Anticancer Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 31,
@@ -430,6 +461,7 @@ export const productData = {
     },
     {
       c: "Anticancer Medicines",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 32,
@@ -443,6 +475,7 @@ export const productData = {
     },
     {
       c: "Antidiabetic Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 33,
@@ -456,6 +489,7 @@ export const productData = {
     },
     {
       c: "Antidiabetic Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 34,
@@ -468,6 +502,7 @@ export const productData = {
     },
     {
       c: "Antidiabetic Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 35,
@@ -480,6 +515,7 @@ export const productData = {
     },
     {
       c: "Antidiabetic Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 36,
@@ -492,6 +528,7 @@ export const productData = {
     },
     {
       c: "Antidiabetic Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 37,
@@ -505,6 +542,7 @@ export const productData = {
     },
     {
       c: "Antidiabetic Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 38,
@@ -518,6 +556,7 @@ export const productData = {
     },
     {
       c: "Antimalarial Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 39,
@@ -530,6 +569,7 @@ export const productData = {
     },
     {
       c: "Antimalarial Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 40,
@@ -543,6 +583,7 @@ export const productData = {
     },
     {
       c: "Antimalarial Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 41,
@@ -556,6 +597,7 @@ export const productData = {
     },
     {
       c: "Antiobesity Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 42,
@@ -569,6 +611,7 @@ export const productData = {
     },
     {
       c: "Cardiovascular Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 42,
@@ -581,6 +624,7 @@ export const productData = {
     },
     {
       c: "Cardiovascular Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 43,
@@ -593,6 +637,7 @@ export const productData = {
     },
     {
       c: "Cardiovascular Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 44,
@@ -607,6 +652,7 @@ export const productData = {
     },
     {
       c: "Cardiovascular Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 45,
@@ -620,6 +666,7 @@ export const productData = {
     },
     {
       c: "Cardiovascular Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 46,
@@ -632,6 +679,7 @@ export const productData = {
     },
     {
       c: "Cardiovascular Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 47,
@@ -646,6 +694,7 @@ export const productData = {
     },
     {
       c: "Cardiovascular Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 48,
@@ -660,6 +709,7 @@ export const productData = {
     },
     {
       c: "Endocrine Disorder Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 49,
@@ -673,6 +723,7 @@ export const productData = {
     },
     {
       c: "Endocrine Disorder Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 50,
@@ -686,6 +737,7 @@ export const productData = {
     },
     {
       c: "Endocrine Disorder Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 51,
@@ -699,6 +751,7 @@ export const productData = {
     },
     {
       c: "Gynaecological Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 52,
@@ -712,6 +765,7 @@ export const productData = {
     },
     {
       c: "Gynaecological Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 53,
@@ -734,6 +788,7 @@ export const productData = {
     },
     {
       c: "Gynaecological Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 54,
@@ -746,6 +801,7 @@ export const productData = {
     },
     {
       c: "Gynaecological Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 81,
@@ -758,6 +814,7 @@ export const productData = {
     },
     {
       c: "Gynaecological Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 55,
@@ -770,6 +827,7 @@ export const productData = {
     },
     {
       c: "Gynaecological Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 56,
@@ -782,6 +840,7 @@ export const productData = {
     },
     {
       c: "Gynaecological Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 57,
@@ -795,6 +854,7 @@ export const productData = {
     },
     {
       c: "Mens Health",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 58,
@@ -807,6 +867,7 @@ export const productData = {
     },
     {
       c: "Mens Health",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 59,
@@ -818,6 +879,7 @@ export const productData = {
     },
     {
       c: "Mens Health",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 60,
@@ -830,6 +892,7 @@ export const productData = {
     },
     {
       c: "Mens Health",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 61,
@@ -842,6 +905,7 @@ export const productData = {
     },
     {
       c: "Mens Health",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 62,
@@ -854,6 +918,7 @@ export const productData = {
     },
     {
       c: "Mens Health",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 63,
@@ -867,6 +932,7 @@ export const productData = {
     },
     {
       c: "Mens Health",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 64,
@@ -878,6 +944,7 @@ export const productData = {
     },
     {
       c: "Mens Health",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 65,
@@ -890,6 +957,7 @@ export const productData = {
     },
     {
       c: "Mens Health",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 66,
@@ -902,6 +970,7 @@ export const productData = {
     },
     {
       c: "Mens Health",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 67,
@@ -914,6 +983,7 @@ export const productData = {
     },
     {
       c: "Mens Health",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 68,
@@ -925,6 +995,7 @@ export const productData = {
     },
     {
       c: "Mens Health",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 69,
@@ -938,6 +1009,7 @@ export const productData = {
     },
     {
       c: "Mens Health",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 70,
@@ -949,6 +1021,7 @@ export const productData = {
     },
     {
       c: "Mens Health",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 71,
@@ -962,6 +1035,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 72,
@@ -976,6 +1050,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 73,
@@ -990,6 +1065,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 74,
@@ -1003,6 +1079,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 75,
@@ -1016,6 +1093,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 76,
@@ -1029,6 +1107,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 77,
@@ -1045,6 +1124,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 78,
@@ -1063,6 +1143,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 79,
@@ -1077,6 +1158,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 80,
@@ -1098,6 +1180,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 82,
@@ -1112,6 +1195,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 83,
@@ -1124,6 +1208,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 84,
@@ -1137,6 +1222,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 85,
@@ -1150,6 +1236,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 86,
@@ -1162,6 +1249,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 87,
@@ -1175,6 +1263,7 @@ export const productData = {
     },
     {
       c: "Steroids",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 88,
@@ -1188,6 +1277,7 @@ export const productData = {
     },
     {
       c: "Thyroid Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 89,
@@ -1202,6 +1292,7 @@ export const productData = {
     },
     {
       c: "Thyroid Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 90,
@@ -1213,9 +1304,10 @@ export const productData = {
         "These steroidal tablets can be used alone or with other medicines and is effective in the treatment of goitre.",
       ],
     },
-   
+
     {
       c: "Antiviral Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 91,
@@ -1230,6 +1322,7 @@ export const productData = {
     },
     {
       c: "Antiviral Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 92,
@@ -1243,6 +1336,7 @@ export const productData = {
     },
     {
       c: "Antiviral Drugs",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 93,
@@ -1256,6 +1350,7 @@ export const productData = {
 
     {
       c: "Analgesics",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 94,
@@ -1269,6 +1364,7 @@ export const productData = {
     },
     {
       c: "Others",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 95,
@@ -1281,6 +1377,7 @@ export const productData = {
     },
     {
       c: "Others",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 96,
@@ -1290,6 +1387,7 @@ export const productData = {
     },
     {
       c: "Others",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 97,
@@ -1301,6 +1399,7 @@ export const productData = {
     },
     {
       c: "Herbal & Ayurvedic Products",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 98,
@@ -1312,6 +1411,7 @@ export const productData = {
     },
     {
       c: "Herbal & Ayurvedic Products",
+      label: "pharmacy",
       quantity: 1,
       price: 100,
       id: 99,
@@ -1325,19 +1425,19 @@ export const productData = {
   surgical: [
     {
       c: "Surgical",
+      label: "surgical",
       quantity: 1,
       price: 100,
       //Ashutosh please enter id to all objects starting from 1
       id: 100,
       img: "/images/Surgicals/Face-Mask-3-Ply.jpg",
-      n: "Face Mask", 
+      n: "Face Mask",
       s: ["2 Ply / 3 Ply Tie"],
     },
-  
-    
-  
+
     {
       c: "Surgical",
+      label: "surgical",
       quantity: 1,
       price: 100,
       //Ashutosh please enter id to all objects starting from 1
@@ -1348,6 +1448,7 @@ export const productData = {
     },
     {
       c: "Surgical",
+      label: "surgical",
       quantity: 1,
       price: 100,
       //Ashutosh please enter id to all objects starting from 1
@@ -1358,6 +1459,7 @@ export const productData = {
     },
     {
       c: "Surgical",
+      label: "surgical",
       quantity: 1,
       price: 100,
       //Ashutosh please enter id to all objects starting from 1
@@ -1368,6 +1470,7 @@ export const productData = {
     },
     {
       c: "Surgical",
+      label: "surgical",
       quantity: 1,
       price: 100,
       //Ashutosh please enter id to all objects starting from 1
@@ -1378,6 +1481,7 @@ export const productData = {
     },
     {
       c: "Surgical",
+      label: "surgical",
       quantity: 1,
       price: 100,
       //Ashutosh please enter id to all objects starting from 1
@@ -1388,6 +1492,7 @@ export const productData = {
     },
     {
       c: "Surgical",
+      label: "surgical",
       quantity: 1,
       price: 100,
       //Ashutosh please enter id to all objects starting from 1
@@ -1398,6 +1503,7 @@ export const productData = {
     },
     {
       c: "Surgical",
+      label: "surgical",
       quantity: 1,
       price: 100,
       //Ashutosh please enter id to all objects starting from 1
@@ -1406,9 +1512,10 @@ export const productData = {
       n: "Nitrile Gloves",
       s: ["Small / Medium / Large"],
     },
-   
+
     {
       c: "Surgical",
+      label: "surgical",
       quantity: 1,
       price: 100,
       //Ashutosh please enter id to all objects starting from 1
@@ -1416,10 +1523,10 @@ export const productData = {
       img: "/images/Surgicals/Caesarean-Kit.JPG",
       n: "Caesarean Kit",
     },
-  
-   
+
     {
       c: "Surgical",
+      label: "surgical",
       quantity: 1,
       price: 100,
       //Ashutosh please enter id to all objects starting from 1
@@ -1430,6 +1537,7 @@ export const productData = {
     },
     {
       c: "Surgical",
+      label: "surgical",
       quantity: 1,
       price: 100,
       //Ashutosh please enter id to all objects starting from 1
@@ -1440,6 +1548,7 @@ export const productData = {
     },
     {
       c: "Surgical",
+      label: "surgical",
       quantity: 1,
       price: 100,
       //Ashutosh please enter id to all objects starting from 1
@@ -1448,11 +1557,11 @@ export const productData = {
       n: "Orthopedic Kit ",
       s: [""],
     },
-    
   ],
   veterinary: [
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 112,
@@ -1465,6 +1574,7 @@ export const productData = {
     },
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 113,
@@ -1477,6 +1587,7 @@ export const productData = {
     },
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 114,
@@ -1489,6 +1600,7 @@ export const productData = {
     },
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 115,
@@ -1501,6 +1613,7 @@ export const productData = {
     },
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 116,
@@ -1519,6 +1632,7 @@ export const productData = {
     },
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 117,
@@ -1530,6 +1644,7 @@ export const productData = {
     },
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 118,
@@ -1542,6 +1657,7 @@ export const productData = {
     },
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 119,
@@ -1553,6 +1669,7 @@ export const productData = {
     },
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 120,
@@ -1566,130 +1683,119 @@ export const productData = {
 
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 121,
       img: "/images/Veterinary-Drugs/AmoxycillinInjection.jpg",
       n: "Amoxycillin Injection",
       pid: "",
-      d: [
-        "",
-      ],
+      d: [""],
     },
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 122,
       img: "/images/Veterinary-Drugs/CalciumLiquidFeedSupplement.png",
       n: "Calcium Liquid Feed Supplement",
       pid: "",
-      d: [
-        "",
-      ],
+      d: [""],
     },
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 123,
       img: "/images/Veterinary-Drugs/CeftriaxoneInjection.png",
       n: "Ceftriaxone Injection",
       pid: "",
-      d: [
-        "",
-      ],
+      d: [""],
     },
 
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 124,
       img: "/images/Veterinary-Drugs/LiverTonic.jpg",
       n: "Liver Tonic",
       pid: "",
-      d: [
-        "",
-      ],
+      d: [""],
     },
 
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 125,
       img: "/images/Veterinary-Drugs/Cyprohiptadine25mgCobaltChloride100mg.jpg",
       n: "Cyprohiptadine 25mg CobaltChloride 100mg",
       pid: "",
-      d: [
-        "",
-      ],
+      d: [""],
     },
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 126,
       img: "/images/Veterinary-Drugs/NimesulideandParacetamolTablets.jpg",
       n: "Nimesulide and Paracetamol Tablets",
       pid: "",
-      d: [
-        "",
-      ],
+      d: [""],
     },
 
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 127,
       img: "/images/Veterinary-Drugs/NorfloxacinandTinidazoleTablets.jpg",
       n: "Norfloxacin and Tinidazole Tablets",
       pid: "",
-      d: [
-        "",
-      ],
+      d: [""],
     },
 
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 128,
       img: "/images/Veterinary-Drugs/OxyclozamideandLaevamisole.jpg",
       n: "Oxyclozamide and Laevamisole",
       pid: "",
-      d: [
-        "",
-      ],
+      d: [""],
     },
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 129,
       img: "/images/Veterinary-Drugs/OxyclozamideandLaevamisole.jpg",
       n: "Oxyclozamide and Laevamisole",
       pid: "",
-      d: [
-        "",
-      ],
+      d: [""],
     },
 
     {
       c: "Veterinary Drugs",
+      label: "veterinary",
       quantity: 1,
       price: 100,
       id: 130,
       img: "/images/Veterinary-Drugs/TylosinTartrate.jpg",
       n: "Tylosin Tartrate 20%",
       pid: "",
-      d: [
-        "",
-      ],
+      d: [""],
     },
-
   ],
 };
 
