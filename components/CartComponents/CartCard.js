@@ -8,17 +8,19 @@ const CartCard = ({ data = {}, setVariation, variation }) => {
     <div className="p-4 bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full">
       <div className="flex w-full flex-col md:flex-row md:items-center lg:justify-between">
         <div className="flex flex-1">
-          <img
-            className="w-16 h-16 lg:w-28 lg:h-28 mr-4"
-            width="100"
-            height="100"
-            src={
-              data.img
-                ? data.img
-                : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
-            }
-            alt={data.img ? data.img : "kosher product image"}
-          />
+          <div className="w-16 lg:w-28 mr-4">
+            <img
+              className="object-contain"
+              width="100"
+              height="100"
+              src={
+                data.img
+                  ? data.img
+                  : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
+              }
+              alt={data.img ? data.img : "kosher product image"}
+            />
+          </div>
           <div className="flex flex-col ">
             <p className="font-bold">{data.n}</p>
             <p className="text-sm font-medium text-brand-100">{data.c}</p>

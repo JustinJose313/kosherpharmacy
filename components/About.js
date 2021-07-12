@@ -116,6 +116,15 @@ export default function Example() {
               </span>
             </h1>
             <p className="mt-8 text-base md:text-xl leading-8 font-bold text-brand-100">
+              Our Mission
+            </p>
+            <p className="mt-4 text-base md:text-xl text-gray-500 leading-8">
+              To invest in innovative technology, research, and dedicated
+              individuals to be the best in the Pharma market, and provide a
+              range of good quality medicines at affordable rates, in India and
+              all over the world.
+            </p>
+            <p className="mt-8 text-base md:text-xl leading-8 font-bold text-brand-100">
               Global Network
             </p>
             <p className="mt-4 text-base md:text-xl text-gray-500 leading-8">
@@ -176,9 +185,7 @@ export default function Example() {
               Experience and Accreditations
             </p>
             <p className="mt-4 text-base md:text-xl text-gray-500 leading-8">
-              {" "}
-              <span className="font-bold">Kosher Pharmaceuticals</span> is an{" "}
-              <span className="font-bold">ISO 9001:2015 certified</span> company
+              Kosher Pharmaceuticals is an GMP, ISO 9001:2015 certified company
               in Mumbai, India offering high-end pharmaceutical products to
               clients worldwide.
             </p>
@@ -192,7 +199,8 @@ export default function Example() {
               With more than 12 years of experience specialising in contract
               manufacturing, we have prowess in a wide array of dosage forms
               like tablets, capsules, powder, sachets, ointments, injections,
-              and more.
+              and more. To sustain our wide range of products, we employ{" "}
+              <span className='font-bold'>large-scale manufacturing</span> factories with production capacities.
             </p>
             <p className="mt-4 text-base md:text-xl text-gray-500 leading-8">
               Our product list constitutes a diverse assortment to suit every
@@ -208,34 +216,6 @@ export default function Example() {
               All our products are tested to ensure high-quality standards
               adhering to various parameters such as purity, solubility,
               composition, effectiveness, concentration, and formulation.
-            </p>
-            <p className="mt-8 text-base md:text-xl leading-8 font-bold text-brand-100">
-              Product categories we primarily deal in include:
-            </p>
-            <p className="mt-4 text-base md:text-xl text-gray-500 leading-8">
-              Antibiotics, Anti-malarial, Analgesics, Anti-cancer,
-              Cardiovascular drugs, Antacids, Anti-diabetic drugs, and
-              supplements among others. We also supply Ayurvedic, Veterinary
-              drugs and Surgicals.
-            </p>
-            <p className="mt-4 text-base md:text-xl text-gray-500 leading-8">
-              We ensure that the pharmaceutical products that we supply are
-              strictly manufactured using 100% tested raw material.
-            </p>
-            <p className="mt-4 text-base md:text-xl text-gray-500 leading-8">
-              To sustain our wide range of products, we employ{" "}
-              <span className="font-bold">large-scale manufacturing</span>{" "}
-              factories with production capacities that extend up to 1 Million
-              tablets and 100,000 ampoules and vials per shift of 8 hours.
-            </p>
-            <p className="mt-8 text-base md:text-xl leading-8 font-bold text-brand-100">
-              Our Mission/Vision
-            </p>
-            <p className="mt-4 text-base md:text-xl text-gray-500 leading-8">
-              To invest in innovative technology, research, and dedicated
-              individuals to be the best in the Pharma market, and provide a
-              range of good quality medicines at affordable rates, in India and
-              all over the world.
             </p>
           </div>
         </div>
