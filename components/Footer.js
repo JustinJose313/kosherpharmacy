@@ -3,24 +3,6 @@ import Link from "next/link";
 
 const Footer = () => {
   const contactInfo = ["+91 - 9769768968", "022 - 28907869"];
-  const links = [
-    {
-      h: "Home",
-      url: "/",
-    },
-    {
-      h: "FAQ",
-      url: "/faq",
-    },
-    {
-      h: "About us",
-      url: "/about",
-    },
-    {
-      h: "Terms & Conditions",
-      url: "/term-condition",
-    },
-  ];
   return (
     <footer>
       <div className="bg-white border-t border-brand-100">
@@ -111,17 +93,21 @@ const Footer = () => {
               </p>
             </div>
             <div className="md:col-span-3 text-sm">
-              <div className='flex space-x-3'>
+              <div className='flex space-x-3 flex-wrap'>
                 <Link href="/term-condition">
-                  <span className='font-medium text-gray-400 hover:text-gray-700'>Terms of Use</span>
+                  <span className='cursor-pointer font-medium text-gray-400 hover:text-gray-700'>Terms of Use</span>
                 </Link>
                 <span className='text-gray-400'>{" | "}</span>
                 <Link href="/about">
-                  <span className='font-medium text-gray-400 hover:text-gray-700'>About Us</span>
+                  <span className='cursor-pointer font-medium text-gray-400 hover:text-gray-700'>About Us</span>
                 </Link>
                 <span className='text-gray-400'>{" | "}</span>
                 <Link href="/faq">
-                  <span className='font-medium text-gray-400 hover:text-gray-700'>FAQ's</span>
+                  <span className='cursor-pointer font-medium text-gray-400 hover:text-gray-700'>FAQ's</span>
+                </Link>
+                <span className='text-gray-400'>{" | "}</span>
+                <Link href="/contact">
+                  <span className='cursor-pointer font-medium text-gray-400 hover:text-gray-700'>Contact Us</span>
                 </Link>
               </div>
             </div>
@@ -138,6 +124,3 @@ const Footer = () => {
 };
 
 export default Footer;
-{
-  /*  */
-}
