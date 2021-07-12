@@ -35,7 +35,7 @@ export const productData = {
       price: 100,
       img: "/images/Anta-cids/Pantoprazole-Injections.jpg",
       n: "Pantoprazole Injections",
-      pid: "CAS NO:164579-32-2",
+      pid: "CAS NO:138786-67-1. 95 - 100",
       d: [
         "Pantoprazole used for short-term treatment of erosion and ulceration of the esophagus caused by gastro esophageal reflux disease.",
         "Pantoprazole, like other proton-pump inhibitors, blocks the enzyme in the wall of the stomach that produces acid. By blocking the enzyme, the production of acid is decreased, and this allows the stomach and esophagus to heal.",
@@ -63,7 +63,7 @@ export const productData = {
       id: 5,
       img: "/images/Anta-cids/RanitidineTab.jpg",
       n: "Ranitidine Tablets",
-      pid: "CAS NO: 66357-35-5",
+      pid: "CAS NO: 66357-59-3",
       d: [
         "Ranitidine is used to treat ulcers; gastro esophageal reflux disease (GERD), a condition in which backward flow of acid from the stomach causes heartburn and injury of the food pipe (esophagus); and conditions where the stomach produces too much acid",
         "Ranitidine is available in 150 mg, 300 mg tablets. It is also available in injection.",
@@ -152,7 +152,7 @@ export const productData = {
       id: 12,
       img: "/images/Anti-biotic/CefaclorTablets.jpeg",
       n: "Cefaclor Tablets",
-      pid: "CAS NO:56-12-2",
+      pid: "CAS NO:53994-73-3",
       d: [
         "Cefaclor tablet is available in 250 mg, 500 mg compositions. It is a second-generation cephalosporin antibiotic used to treat certain infections caused by bacteria such as pneumonia and ear, lung, skin, throat, and urinary tract infections. Cefaclor should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria. Cefaclor is active against many bacteria, including both Gram-negative and Gram-positive organisms.",
       ],
@@ -233,7 +233,7 @@ export const productData = {
       id: 18,
       img: "/images/Anti-biotic/CefoperazoneInjection.jpg",
       n: "Cefoperazone Injection",
-      pid: "CAS NO:74578-69-1",
+      pid: "CAS NO:62893-19-0",
       d: [
         "Cefoperazone belongs to the class of third-generation cephalosporin’s. Cefoperazone is used in systemic treatment of infections, including those of the skin, bone, stomach, respiratory tract, sinuses, blood, and urinary tract.",
       ],
@@ -245,7 +245,7 @@ export const productData = {
       id: 19,
       img: "/images/Anti-biotic/MeropenemInjection.jpg",
       n: "Meropenem Injection ",
-      pid: "CAS NO:96036-03-2",
+      pid: "CAS NO:119478-56-7",
       d: [
         "Meropenem injections (500mg, 1gm) are used for eliminating bacteria that cause several infections such as skin, bone, pneumonia and urinary tract, meningitis and stomach infections. This medication is known as a carbapenem-type antibiotic. It works by stopping the growth of bacteria.",
       ],
@@ -270,7 +270,7 @@ export const productData = {
       id: 21,
       img: "/images/Anti-biotic/Ciprofloxacintablet.jpg",
       n: "Ciprofloxacin tablet",
-      pid: "CAS NO:86393-32-0/85721-33-1",
+      pid: "CAS NO:85721-33-1",
       d: [
         "Ciprofloxacin film-coated tablets are available in 250 mg, 500 mg and 750 mg strengths. It is used to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.",
         "Ciprofloxacin is used to treat a number of infections including: infection of bones and joints, endocarditis, gastroenteritis, malignant otitis externa respiratory tract infections, urinary tract infections, anthrax etc. Ciprofloxacin is a chemotherapeutic antibiotic of the fluoro-quinolone.",
@@ -283,7 +283,7 @@ export const productData = {
       id: 22,
       img: "/images/Anti-biotic/Gatifloxacintablets.jpg",
       n: "Gatifloxacin tablet ",
-      pid: "CAS NO:180200-66-2",
+      pid: "CAS NO:112811-59-3",
       d: [
         "Gatifloxin is an antibiotic of the fourth-generation fluoroquinolone family, inhibits the bacterial enzymes DNA gyrase and topoisomerase IV",
         "Our antibiotic medicines, levofloxacin tablets are widely used for treating infections",
@@ -523,7 +523,7 @@ export const productData = {
       id: 39,
       img: "/images/Antimalarial-Drugs/Artemether.jpg",
       n: "Artemether Capsules",
-      pid: "CAS NO:71939-50-9",
+      pid: "CAS NO:71963-77-4",
       d: [
         "Artemether is an antimalarial for the treatment of multi-drug resistant strains of falciparum malaria. Artemether is highly effective against the blood schizonts of both malarial parasites P. falciparum and P. vivax.",
       ],
@@ -535,7 +535,7 @@ export const productData = {
       id: 40,
       img: "/images/Antimalarial-Drugs/ArtesunateInjections.jpg",
       n: "Artesunate Injections",
-      pid: "CAS NO:71939-50-9",
+      pid: "CAS NO:88495-63-0 80155-81-3",
       d: [
         "Artesunate is part of the artemisinin group of drugs that treat malaria. It is a semi-synthetic derivative of artemisinin that is water-soluble and may therefore be given by injection.",
         "It is used to treat Falciparum malaria.",
@@ -548,7 +548,7 @@ export const productData = {
       id: 41,
       img: "/images/Antimalarial-Drugs/Quininesulphate.jpg",
       n: "Quinine sulphate injections",
-      pid: "CAS NO:96829-58-2",
+      pid: "CAS NO:130-95-0",
       d: [
         "Orlistat capsules 60 mg, 120 mg is a worldwide recognized medicine for patients, suffering from obesity, in its ability to manage adiposis in adult and adolescent patients, from age 12 and older.",
         "Orlistat is a weight loss medication that targets the absorption of fat in your body rather than suppressing your appetite. It is useful for long term use and has been shown to be effective for 1-2 years.",
@@ -598,7 +598,7 @@ export const productData = {
       id: 44,
       img: "/images/cardiovascular/Clopidogrel.jpg",
       n: "Clopidogrel Tablets",
-      pid: "CAS NO:135046-48-9",
+      pid: "CAS NO:113665-84-2",
       d: [
         "Clopidogrel is an oral antiplatelet agent to inhibit blood clots in coronary artery disease, peripheral vascular disease, and cerebrovascular disease.",
         "It works by irreversibly inhibiting a receptor called P2Y12, an adenosine diphosphate (ADP) chemoreceptor on platelet cell membranes.",
@@ -717,7 +717,7 @@ export const productData = {
       id: 53,
       img: "/images/Gynaecological-Drugs/ClomipheneCitrate.jpeg",
       n: "Clomiphene Citrate Tablets",
-      pid: "CAS NO:911-45-5",
+      pid: "CAS NO:50-41-9",
       d: [
         "Clomiphene Citrate belongs to the drug class of synthetic ovulation stimulants.",
         "Clomiphene Citrate Tablets stimulates the release of hormones necessary for ovulation to occur. Clomiphene (Generic e Clomid) is used to stimulate ovulation (the release of an egg) when a woman's ovaries can produce a follicle but hormonal stimulation is deficient. Clomiphene causes the pituitary gland to produce more follicle stimulating hormone (FSH) and luteinizing hormone (LH), which, in turn, stimulate the ovaries into producing more eggs and follicles. Impediments to achieving pregnancy must be excluded or adequately treated before you start therapy using Clomiphene. Clomiphene citrate may also be used for the treatment of secondary male hypogonadism. Clomiphene Tablets is available in 25 & 50 mg compositions.",
@@ -847,7 +847,7 @@ export const productData = {
       id: 62,
       img: "/images/Men's-Health/SildenafilCitrateSoftTablet.jpg",
       n: "Sildenafil Citrate Soft Tablet",
-      pid: "CAS NO: 139755-83-2",
+      pid: "CAS NO: 171599-83-0",
       d: [
         "Sildenafil citrate is available in 100 mg tablet, is an oral drug used to treat male erectile dysfunction (ED) also referred to as impotence. Soft Tabs are oral tabs that contain quick dissolving compounds and therefore lower chances of being inhibited by the consumption of alcohol or high fat foods. It absorbs into your bloodstream quickly without losing their potency. They can be taken as little as 15 minutes before intercourse and remain active for up to 4 hours.",
       ],
@@ -967,7 +967,7 @@ export const productData = {
       id: 72,
       img: "/images/Steroid-Hormones/testiolin.JPG",
       n: "Testeolin (Testosterone Propionate injection)",
-      pid: "CAS NO:58-22-0",
+      pid: "CAS NO:57-85-2",
       d: [
         "Testosterone Propionate is the shortest ester attached to the Testosterone hormone.",
         "Testosterone is responsible for promoting health and well-being through enhanced libido, energy, immunity, increased fat loss, gaining and maintaining lean muscle mass, preventing Osteoporosis (loss of bone density) and possible protection against heart disease.",
@@ -981,7 +981,7 @@ export const productData = {
       id: 73,
       img: "/images/Steroid-Hormones/TrenHBC.jpg",
       n: "Testeonate 250 (Testosterone Enanthate Injection)",
-      pid: "CAS No.: 58-22-0",
+      pid: "CAS No.: 315-37-7",
       d: [
         "Testosterone enanthate is an oil based injectable steroid, designed to slowly release testosterone from the injection site.",
         "Testeonate is the most popular prescribed testosterone for treating Hypogonadism and many other disorders that relate to androgen deficiency.Serum concentrations of this hormone will rise for several days and remain elevated for about two weeks.",
@@ -995,7 +995,7 @@ export const productData = {
       id: 74,
       img: "/images/Steroid-Hormones/TrenHBC.jpg",
       n: "Tren HBC (Trenbolone Hexa Hydrochloro Benzylcarbonate Injections)",
-      pid: "CAS NO:5721-91-5",
+      pid: "CAS NO:10161-34-9",
       d: [
         "Trenbolone Hexa hydro chloro benzyl carbonate 76.5 mg/1.5 ml is a very potent androgen with strong anabolic activity. It is well suited for the rapid buildup of strength and muscle mass and does not convert to estrogen. This is indeed a very unique compound since mass drugs, almost as a rule, will aromatize heavily, extremely potent mass/strength drug. There is no noticeable water retention, so the mass gained during a cycle of Tren HBC will be very hard and defined (providing fat levels are low enough).",
         "Gynecomastia is also not much of a concern, so there shouldn't be any need to addition an antiestrogen if trenbolone is the only steroid administered. The high androgen level resulting from this steroid, in the absence is excess estrogen, can also accelerate the burning of body fat. The result should be a much tighter physique, hopefully without the need for extreme dieting. For Men: 76.5mg 2 to 3 times per week.",
@@ -1021,7 +1021,7 @@ export const productData = {
       id: 76,
       img: "/images/Steroid-Hormones/boldinex250.JPG",
       n: "Boldinex 250 (Boldenone Undecylenate Injection/Vial)",
-      pid: "CAS NO: 846-48-0",
+      pid: "CAS NO: 13103-34-9",
       d: [
         "Boldinex Inj. 250 mg/ml is a man-made steroid, similar to the naturally occurring steroid testosterone.",
         "Boldenone Undecylenate is used to promote weight gain. Boldenone Undecylenate is also used to decrease muscle loss caused by treatment with corticosteroids and to reduce bone pain associated with osteoporosis. It produces a slow and steady anabolic effect while improving appetite leading to its long-term popularity. For Men: 200-500 mg IM per week.",
@@ -1050,6 +1050,7 @@ export const productData = {
       id: 78,
       img: "/images/Steroid-Hormones/drostronate100.JPG",
       n: "Drostronate 100 (Drostanolone Propionate 100 mg/ml)",
+      pid: "CAS NO:521-12-0",
       d: [
         "Drostronate 100 is a derivative of dihydrotestosterone.",
         "The structure of this steroid is of a moderate anabolic & potent androgen which does not aromatize to estrogen.",
@@ -1081,7 +1082,7 @@ export const productData = {
       id: 80,
       img: "/images/Steroid-Hormones/ClenbuterolTablets.jpg",
       n: "Clenbuterol Tablets",
-      pid: "CAS NO:82030-87-3",
+      pid: "CAS NO:21898-19-1",
       d: [
         "Clenbuterol Tablets is available in 40 mcg, 60 mcg. Clenbuterol Hydrochloride tablets has a rapid and powerful bronchial-dilating action.",
         "Its effect is expressed in a reduction of protein degradation in muscle cells, leading to an increase in muscle bulk and muscle strength. In the prescribed therapeutic doses, Clenbuterol has no influence on heart rate or arterial blood pressure, and does not affect oxygen saturation of arterial blood.",
@@ -1102,7 +1103,7 @@ export const productData = {
       id: 82,
       img: "/images/Steroid-Hormones/HumanChorionicGonadotrophin(HCG).jpg",
       n: "Human Chorionic Gonadotrophin (HCG)",
-      pid: "CAS NO:146479-72-3",
+      pid: "CAS NO:9002-61-3",
       d: [
         "HCG 5000 injection contain the active ingredient chorionic gonadotrophin 5000 IU, which is a natural sex hormone also known as human chorionic gonadotropin or HCG.",
         "In women, HCG is used together with other hormones called follicle stimulating hormone (FSH) and luteinising hormone (LH) in the treatment of infertility.",
@@ -1206,7 +1207,7 @@ export const productData = {
       id: 90,
       img: "/images/Thyroid-Drugs/LiothyronineTablets.png",
       n: "Liothyronine Tablets",
-      pid: "CAS NO: 6893-02-3",
+      pid: "CAS NO: 55-06-1",
       d: [
         "Liothyronine Sodium tablets USP (25mcg) helps in improving symptoms of thyroid deficiency such as slow speech, hair loss, dry skin, feeling cold, lack of energy and weight gain.",
         "These steroidal tablets can be used alone or with other medicines and is effective in the treatment of goitre.",
@@ -1247,7 +1248,7 @@ export const productData = {
       id: 93,
       img: "/images/Antiviral-Drugs/RibavarineCapsules.jpg",
       n: "Ribavarine Capsules",
-      pid: "CAS NO:66510-90-5",
+      pid: "CAS NO:36791-04-5",
       d: [
         "Ribavirin is an antiviral drug. It is used in combination with interferon alfa-2b to treat some patients with chronic hepatitis C infection.",
       ],
@@ -1457,7 +1458,7 @@ export const productData = {
       id: 112,
       img: "/images/Veterinary-Drugs/AlbendazoleBolus.jpg",
       n: "Albendazole Bolus",
-      pid: "CAS NO: 54965-21-8",
+      pid: "CAS NO: 50-02-2",
       d: [
         "Available in 1.5gm, 3gm, an effective veterinary medication are used for the prophylaxis and treatment of worm infections in calves, cattle, sheep and goat etc.",
       ],
