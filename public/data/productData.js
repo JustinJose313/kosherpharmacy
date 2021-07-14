@@ -1661,7 +1661,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 119,
-      img: "/images/Veterinary-Drugs/OxyclozanideBolus.png",
+      img: "/images/Veterinary-Drugs/OxyclozanideBolus.PNG",
       n: "Oxyclozanide Bolus",
       d: [
         "It is used in the treatment and control of Fascioliasis in ruminants mainly domestic animals like Cattle, Sheep and Goats.",
