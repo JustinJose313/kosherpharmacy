@@ -4,8 +4,16 @@ import { productData, productHeadings } from "../../../public/data/productData";
 import { useCart } from "react-use-cart";
 
 const Categories = ({ group, setGroup, category, setCategory }) => {
+  const { pharmacy, surgical, veterinary } = productData;
   const { addItem } = useCart();
   const [toggle, setToggle] = useState(true);
+  const [search, setSearch] = useState("");
+  const [vis, setVis] = useState(false);
+  const [searchData, setSearchData] = useState([
+    ...pharmacy,
+    ...surgical,
+    ...veterinary,
+  ]);
 
   useEffect(() => {
     const w = window.innerWidth;
@@ -14,13 +22,65 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
     }
   }, []);
 
+  const handleFilter = (label, c) => {
+    setGroup(label);
+    setCategory(c);
+    // setVis(false);
+  };
+
   return (
     <section id="categories">
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
           <div className="md:col-span-4 mb-6">
             <h2 className="text-2xl font-bold">Categories</h2>
-            <p className="text-gray-500 max-w-md mt-4"></p>
+            <div className="pt-4 relative mx-auto text-gray-600">
+              <input
+                className="border-2 w-full border-gray-300 bg-white h-10 px-5 rounded-lg text-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-offset-2 focus:ring-brand-100"
+                type="search"
+                name="search"
+                onFocus={() => {
+                  clearTimeout();
+                  setVis(true);
+                }}
+                onBlur={() => {
+                  setTimeout(() => {
+                    setVis(false);
+                  }, 200);
+                }}
+                autoComplete="off"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder="Search"
+              />
+              {vis && (
+                <div className="shadow-md absolute top-14 rounded-lg overflow-y-scroll left-0 h-auto max-h-48 p-2 w-full bg-white">
+                  {Array.isArray(searchData) &&
+                    searchData
+                      .filter((each) => {
+                        if (search == "") {
+                          return each;
+                        } else if (
+                          each.n.toLowerCase().includes(search.toLowerCase())
+                        ) {
+                          return each;
+                        }
+                      })
+                      .map((val, i) => {
+                        return (
+                          <Link key={i} href="#categoryContainer">
+                            <div
+                              onClick={() => handleFilter(val.label, val.c)}
+                              className="p-2 hover:bg-gray-100 cursor-pointer font-medium text-gray-500 hover:text-gray-900 capitalize"
+                            >
+                              {val.n}
+                            </div>
+                          </Link>
+                        );
+                      })}
+                </div>
+              )}
+            </div>
             <div className="mt-6">
               <div
                 onClick={() => {
@@ -153,8 +213,111 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
                 <h2 className="text-2xl font-bold text-brand-100 mb-4">
                   {category}
                 </h2>
-                {productData.pharmacy.map((each, i) => {
-                  if (category === each.c) {
+                {productData.pharmacy
+                  .filter((each) => {
+                    if (each.n.toLowerCase().includes(search.toLowerCase())) {
+                      return each;
+                    }
+                  })
+                  .map((each, i) => {
+                    if (category === each.c) {
+                      return (
+                        <div
+                          key={i}
+                          className="bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full"
+                        >
+                          <img
+                            className="w-full md:w-4/12 p-4"
+                            src={
+                              each.img
+                                ? each.img
+                                : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
+                            }
+                            alt={
+                              each.img
+                                ? each.img
+                                : "Kosher Pharaceutical Product"
+                            }
+                          />
+                          <div className="flex-1 p-4">
+                            <h2 className="uppercase font-semibold">
+                              {each.n}
+                            </h2>
+                            {each.d.map((e, i) => {
+                              return (
+                                <p className="text-gray-500 my-2" key={i}>
+                                  {e}
+                                </p>
+                              );
+                            })}
+                            {each.ul && (
+                              <div>
+                                <p className="text-gray-500 mt-4 mb-2">
+                                  {each.ul.h}
+                                </p>
+
+                                <ul className="ml-6">
+                                  {each.ul.list.map((l, i) => {
+                                    return (
+                                      <li key={i}>
+                                        <p className="text-gray-500 capitalize">
+                                          {l}
+                                        </p>
+                                      </li>
+                                    );
+                                  })}
+                                </ul>
+                              </div>
+                            )}
+                            {each.pid && (
+                              <p className="font-semibold text-xl mt-6 text-brand-200">
+                                {each.pid}
+                              </p>
+                            )}
+                            <Link href="/cart">
+                              <button
+                                onClick={() => addItem(each)}
+                                className="text-white focus:outline-none focus:ring-2 ring-brand-200 flex items-center font-bold shadow-xl bg-brand-100 hover:bg-brand-200 px-8 py-3 mt-4 transition"
+                              >
+                                Add to Cart
+                                <svg
+                                  className="ml-2 h-4 w-4"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  width="24"
+                                  height="24"
+                                >
+                                  <path fill="none" d="M0 0h24v24H0z" />
+                                  <path
+                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                    fill="currentColor"
+                                  />
+                                </svg>
+                              </button>
+                            </Link>
+                          </div>
+                        </div>
+                      );
+                    }
+                  })}
+              </>
+            )}
+            {group === "surgical" && (
+              <>
+                <h2 className="text-2xl font-bold text-brand-100 mb-4 capitalize">
+                  {group}
+                </h2>
+                {productData.surgical
+                  .filter((each) => {
+                    if (search == "") {
+                      return each;
+                    } else if (
+                      each.n.toLowerCase().includes(search.toLowerCase())
+                    ) {
+                      return each;
+                    }
+                  })
+                  .map((each, i) => {
                     return (
                       <div
                         key={i}
@@ -173,13 +336,29 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
                         />
                         <div className="flex-1 p-4">
                           <h2 className="uppercase font-semibold">{each.n}</h2>
-                          {each.d.map((e, i) => {
-                            return (
-                              <p className="text-gray-500 my-2" key={i}>
-                                {e}
+                          {each.d &&
+                            each.d.map((e, i) => {
+                              return (
+                                <p className="text-gray-500 my-2" key={i}>
+                                  {e}
+                                </p>
+                              );
+                            })}
+
+                          {each.s && (
+                            <div>
+                              <p className="mt-2 mb-1 font-medium">
+                                Available variations:{" "}
                               </p>
-                            );
-                          })}
+                              {each.s.map((e, i) => {
+                                return (
+                                  <p className="text-gray-500 my-1" key={i}>
+                                    {e}
+                                  </p>
+                                );
+                              })}
+                            </div>
+                          )}
                           {each.ul && (
                             <div>
                               <p className="text-gray-500 mt-4 mb-2">
@@ -228,106 +407,7 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
                         </div>
                       </div>
                     );
-                  }
-                })}
-              </>
-            )}
-            {group === "surgical" && (
-              <>
-                <h2 className="text-2xl font-bold text-brand-100 mb-4 capitalize">
-                  {group}
-                </h2>
-                {productData.surgical.map((each, i) => {
-                  return (
-                    <div
-                      key={i}
-                      className="bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full"
-                    >
-                      <img
-                        className="w-full md:w-4/12 p-4"
-                        src={
-                          each.img
-                            ? each.img
-                            : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
-                        }
-                        alt={
-                          each.img ? each.img : "Kosher Pharaceutical Product"
-                        }
-                      />
-                      <div className="flex-1 p-4">
-                        <h2 className="uppercase font-semibold">{each.n}</h2>
-                        {each.d &&
-                          each.d.map((e, i) => {
-                            return (
-                              <p className="text-gray-500 my-2" key={i}>
-                                {e}
-                              </p>
-                            );
-                          })}
-
-                        {each.s && (
-                          <div>
-                            <p className="mt-2 mb-1 font-medium">
-                              Available variations:{" "}
-                            </p>
-                            {each.s.map((e, i) => {
-                              return (
-                                <p className="text-gray-500 my-1" key={i}>
-                                  {e}
-                                </p>
-                              );
-                            })}
-                          </div>
-                        )}
-                        {each.ul && (
-                          <div>
-                            <p className="text-gray-500 mt-4 mb-2">
-                              {each.ul.h}
-                            </p>
-
-                            <ul className="ml-6">
-                              {each.ul.list.map((l, i) => {
-                                return (
-                                  <li key={i}>
-                                    <p className="text-gray-500 capitalize">
-                                      {l}
-                                    </p>
-                                  </li>
-                                );
-                              })}
-                            </ul>
-                          </div>
-                        )}
-                        {each.pid && (
-                          <p className="font-semibold text-xl mt-6 text-brand-200">
-                            {each.pid}
-                          </p>
-                        )}
-                        <Link href="/cart">
-                          <button
-                            onClick={() => addItem(each)}
-                            className="text-white focus:outline-none focus:ring-2 ring-brand-200 flex items-center font-bold shadow-xl bg-brand-100 hover:bg-brand-200 px-8 py-3 mt-4 transition"
-                          >
-                            Add to Cart
-                            <svg
-                              className="ml-2 h-4 w-4"
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 24 24"
-                              width="24"
-                              height="24"
-                            >
-                              <path fill="none" d="M0 0h24v24H0z" />
-                              <path
-                                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                                fill="currentColor"
-                              />
-                            </svg>
-                          </button>
-                        </Link>
-                      </div>
-                    </div>
-                  );
-                })}
+                  })}
               </>
             )}
             {group === "veterinary" && (
@@ -335,91 +415,100 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
                 <h2 className="text-2xl font-bold text-brand-100 mb-4 capitalize">
                   {group}
                 </h2>
-                {productData.veterinary.map((each, i) => {
-                  return (
-                    <div
-                      key={i}
-                      className="bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full"
-                    >
-                      <img
-                        className="w-full md:w-4/12 p-4"
-                        src={
-                          each.img
-                            ? each.img
-                            : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
-                        }
-                        alt={
-                          each.img ? each.img : "Kosher Pharaceutical Product"
-                        }
-                      />
-                      <div className="flex-1 p-4">
-                        <h2 className="uppercase font-semibold">{each.n}</h2>
-                        {each.d &&
-                          each.d.map((e, i) => {
-                            return (
-                              <p className="text-gray-500 my-2" key={i}>
-                                {e}
+                {productData.veterinary
+                  .filter((each) => {
+                    if (search == "") {
+                      return each;
+                    } else if (
+                      each.n.toLowerCase().includes(search.toLowerCase())
+                    ) {
+                      return each;
+                    }
+                  })
+                  .map((each, i) => {
+                    return (
+                      <div
+                        key={i}
+                        className="bg-white border-2 border-dashed flex flex-col md:flex-row md:items-start w-full"
+                      >
+                        <img
+                          className="w-full md:w-4/12 p-4"
+                          src={
+                            each.img
+                              ? each.img
+                              : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
+                          }
+                          alt={
+                            each.img ? each.img : "Kosher Pharaceutical Product"
+                          }
+                        />
+                        <div className="flex-1 p-4">
+                          <h2 className="uppercase font-semibold">{each.n}</h2>
+                          {each.d &&
+                            each.d.map((e, i) => {
+                              return (
+                                <p className="text-gray-500 my-2" key={i}>
+                                  {e}
+                                </p>
+                              );
+                            })}
+                          {each.s &&
+                            each.s.map((e, i) => {
+                              return (
+                                <p className="text-gray-500 my-2" key={i}>
+                                  {e}
+                                </p>
+                              );
+                            })}
+                          {each.ul && (
+                            <div>
+                              <p className="text-gray-500 mt-4 mb-2">
+                                {each.ul.h}
                               </p>
-                            );
-                          })}
-                        {each.s &&
-                          each.s.map((e, i) => {
-                            console.log(each);
-                            return (
-                              <p className="text-gray-500 my-2" key={i}>
-                                {e}
-                              </p>
-                            );
-                          })}
-                        {each.ul && (
-                          <div>
-                            <p className="text-gray-500 mt-4 mb-2">
-                              {each.ul.h}
-                            </p>
 
-                            <ul className="ml-6">
-                              {each.ul.list.map((l, i) => {
-                                return (
-                                  <li key={i}>
-                                    <p className="text-gray-500 capitalize">
-                                      {l}
-                                    </p>
-                                  </li>
-                                );
-                              })}
-                            </ul>
-                          </div>
-                        )}
-                        {each.pid && (
-                          <p className="font-semibold text-xl mt-6 text-brand-200">
-                            {each.pid}
-                          </p>
-                        )}
-                        <Link href="/cart">
-                          <button
-                            onClick={() => addItem(each)}
-                            className="text-white focus:outline-none focus:ring-2 ring-brand-200 flex items-center font-bold shadow-xl bg-brand-100 hover:bg-brand-200 px-8 py-3 mt-4 transition"
-                          >
-                            Add to Cart
-                            <svg
-                              className="ml-2 h-4 w-4"
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 24 24"
-                              width="24"
-                              height="24"
+                              <ul className="ml-6">
+                                {each.ul.list.map((l, i) => {
+                                  return (
+                                    <li key={i}>
+                                      <p className="text-gray-500 capitalize">
+                                        {l}
+                                      </p>
+                                    </li>
+                                  );
+                                })}
+                              </ul>
+                            </div>
+                          )}
+                          {each.pid && (
+                            <p className="font-semibold text-xl mt-6 text-brand-200">
+                              {each.pid}
+                            </p>
+                          )}
+                          <Link href="/cart">
+                            <button
+                              onClick={() => addItem(each)}
+                              className="text-white focus:outline-none focus:ring-2 ring-brand-200 flex items-center font-bold shadow-xl bg-brand-100 hover:bg-brand-200 px-8 py-3 mt-4 transition"
                             >
-                              <path fill="none" d="M0 0h24v24H0z" />
-                              <path
-                                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                                fill="currentColor"
-                              />
-                            </svg>
-                          </button>
-                        </Link>
+                              Add to Cart
+                              <svg
+                                className="ml-2 h-4 w-4"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                width="24"
+                                height="24"
+                              >
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path
+                                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                  fill="currentColor"
+                                />
+                              </svg>
+                            </button>
+                          </Link>
+                        </div>
                       </div>
-                    </div>
-                  );
-                })}
+                    );
+                  })}
               </>
             )}
           </div>
