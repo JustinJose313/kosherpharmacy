@@ -6,6 +6,10 @@ import { useClickOutside } from "../customHooks/useClickOutside";
 import { useCart } from "react-use-cart";
 
 const Header = () => {
+  const links = [
+    { n: "About Us", url: "/about" },
+    { n: "Contact Us", url: "/contact" },
+  ];
   const router = useRouter();
   const { totalUniqueItems } = useCart();
   const [menu, setMenu] = useState(false);
@@ -72,6 +76,9 @@ const Header = () => {
                       Browse Categories
                     </a>
                   </Link>
+                  {links.map((each, i) => {
+                    return <div className="hover:bg-brand-200 font-semibold py-2 flex px-6 items-center justify-center transition text-brand-200 hover:text-white">{each.n}</div>;
+                  })}
                 </div>
                 <div>
                   <Link href="/cart">

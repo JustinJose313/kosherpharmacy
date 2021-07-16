@@ -28,7 +28,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="ml-3 text-base text-gray-500">
-                  <p>022-289 078 69</p>
+                  <p>+91 976 976 8968</p>
                 </div>
               </div>
               <div className="flex mt-2">
@@ -39,7 +39,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="ml-3 text-base text-gray-500">
-                  <p>+91 976 976 8968</p>
+                  <p>022-289 078 69</p>
                 </div>
               </div>
               <div className="mt-6 flex">
