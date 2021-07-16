@@ -131,23 +131,24 @@ export default function Example() {
               Pure, Genuine, Authentic.
             </p>
             <p className="mt-4 text-base md:text-xl text-gray-500 leading-8">
-              These are the pillars with which{" "}
-              <span className="font-bold">Kosher Pharmaceuticals</span> was
-              founded in 2009 and continues to operate with.{" "}
-              <span className="font-bold">Kosher Pharmaceuticals</span> brings
-              together experts and representatives from the industry to resolve
-              the overarching hurdles facing the healthcare sector across the
-              world.
+              These are the pillars with which Kosher Pharmaceuticals was
+              founded in 2009 and continues to operate with.
             </p>
             <p className="mt-4 text-base md:text-xl text-gray-500 leading-8">
-              Our customer base is spread worldwide including the{" "}
+              Kosher Pharmaceuticals brings together experts and representatives
+              from the industry to resolve the overarching hurdles facing the
+              healthcare sector across the world.
+            </p>
+            <p className="mt-4 text-base md:text-xl text-gray-500 leading-8">
+              Our customer base is spread worldwide including{" "}
               <span className="font-bold">
-                Middle East, South America, Europe, and the CIS countries
-              </span>
-              . We provide high-quality, affordable medicines, trusted by
+                Asia, the Middle East, South America, Europe, and the
+                Post-Soviet countries.
+              </span>{" "}
+              We provide high-quality, affordable medicines, trusted by
               healthcare professionals and patients across the globe. With a
               commitment to dealing in{" "}
-              <span className="font-bold">generic medicines,</span> we can
+              <span className="font-bold">generic medicines</span>, we can
               provide a stable and promising source of pharmaceutical
               requirements.
             </p>
@@ -200,7 +201,8 @@ export default function Example() {
               manufacturing, we have prowess in a wide array of dosage forms
               like tablets, capsules, powder, sachets, ointments, injections,
               and more. To sustain our wide range of products, we employ{" "}
-              <span className='font-bold'>large-scale manufacturing</span> factories with production capacities.
+              <span className="font-bold">large-scale manufacturing</span>{" "}
+              factories with production capacities.
             </p>
             <p className="mt-4 text-base md:text-xl text-gray-500 leading-8">
               Our product list constitutes a diverse assortment to suit every

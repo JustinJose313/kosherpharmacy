@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const Top5 = ({ group, setGroup, category, setCategory }) => {
+const Top5 = ({ setGroup, setCategory, setSearch }) => {
   return (
     <section>
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
@@ -13,6 +13,7 @@ const Top5 = ({ group, setGroup, category, setCategory }) => {
             <div
               onClick={() => {
                 setCategory("Anticancer Medicines");
+                setSearch('')
                 setGroup("pharmacy");
               }}
               className="lg:col-span-2 lg:row-span-2 overflow-hidden cursor-pointer select-none"
@@ -28,7 +29,7 @@ const Top5 = ({ group, setGroup, category, setCategory }) => {
                 className="w-full h-full transform hover:scale-125 transition"
               >
                 <div className="bg-black px-4 py-28 bg-opacity-50 hover:bg-opacity-20 transition w-full h-full flex items-center justify-center">
-                  <h3 className="text-white text-base lg:text-5xl tracking-wider">
+                  <h3 className="text-white text-base lg:text-5xl font-semibold tracking-wider">
                     Anticancer
                   </h3>
                 </div>
@@ -39,14 +40,14 @@ const Top5 = ({ group, setGroup, category, setCategory }) => {
             <div
               onClick={() => {
                 setCategory("Antibiotic Medicines");
+                setSearch('')
                 setGroup("pharmacy");
               }}
               className="overflow-hidden cursor-pointer select-none"
             >
               <div
                 style={{
-                  backgroundImage:
-                    "url(https://images.unsplash.com/photo-1549477881-1a8180c72ac8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)",
+                  backgroundImage: "url(/assets/top5/antibiotics.jpg)",
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
@@ -54,7 +55,7 @@ const Top5 = ({ group, setGroup, category, setCategory }) => {
                 className="w-full h-full transform hover:scale-125 transition"
               >
                 <div className="bg-black px-4 py-28 bg-opacity-50 hover:bg-opacity-20 transition w-full h-full flex items-center justify-center">
-                  <h3 className="text-white text-base lg:text-md tracking-wider">
+                  <h3 className="text-white text-base lg:text-xl font-semibold tracking-wider">
                     Antibiotics
                   </h3>
                 </div>
@@ -65,14 +66,14 @@ const Top5 = ({ group, setGroup, category, setCategory }) => {
             <div
               onClick={() => {
                 setCategory("Antibiotic Medicines");
+                setSearch('')
                 setGroup("pharmacy");
               }}
               className="overflow-hidden cursor-pointer select-none"
             >
               <div
                 style={{
-                  backgroundImage:
-                    "url(https://cdn.pixabay.com/photo/2020/04/08/16/46/old-5018013_960_720.jpg)",
+                  backgroundImage: "url(/assets/top5/antihypertensive.jpg)",
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
@@ -80,7 +81,7 @@ const Top5 = ({ group, setGroup, category, setCategory }) => {
                 className="w-full h-full transform hover:scale-125 transition"
               >
                 <div className="bg-black px-4 py-28 bg-opacity-50 hover:bg-opacity-20 transition w-full h-full flex items-center justify-center">
-                  <h3 className="text-white text-base lg:text-md tracking-wider">
+                  <h3 className="text-white text-base lg:text-xl font-semibold tracking-wider">
                     Antihypertensive
                   </h3>
                 </div>
@@ -91,14 +92,14 @@ const Top5 = ({ group, setGroup, category, setCategory }) => {
             <div
               onClick={() => {
                 setCategory("Antacids");
+                setSearch('')
                 setGroup("pharmacy");
               }}
               className="overflow-hidden cursor-pointer select-none"
             >
               <div
                 style={{
-                  backgroundImage:
-                    "url(https://images.unsplash.com/photo-1587854692152-cbe660dbde88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)",
+                  backgroundImage: "url(/assets/top5/antacid.png)",
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
@@ -106,7 +107,7 @@ const Top5 = ({ group, setGroup, category, setCategory }) => {
                 className="w-full h-full transform hover:scale-125 transition"
               >
                 <div className="bg-black px-4 py-28 bg-opacity-50 hover:bg-opacity-20 transition w-full h-full flex items-center justify-center">
-                  <h3 className="text-white text-base lg:text-md tracking-wider">
+                  <h3 className="text-white text-base lg:text-xl font-semibold tracking-wider">
                     Antacid
                   </h3>
                 </div>
@@ -117,6 +118,7 @@ const Top5 = ({ group, setGroup, category, setCategory }) => {
             <div
               onClick={() => {
                 setCategory("Steroids");
+                setSearch('')
                 setGroup("pharmacy");
               }}
               className="overflow-hidden cursor-pointer select-none"
@@ -132,88 +134,13 @@ const Top5 = ({ group, setGroup, category, setCategory }) => {
                 className="w-full h-full transform hover:scale-125 transition"
               >
                 <div className="bg-black px-4 py-28 bg-opacity-50 hover:bg-opacity-20 transition w-full h-full flex items-center justify-center">
-                  <h3 className="text-white text-base lg:text-md tracking-wider">
-                    Steroids & Hormones
+                  <h3 className="text-white text-center text-base lg:text-xl font-semibold tracking-wider">
+                    Steroids
                   </h3>
                 </div>
               </div>
             </div>
           </Link>
-          {/* <div className="lg:col-span-2 lg:row-span-2 bg-white border-2 lg:border-0 border-dashed flex flex-col items-center w-full">
-            <img
-            className="w-full "
-              src="https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
-              alt=""
-            />
-            <h2 className="uppercase font-semibold lg:text-center mt-6 px-4">
-              LANSOPRAZOLE CAPSULES
-            </h2>
-            <div className="flex justify-start lg:justify-center mb-4">
-              <button className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition">
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <div className="bg-white border-2 border-dashed flex flex-col items-center w-full">
-            <img
-              className="w-full"
-              src="https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
-              alt=""
-            />
-            <h2 className="uppercase font-semibold lg:text-center mt-6 px-4">
-              LANSOPRAZOLE CAPSULES
-            </h2>
-            <div className="flex justify-start lg:justify-center mb-4">
-              <button className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition">
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <div className="bg-white border-2 border-dashed flex flex-col items-center w-full">
-            <img
-              className="w-full"
-              src="https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
-              alt=""
-            />
-            <h2 className="uppercase font-semibold lg:text-center mt-6 px-4">
-              LANSOPRAZOLE CAPSULES
-            </h2>
-            <div className="flex justify-start lg:justify-center mb-4">
-              <button className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition">
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <div className="bg-white border-2 border-dashed flex flex-col items-center w-full">
-            <img
-              className="w-full"
-              src="https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
-              alt=""
-            />
-            <h2 className="uppercase font-semibold lg:text-center mt-6 px-4">
-              LANSOPRAZOLE CAPSULES
-            </h2>
-            <div className="flex justify-start lg:justify-center mb-4">
-              <button className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition">
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <div className="bg-white border-2 border-dashed flex flex-col items-center w-full">
-            <img
-              className="w-full"
-              src="https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
-              alt=""
-            />
-            <h2 className="uppercase font-semibold lg:text-center mt-6 px-4">
-              LANSOPRAZOLE CAPSULES
-            </h2>
-            <div className="flex justify-start lg:justify-center mb-4">
-              <button className="text-white shadow-md bg-brand-100 hover:bg-brand-200 px-5 py-2 mt-4 transition">
-                Add to Cart
-              </button>
-            </div>
-          </div> */}
         </div>
       </div>
     </section>

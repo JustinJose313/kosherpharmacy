@@ -3,11 +3,17 @@ import Link from "next/link";
 import { productData, productHeadings } from "../../../public/data/productData";
 import { useCart } from "react-use-cart";
 
-const Categories = ({ group, setGroup, category, setCategory }) => {
+const Categories = ({
+  group,
+  setGroup,
+  category,
+  setCategory,
+  search,
+  setSearch,
+}) => {
   const { pharmacy, surgical, veterinary } = productData;
   const { addItem } = useCart();
   const [toggle, setToggle] = useState(true);
-  const [search, setSearch] = useState("");
   const [vis, setVis] = useState(false);
   const [searchData, setSearchData] = useState([
     ...pharmacy,
@@ -22,9 +28,10 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
     }
   }, []);
 
-  const handleFilter = (label, c) => {
+  const handleFilter = (label, c, s) => {
     setGroup(label);
     setCategory(c);
+    setSearch(s);
     // setVis(false);
   };
 
@@ -54,7 +61,7 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
                 placeholder="Search"
               />
               {vis && (
-                <div className="shadow-md absolute top-14 rounded-lg overflow-y-scroll left-0 h-auto max-h-48 p-2 w-full bg-white">
+                <div className="shadow-md absolute top-16 rounded-lg overflow-y-scroll left-0 h-auto max-h-48 p-2 w-full bg-white">
                   {Array.isArray(searchData) &&
                     searchData
                       .filter((each) => {
@@ -70,7 +77,9 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
                         return (
                           <Link key={i} href="#categoryContainer">
                             <div
-                              onClick={() => handleFilter(val.label, val.c)}
+                              onClick={() =>
+                                handleFilter(val.label, val.c, val.n)
+                              }
                               className="p-2 hover:bg-gray-100 cursor-pointer font-medium text-gray-500 hover:text-gray-900 capitalize"
                             >
                               {val.n}
@@ -127,7 +136,10 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
                     return (
                       <a
                         href="#categoryContainer"
-                        onClick={() => setCategory(each)}
+                        onClick={() => {
+                          setCategory(each);
+                          setSearch("");
+                        }}
                         key={i}
                         className={`${
                           category === each
@@ -159,6 +171,7 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
                 <div
                   onClick={() => {
                     setGroup("surgical");
+                    setSearch("");
                     setToggle(false);
                   }}
                   className={`${
@@ -184,6 +197,7 @@ const Categories = ({ group, setGroup, category, setCategory }) => {
                 <div
                   onClick={() => {
                     setGroup("veterinary");
+                    setSearch("");
                     setToggle(false);
                   }}
                   className={`${
