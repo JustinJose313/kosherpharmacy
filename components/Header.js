@@ -77,7 +77,13 @@ const Header = () => {
                     </a>
                   </Link>
                   {links.map((each, i) => {
-                    return <div className="hover:bg-brand-200 font-semibold py-2 flex px-6 items-center justify-center transition text-brand-200 hover:text-white">{each.n}</div>;
+                    return (
+                      <Link key={i} href={each.url}>
+                        <div className="hover:bg-brand-200 cursor-pointer font-semibold py-2 flex px-6 items-center justify-center transition text-brand-200 hover:text-white">
+                          {each.n}
+                        </div>
+                      </Link>
+                    );
                   })}
                 </div>
                 <div>
