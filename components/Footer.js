@@ -93,21 +93,30 @@ const Footer = () => {
               </p>
             </div>
             <div className="md:col-span-3 text-sm">
-              <div className='flex space-x-3 flex-wrap'>
-                <Link href="/term-condition">
-                  <span className='cursor-pointer font-medium text-gray-400 hover:text-gray-700'>Terms of Use</span>
-                </Link>
-                <span className='text-gray-400'>{" | "}</span>
-                <Link href="/about">
-                  <span className='cursor-pointer font-medium text-gray-400 hover:text-gray-700'>About Us</span>
-                </Link>
-                <span className='text-gray-400'>{" | "}</span>
+              <div className="flex space-x-3 flex-wrap">
                 <Link href="/faq">
-                  <span className='cursor-pointer font-medium text-gray-400 hover:text-gray-700'>FAQ's</span>
+                  <span className="cursor-pointer font-medium text-gray-400 hover:text-gray-700">
+                    FAQ's
+                  </span>
                 </Link>
-                <span className='text-gray-400'>{" | "}</span>
+                <span className="text-gray-400">{" | "}</span>
+                <Link href="/about">
+                  <span className="cursor-pointer font-medium text-gray-400 hover:text-gray-700">
+                    About Us
+                  </span>
+                </Link>
+                <span className="text-gray-400">{" | "}</span>
+
+                <Link href="/term-condition">
+                  <span className="cursor-pointer font-medium text-gray-400 hover:text-gray-700">
+                    T&C
+                  </span>
+                </Link>
+                <span className="text-gray-400">{" | "}</span>
                 <Link href="/contact">
-                  <span className='cursor-pointer font-medium text-gray-400 hover:text-gray-700'>Contact Us</span>
+                  <span className="cursor-pointer font-medium text-gray-400 hover:text-gray-700">
+                    Contact Us
+                  </span>
                 </Link>
               </div>
             </div>

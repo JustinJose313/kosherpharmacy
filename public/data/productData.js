@@ -1779,18 +1779,6 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 129,
-      img: "/images/Veterinary-Drugs/OxyclozamideandLaevamisole.jpg",
-      n: "Oxyclozamide and Laevamisole",
-      pid: "",
-      d: [""],
-    },
-
-    {
-      c: "Veterinary Drugs",
-      label: "veterinary",
-      quantity: 1,
-      price: 100,
-      id: 130,
       img: "/images/Veterinary-Drugs/TylosinTartrate.jpg",
       n: "Tylosin Tartrate 20%",
       pid: "",

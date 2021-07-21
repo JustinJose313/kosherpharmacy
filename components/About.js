@@ -192,9 +192,9 @@ export default function Example() {
             </p>
             <p className="mt-4 text-base md:text-xl text-gray-500 leading-8">
               Additionally, Kosher Pharmaceuticals is a registered member of the
-              Bombay Chamber of Commerce, GS1 India, Udyog Aadhaar Registration
-              Certificate & Pharmexcil, and such statutory bodies that secure
-              our standing in the growing pharmaceutical industry in India.
+              Bombay Chamber of Commerce, GS1 India, & Pharmexcil, and such
+              statutory bodies that secure our standing in the growing
+              pharmaceutical industry in India.
             </p>
             <p className="mt-4 text-base md:text-xl text-gray-500 leading-8">
               With more than 12 years of experience specialising in contract
@@ -217,7 +217,8 @@ export default function Example() {
             <p className="mt-4 text-base md:text-xl text-gray-500 leading-8">
               All our products are tested to ensure high-quality standards
               adhering to various parameters such as purity, solubility,
-              composition, effectiveness, concentration, and formulation.
+              composition, effectiveness, concentration, and formulation with
+              100% tested raw materials.
             </p>
           </div>
         </div>

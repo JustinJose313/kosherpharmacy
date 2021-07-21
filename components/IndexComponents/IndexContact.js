@@ -42,11 +42,11 @@ const IndexContact = () => {
   };
 
   return (
-    <section className="bg-gradient-to-br from-brand-100 to-brand-200">
+    <section className="">
       <ToastContainer autoClose={2000} />
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
-        <h2 className="text-white text-3xl sm:text-4xl font-bold mb-6 text-center">
-          Send us your feedback
+        <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">
+          What can we do for you
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 shadow-lg">
           <div className="relative bg-brand-100">
