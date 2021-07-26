@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { productData, productHeadings } from "../../../public/data/productData";
 import { useCart } from "react-use-cart";
+import AutoComplete from "./AutoComplete";
 
 const Categories = ({
   group,
@@ -12,14 +13,10 @@ const Categories = ({
   setSearch,
 }) => {
   const { pharmacy, surgical, veterinary } = productData;
+  const spreadData = [...pharmacy, ...surgical, ...veterinary];
   const { addItem } = useCart();
   const [toggle, setToggle] = useState(true);
-  const [vis, setVis] = useState(false);
-  const [searchData, setSearchData] = useState([
-    ...pharmacy,
-    ...surgical,
-    ...veterinary,
-  ]);
+  const [product, setProduct] = useState()
 
   useEffect(() => {
     const w = window.innerWidth;
@@ -28,68 +25,22 @@ const Categories = ({
     }
   }, []);
 
-  const handleFilter = (label, c, s) => {
-    setGroup(label);
-    setCategory(c);
-    setSearch(s);
-    // setVis(false);
-  };
-
   return (
     <section id="categories">
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
           <div className="md:col-span-4 mb-6">
             <h2 className="text-2xl font-bold">Categories</h2>
-            <div className="pt-4 relative mx-auto text-gray-600">
-              <input
-                className="border-2 w-full border-gray-300 bg-white h-10 px-5 rounded-lg text-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-offset-2 focus:ring-brand-100"
-                type="search"
-                name="search"
-                onFocus={() => {
-                  clearTimeout();
-                  setVis(true);
-                }}
-                onBlur={() => {
-                  setTimeout(() => {
-                    setVis(false);
-                  }, 200);
-                }}
-                autoComplete="off"
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                placeholder="Search"
-              />
-              {vis && (
-                <div className="shadow-md absolute top-16 rounded-lg overflow-y-scroll left-0 h-auto max-h-48 p-2 w-full bg-white">
-                  {Array.isArray(searchData) &&
-                    searchData
-                      .filter((each) => {
-                        if (search == "") {
-                          return each;
-                        } else if (
-                          each.n.toLowerCase().includes(search.toLowerCase())
-                        ) {
-                          return each;
-                        }
-                      })
-                      .map((val, i) => {
-                        return (
-                          <Link key={i} href="#categoryContainer">
-                            <div
-                              onClick={() =>
-                                handleFilter(val.label, val.c, val.n)
-                              }
-                              className="p-2 hover:bg-gray-100 cursor-pointer font-medium text-gray-500 hover:text-gray-900 capitalize"
-                            >
-                              {val.n}
-                            </div>
-                          </Link>
-                        );
-                      })}
-                </div>
-              )}
-            </div>
+            <AutoComplete
+              data={spreadData}
+              group={group}
+              setGroup={setGroup}
+              category={category}
+              setCategory={setCategory}
+              search={search}
+              setSearch={setSearch}
+              onSelect={product => setProduct(product)}
+            />
             <div className="mt-6">
               <div
                 onClick={() => {
