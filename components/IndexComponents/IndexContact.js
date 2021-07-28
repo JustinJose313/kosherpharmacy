@@ -45,8 +45,8 @@ const IndexContact = () => {
     <section className="">
       <ToastContainer autoClose={2000} />
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">
-          What can we do for you
+        <h2 className="text-xl sm:text-3xl font-bold mb-6 text-center max-w-sm max-w-xl max-w-lg mx-auto">
+          See What Kosher Pharmaceuticals Can Do For You
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 shadow-lg">
           <div className="relative bg-brand-100">
@@ -127,7 +127,7 @@ const IndexContact = () => {
                 disabled={loading}
                 className="px-5 py-3 disabled:opacity-50 w-full md:w-auto text-white bg-brand-100 hover:bg-brand-200 transition shadow-md"
               >
-                {success ? "Feedback Sent!" : "Send Feedback"}
+                {success ? "Feedback Sent!" : "Submit"}
               </button>
             </div>
           </form>
