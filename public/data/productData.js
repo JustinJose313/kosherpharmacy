@@ -331,7 +331,7 @@ export const productData = {
       price: 100,
       id: 23,
       img: "/images/Anti-biotic/Gentamycininjection.jpg",
-      n: "Gentamycin injection",
+      n: "Gentamicin injection",
       pid: "CAS NO: 1405-41-0",
       d: [
         "Gentamicin injection is an aminoglycoside antibiotic, used to treat many types of bacterial infections, particularly those caused by Gram-negative bacteria. Gentamicin is a bactericidal antibiotic that works by binding the 30S subunit of the bacterial ribosome, interrupting protein synthesis.",
@@ -481,7 +481,7 @@ export const productData = {
       id: 33,
       img: "/images/Antidiabetic-Drugs/Glibenclamide-tablet.jpeg",
       n: "Gilbenclamide Tablets",
-      pid: "CAS :10238-21-8",
+      pid: "CAS: 10238-21-8",
       d: [
         "Glibenclamide is a type of medicine called a sulphonylurea. It is used to help control blood sugar levels in people with type 2 diabetes.",
         "It is available in 1.25 mg, 2.5 mg and 5 mg and is used in the treatment of type II diabetes.",
@@ -717,9 +717,7 @@ export const productData = {
       n: "Tolvaptan",
       pid: "CAS NO: 150683-30-0",
       d: [
-        "Simvastatin is available in compositionsof 20 mg and 40 mg tablet.",
-        "It blocks the production of cholesterol (a type of fat) in the body. It is an HMG-COA reductase inhibitor or “statin” used to lower bad cholesterol (LDL) and triglyceride levels in your blood or to raise good cholesterol (HDL) levels in adults.",
-        "This medicine is used in combination with a low-cholesterol and low-fat diet. Simvastatin may also be used in certain adolescent patients, age 10 to 17 years, who have a genetically caused cholesterol problem.",
+        "Tolvaptan is a prescription medicine used to help increase low sodium levels in the blood, in adults with conditions such as heart failure, and certain hormone imbalances. Tolvaptan helps raise salt levels in your blood by removing extra body water as urine."
       ],
     },
     
@@ -1074,7 +1072,7 @@ export const productData = {
       id: 73,
       img: "/images/Steroid-Hormones/TrenHBC.jpg",
       n: "Testeonate 250 (Testosterone Enanthate Injection)",
-      pid: "CAS No.: 315-37-7",
+      pid: "CAS No: 315-37-7",
       d: [
         "Testosterone enanthate is an oil based injectable steroid, designed to slowly release testosterone from the injection site.",
         "Testeonate is the most popular prescribed testosterone for treating Hypogonadism and many other disorders that relate to androgen deficiency.Serum concentrations of this hormone will rise for several days and remain elevated for about two weeks.",
@@ -1166,7 +1164,7 @@ export const productData = {
       price: 100,
       id: 79,
       img: "/images/Steroid-Hormones/ChlorodehydroMethylteststeroneTablets.jpg",
-      n: "Chlorodehydro Methylteststerone Tablets",
+      n: "4-Chloro dehydro methyltestosterone tablets",
       pid: "CAS NO:  2446-23-3",
       d: [
         "Chlorodehydro Methylteststerone tablets 10 mg is a man-made steroid, similar to the naturally occurring steroid testosterone.",
@@ -1812,7 +1810,7 @@ export const productData = {
       img: "/images/Veterinary-Drugs/OxyclozamideandLaevamisole.jpg",
       n: "Oxyclozamide and Laevamisole",
       pid: "",
-      d: ["Levamisole and oxyclozanide used in Prophylaxis and treatment of gastrointestinal and lungworm infections in cattle, calves, sheep and goats like Trichostrongylus, Cooperia, Ostertagia, Haemonchus, Nematodirus, Chabertia, Bunostomum, Dictyocaulus and Fasciola (liver fluke) spp."],
+      d: ["Oxyclozamide and Laevamisole used in Prophylaxis and treatment of gastrointestinal and lungworm infections in cattle, calves, sheep and goats like Trichostrongylus, Cooperia, Ostertagia, Haemonchus, Nematodirus, Chabertia, Bunostomum, Dictyocaulus and Fasciola (liver fluke) spp."],
     },
     {
       c: "Veterinary Drugs",
@@ -1822,7 +1820,7 @@ export const productData = {
       id: 128,
       img: "/images/Veterinary-Drugs/TylosinTartrate.jpg",
       n: "Tylosin Tartrate 20%",
-      pid: "CAS:74610-55-2",
+      pid: "CAS: 74610-55-2",
       d: ["It is a broad spectrum anthelmintic against round worms of GIT & Respiratory tract. It is bacteriostatic at therapeutic concentration and bactericidal at higher doses."],
     },
   ],
