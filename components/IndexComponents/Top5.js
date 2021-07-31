@@ -65,7 +65,7 @@ const Top5 = ({ setGroup, setCategory, setSearch }) => {
           <Link href="#categoryContainer">
             <div
               onClick={() => {
-                setCategory("Antibiotic Medicines");
+                setCategory("Cardiovascular Drugs");
                 setSearch('')
                 setGroup("pharmacy");
               }}
@@ -82,7 +82,7 @@ const Top5 = ({ setGroup, setCategory, setSearch }) => {
               >
                 <div className="bg-black px-4 py-28 bg-opacity-50 hover:bg-opacity-20 transition w-full h-full flex items-center justify-center">
                   <h3 className="text-white text-base lg:text-xl font-semibold tracking-wider">
-                    Antihypertensive
+                    Cardiovascular
                   </h3>
                 </div>
               </div>

@@ -10,7 +10,7 @@ const IndexContact = () => {
   const [success, setSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
   const validationSchema = Yup.object().shape({
-    name: Yup.string().min(3).max(50).required("Your Name is required"),
+    name: Yup.string().min(3).max(50).required("Name is required"),
     email: Yup.string().email("Invalid Email").required("Subject is required"),
     message: Yup.string().min(3).max(100).required("Message is required"),
   });
@@ -45,15 +45,15 @@ const IndexContact = () => {
     <section className="">
       <ToastContainer autoClose={2000} />
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
-        <h2 className="text-xl sm:text-3xl font-bold mb-6 text-center max-w-sm max-w-xl max-w-lg mx-auto">
+        <h2 className="text-xl sm:text-3xl font-bold mb-6 text-center mx-auto">
           See What Kosher Pharmaceuticals Can Do For You
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 shadow-lg">
           <div className="relative bg-brand-100">
             <div className="w-full h-full opacity-80">
               <img
-                className="w-full h-full object-cover"
-                src="https://images.unsplash.com/photo-1618498082410-b4aa22193b38?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                className="w-full h-full object-cover bg-center"
+                src="/assets/contacthero.jpg"
                 alt=""
               />
             </div>
@@ -61,11 +61,11 @@ const IndexContact = () => {
           </div>
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="p-4 md:p-8 bg-white"
+            className="p-4 md:p-8 bg-white flex flex-col justify-center"
           >
             <div className="flex flex-col space-y-2">
               <label className="text-sm" htmlFor="name">
-                Your Name
+                Name
               </label>
               <input
                 {...register("name")}
@@ -84,7 +84,7 @@ const IndexContact = () => {
             </div>
             <div className="flex flex-col space-y-2 mt-6">
               <label className="text-sm" htmlFor="email">
-                Your Email
+                Email
               </label>
               <input
                 {...register("email")}
@@ -103,7 +103,7 @@ const IndexContact = () => {
             </div>
             <div className="flex flex-col space-y-2 mt-6">
               <label className="text-sm" htmlFor="message">
-                Your Message
+                Message
               </label>
               <textarea
                 {...register("message")}
