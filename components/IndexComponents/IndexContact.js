@@ -3,8 +3,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
 import axios from "axios";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import toast, { Toaster } from 'react-hot-toast';
 
 const IndexContact = () => {
   const [success, setSuccess] = useState(false);
@@ -17,13 +16,14 @@ const IndexContact = () => {
   const {
     handleSubmit,
     register,
+    reset,
     formState: { errors },
   } = useForm({
     resolver: yupResolver(validationSchema),
     mode: "onBlur",
   });
 
-  const notify = () => toast("Feedback sent successfully!");
+  const notify = () => toast("Enquiry sent successfully!");
   const onSubmit = async (values) => {
     setLoading(true);
     try {
@@ -35,6 +35,7 @@ const IndexContact = () => {
         setSuccess(false);
       }, 5000);
       notify();
+      reset()
     } catch (error) {
       console.log(error);
       setLoading(false);
@@ -43,7 +44,7 @@ const IndexContact = () => {
 
   return (
     <section className="">
-      <ToastContainer autoClose={2000} />
+      <Toaster />
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
         <h2 className="text-xl sm:text-3xl font-bold mb-6 text-center mx-auto">
           See What Kosher Pharmaceuticals Can Do For You
@@ -65,7 +66,7 @@ const IndexContact = () => {
           >
             <div className="flex flex-col space-y-2">
               <label className="text-sm" htmlFor="name">
-                Name
+                Name*
               </label>
               <input
                 {...register("name")}
@@ -84,7 +85,7 @@ const IndexContact = () => {
             </div>
             <div className="flex flex-col space-y-2 mt-6">
               <label className="text-sm" htmlFor="email">
-                Email
+                Email*
               </label>
               <input
                 {...register("email")}
@@ -103,7 +104,7 @@ const IndexContact = () => {
             </div>
             <div className="flex flex-col space-y-2 mt-6">
               <label className="text-sm" htmlFor="message">
-                Message
+                Message*
               </label>
               <textarea
                 {...register("message")}

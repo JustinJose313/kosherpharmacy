@@ -6,8 +6,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
 import axios from "axios";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import toast, { Toaster } from 'react-hot-toast';
 
 const normalizePhoneNum = (value) => {
   return (
@@ -34,6 +33,7 @@ const CartPage = () => {
   const {
     handleSubmit,
     register,
+    reset,
     formState: { errors },
   } = useForm({
     resolver: yupResolver(validationSchema),
@@ -55,6 +55,7 @@ const CartPage = () => {
         setSuccess(false);
       }, 5000);
       notify();
+      reset()
     } catch (error) {
       console.log(error);
       setLoading(false);
@@ -62,7 +63,7 @@ const CartPage = () => {
   };
   return (
     <div className="bg-white">
-      <ToastContainer autoClose={2000} />
+      <Toaster />
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
           {isEmpty ? (
@@ -107,7 +108,7 @@ const CartPage = () => {
             <div className="p-4 md:p-8 bg-white shadow-xl border border-brand-100">
               <div className="flex flex-col space-y-2">
                 <label className="text-sm" htmlFor="name">
-                  Your Name
+                  Name*
                 </label>
                 <div className="mt-1 relative rounded-md shadow-sm">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -143,7 +144,7 @@ const CartPage = () => {
               </div>
               <div className="flex flex-col space-y-2 mt-6">
                 <label className="text-sm" htmlFor="email">
-                  Your Email
+                  Email*
                 </label>
                 <div className="mt-1 relative rounded-md shadow-sm">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -179,7 +180,7 @@ const CartPage = () => {
               </div>
               <div className="flex flex-col space-y-2 mt-6">
                 <label className="text-sm" htmlFor="phone">
-                  Your Mobile Number
+                 Mobile Number*
                 </label>
                 <div className="mt-1 relative rounded-md shadow-sm">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -219,7 +220,7 @@ const CartPage = () => {
               </div>
               <div className="flex flex-col space-y-2 mt-6">
                 <label className="text-sm" htmlFor="message">
-                  Your Message
+                Message
                 </label>
                 <div className="mt-1 relative rounded-md shadow-sm">
                   <textarea
