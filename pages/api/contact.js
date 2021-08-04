@@ -16,7 +16,7 @@ export default async (req, res) => {
     const emailSend = await transporter.sendMail({
       from: email,
       to: "pharmaceuticalskosher@gmail.com",
-      subject: `Website Feedback from ${name}`,
+      subject: `Website Enquiry from ${name}`,
       html: `<div style="margin-bottom:10px">
       <p>Sender's name: ${name}</p>
       <p>Sender's email: ${email}</p>

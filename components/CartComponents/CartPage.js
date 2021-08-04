@@ -107,7 +107,7 @@ const CartPage = () => {
             <div className="p-4 md:p-8 bg-white shadow-xl border border-brand-100">
               <div className="flex flex-col space-y-2">
                 <label className="text-sm" htmlFor="name">
-                  Your Name
+                  Name*
                 </label>
                 <div className="mt-1 relative rounded-md shadow-sm">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -143,7 +143,7 @@ const CartPage = () => {
               </div>
               <div className="flex flex-col space-y-2 mt-6">
                 <label className="text-sm" htmlFor="email">
-                  Your Email
+                  Email*
                 </label>
                 <div className="mt-1 relative rounded-md shadow-sm">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -179,7 +179,7 @@ const CartPage = () => {
               </div>
               <div className="flex flex-col space-y-2 mt-6">
                 <label className="text-sm" htmlFor="phone">
-                  Your Mobile Number
+                 Mobile Number*
                 </label>
                 <div className="mt-1 relative rounded-md shadow-sm">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -219,7 +219,7 @@ const CartPage = () => {
               </div>
               <div className="flex flex-col space-y-2 mt-6">
                 <label className="text-sm" htmlFor="message">
-                  Your Message
+                Message
                 </label>
                 <div className="mt-1 relative rounded-md shadow-sm">
                   <textarea
