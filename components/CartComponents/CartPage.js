@@ -7,7 +7,6 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
 import axios from "axios";
 import toast, { Toaster } from 'react-hot-toast';
-import "react-toastify/dist/ReactToastify.css";
 
 const normalizePhoneNum = (value) => {
   return (
@@ -34,6 +33,7 @@ const CartPage = () => {
   const {
     handleSubmit,
     register,
+    reset,
     formState: { errors },
   } = useForm({
     resolver: yupResolver(validationSchema),
@@ -55,6 +55,7 @@ const CartPage = () => {
         setSuccess(false);
       }, 5000);
       notify();
+      reset()
     } catch (error) {
       console.log(error);
       setLoading(false);
