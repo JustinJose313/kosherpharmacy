@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
 import axios from "axios";
-import { ToastContainer, toast } from "react-toastify";
+import toast, { Toaster } from 'react-hot-toast';
 import "react-toastify/dist/ReactToastify.css";
 
 const normalizePhoneNum = (value) => {
@@ -62,7 +62,7 @@ const CartPage = () => {
   };
   return (
     <div className="bg-white">
-      <ToastContainer autoClose={2000} />
+      <Toaster />
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
           {isEmpty ? (
