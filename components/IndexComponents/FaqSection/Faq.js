@@ -1,6 +1,34 @@
 import React from "react";
+import Link from "next/link";
 
 const Faq = () => {
+  const faqs = [
+    {
+      id: 1,
+      question: "I have a query regarding your pharmaceutical products.",
+      answer:
+        "Feel free to ask your query and learn more about our products and services by sending an emailto info@kosherpharmaceuticals.com",
+    },
+    {
+      id: 1,
+      question:
+        "How can I obtain more information on a product than that displayed on your site?",
+      answer:
+        "We can help you if contact us by writing to info@kosherpharmaceuticals.com. We do not encourage casual reading about the products on the web as it can be misleading. We suggest you seek guidance from a certified medical practioner on the same.",
+    },
+    {
+      id: 1,
+      question:
+        "Who do I enquire to understand the safety of consumption of a product?",
+      answer:
+        "If you are already taking other medications, it’s best to understand from your doctor what is safe for you to consume. You may also consult us by dropping an email at info@kosherpharmaceuticals.com and explore what products we can provide you with for your condition.",
+    },
+    {
+      id: 1,
+      question: "Can I hire you for a personalised order?",
+      answer: "Yes, we offer customised services.",
+    },
+  ];
   return (
     <section className="bg-white">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
@@ -20,55 +48,27 @@ const Faq = () => {
               team.
             </p>
           </div>
+
           <div className="mt-12 lg:mt-0 lg:col-span-2">
-            <div className='italic'>
-              -- Update in progress...
-            </div>
-            {/* <dl className="space-y-12">
-              <div>
-                <dt className="text-lg leading-6 font-medium text-gray-900">
-                  How do you make holy water?
-                </dt>
-                <dd className="mt-2 text-base text-gray-500">
-                  You boil the hell out of it. Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Quas cupiditate laboriosam
-                  fugiat.
-                </dd>
-              </div>
-
-              <div>
-                <dt className="text-lg leading-6 font-medium text-gray-900">
-                  What&#039;s the best thing about Switzerland?
-                </dt>
-                <dd className="mt-2 text-base text-gray-500">
-                  I don&#039;t know, but the flag is a big plus. Lorem ipsum
-                  dolor sit amet consectetur adipisicing elit. Quas cupiditate
-                  laboriosam fugiat.
-                </dd>
-              </div>
-
-              <div>
-                <dt className="text-lg leading-6 font-medium text-gray-900">
-                  What do you call someone with no body and no nose?
-                </dt>
-                <dd className="mt-2 text-base text-gray-500">
-                  Nobody knows. Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Quas cupiditate laboriosam fugiat.
-                </dd>
-              </div>
-
-              <div>
-                <dt className="text-lg leading-6 font-medium text-gray-900">
-                  Why do you never see elephants hiding in trees?
-                </dt>
-                <dd className="mt-2 text-base text-gray-500">
-                  Because they&#039;re so good at it. Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Quas cupiditate laboriosam
-                  fugiat.
-                </dd>
-              </div>
+            <dl className="space-y-12">
+              {faqs.map((each, i) => {
+                return (
+                  <div key={i}>
+                    <dt className="text-lg leading-6 font-medium text-gray-900">
+                      {each.question}
+                    </dt>
+                    <dd className="mt-2 text-base text-gray-500">
+                      {each.answer}
+                    </dd>
+                  </div>
+                );
+              })}
+              <Link href="/faq">
+                <button className="font-bold text-brand-100 hover:text-brand-200">
+                  See all questions
+                </button>
+              </Link>
             </dl>
-          */}
           </div>
         </div>
       </div>

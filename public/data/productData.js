@@ -1492,7 +1492,7 @@ export const productData = {
       //Ashutosh please enter id to all objects starting from 1
       id: 103,
       img: "/images/Surgicals/Nonsterilesurgicalglovespowderfree.jpg",
-      n: "Non- Sterile surgical Gloves Powder Free",
+      n: "Non-Sterile surgical Gloves Powder Free",
       s: ["6.0 / 6.5 / 7.0 / 7.5 / 8.0 / 8.5"],
     },
     {
@@ -1551,17 +1551,17 @@ export const productData = {
       n: "Basic Delivery Intruments Set",
       s: [""],
     },
-    {
-      c: "Surgical",
-      label: "surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 109,
-      img: "/images/Surgicals/GeneralSurgeryBasicKit.jpeg",
-      n: "General Surgery Basic Kit",
-      s: [""],
-    },
+    // {
+    //   c: "Surgical",
+    //   label: "surgical",
+    //   quantity: 1,
+    //   price: 100,
+    //   //Ashutosh please enter id to all objects starting from 1
+    //   id: 109,
+    //   img: "/images/Surgicals/GeneralSurgeryBasicKit.jpeg",
+    //   n: "General Surgery Basic Kit",
+    //   s: [""],
+    // },
     {
       c: "Surgical",
       label: "surgical",
