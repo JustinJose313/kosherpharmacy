@@ -11,7 +11,7 @@ const IndexContact = () => {
   const validationSchema = Yup.object().shape({
     name: Yup.string().min(3).max(50).required("Name is required"),
     email: Yup.string().email("Invalid Email").required("Subject is required"),
-    message: Yup.string().min(3).max(100).required("Message is required"),
+    message: Yup.string().max(100),
   });
   const {
     handleSubmit,
@@ -66,7 +66,7 @@ const IndexContact = () => {
           >
             <div className="flex flex-col space-y-2">
               <label className="text-sm" htmlFor="name">
-                Name*
+                Name <span className='text-red-500'>*</span>
               </label>
               <input
                 {...register("name")}
@@ -85,7 +85,7 @@ const IndexContact = () => {
             </div>
             <div className="flex flex-col space-y-2 mt-6">
               <label className="text-sm" htmlFor="email">
-                Email*
+                Email <span className='text-red-500'>*</span>
               </label>
               <input
                 {...register("email")}
@@ -104,7 +104,7 @@ const IndexContact = () => {
             </div>
             <div className="flex flex-col space-y-2 mt-6">
               <label className="text-sm" htmlFor="message">
-                Message*
+                Message
               </label>
               <textarea
                 {...register("message")}

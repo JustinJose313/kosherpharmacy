@@ -13,41 +13,42 @@ const faq = () => {
   const faqs = [
     {
       id: 1,
-      question: "What's the best thing about Switzerland?",
+      question: "I have a query regarding your pharmaceutical products.",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Feel free to ask your query and learn more about our products and services by sending an emailto info@kosherpharmaceuticals.com",
     },
     {
       id: 1,
-      question: "What's the best thing about Switzerland?",
+      question:
+        "How can I obtain more information on a product than that displayed on your site?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "We can help you if contact us by writing to info@kosherpharmaceuticals.com. We do not encourage casual reading about the products on the web as it can be misleading. We suggest you seek guidance from a certified medical practioner on the same.",
     },
     {
       id: 1,
-      question: "What's the best thing about Switzerland?",
+      question:
+        "Who do I enquire to understand the safety of consumption of a product?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "If you are already taking other medications, it’s best to understand from your doctor what is safe for you to consume. You may also consult us by dropping an email at info@kosherpharmaceuticals.com and explore what products we can provide you with for your condition.",
     },
     {
       id: 1,
-      question: "What's the best thing about Switzerland?",
-      answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      question: "Can I hire you for a personalised order?",
+      answer: "Yes, we offer customised services.",
     },
     {
       id: 1,
-      question: "What's the best thing about Switzerland?",
+      question:
+        "What certifications support the purity and authenticity of your products?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "We are ISO 9001:2015 certified and also have GMP certification. All products sold by Kosher Pharmaceuticals are guaranteed to be pure, genuine and authentic.",
     },
     {
       id: 1,
-      question: "What's the best thing about Switzerland?",
+      question: "What parts of the world are your products available in?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "We are available in all the countries which are reachable through post.",
     },
-    // More questions...
   ];
   return (
     <MainLayout data={SEOData}>
@@ -64,8 +65,7 @@ const faq = () => {
             </p>
           </div>
           <div className="mt-20">
-            <div className="italic">-- Update in progress...</div>
-            {/* <dl className="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-10">
+            <dl className="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-10">
               {faqs.map((faq, i) => (
                 <div key={i}>
                   <dt className="font-semibold text-gray-900">
@@ -74,7 +74,7 @@ const faq = () => {
                   <dd className="mt-3 text-gray-500">{faq.answer}</dd>
                 </div>
               ))}
-            </dl> */}
+            </dl>
           </div>
         </div>
       </div>

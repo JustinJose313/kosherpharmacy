@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
 import axios from "axios";
-import toast, { Toaster } from 'react-hot-toast';
+import toast, { Toaster } from "react-hot-toast";
 
 const normalizePhoneNum = (value) => {
   return (
@@ -27,7 +27,7 @@ const CartPage = () => {
   const validationSchema = Yup.object().shape({
     name: Yup.string().min(3).max(50).required("Your Name is required"),
     email: Yup.string().email("Invalid Email").required("Email is required"),
-    phone: Yup.string().required("Phone number is required"),
+    phone: Yup.string(),
     message: Yup.string().max(150),
   });
   const {
@@ -55,7 +55,7 @@ const CartPage = () => {
         setSuccess(false);
       }, 5000);
       notify();
-      reset()
+      reset();
     } catch (error) {
       console.log(error);
       setLoading(false);
@@ -108,7 +108,7 @@ const CartPage = () => {
             <div className="p-4 md:p-8 bg-white shadow-xl border border-brand-100">
               <div className="flex flex-col space-y-2">
                 <label className="text-sm" htmlFor="name">
-                  Name*
+                  Name <span className="text-red-500">*</span>
                 </label>
                 <div className="mt-1 relative rounded-md shadow-sm">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -144,7 +144,7 @@ const CartPage = () => {
               </div>
               <div className="flex flex-col space-y-2 mt-6">
                 <label className="text-sm" htmlFor="email">
-                  Email*
+                  Email <span className="text-red-500">*</span>
                 </label>
                 <div className="mt-1 relative rounded-md shadow-sm">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -180,7 +180,7 @@ const CartPage = () => {
               </div>
               <div className="flex flex-col space-y-2 mt-6">
                 <label className="text-sm" htmlFor="phone">
-                 Mobile Number*
+                  Mobile Number
                 </label>
                 <div className="mt-1 relative rounded-md shadow-sm">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -220,7 +220,7 @@ const CartPage = () => {
               </div>
               <div className="flex flex-col space-y-2 mt-6">
                 <label className="text-sm" htmlFor="message">
-                Message
+                  Message
                 </label>
                 <div className="mt-1 relative rounded-md shadow-sm">
                   <textarea
