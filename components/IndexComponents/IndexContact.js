@@ -128,7 +128,7 @@ const IndexContact = () => {
                 disabled={loading}
                 className="px-5 py-3 disabled:opacity-50 w-full md:w-auto text-white bg-brand-100 hover:bg-brand-200 transition shadow-md"
               >
-                {success ? "Feedback Sent!" : "Submit"}
+                {success ? "Submit" : "Submit"}
               </button>
             </div>
           </form>
