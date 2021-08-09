@@ -220,7 +220,7 @@ const CartPage = () => {
               </div>
               <div className="flex flex-col space-y-2 mt-6">
                 <label className="text-sm" htmlFor="message">
-                  Message
+                  Message<span className="text-red-500">*</span>
                 </label>
                 <div className="mt-1 relative rounded-md shadow-sm">
                   <textarea

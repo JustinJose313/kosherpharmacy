@@ -7,7 +7,7 @@ const Faq = () => {
       id: 1,
       question: "I have a query regarding your pharmaceutical products.",
       answer:
-        "Feel free to ask your query and learn more about our products and services by sending an emailto info@kosherpharmaceuticals.com",
+        "Feel free to ask your query and learn more about our products and services by sending an Email to info@kosherpharmaceuticals.com",
     },
     {
       id: 1,
@@ -40,7 +40,7 @@ const Faq = () => {
             <p className="mt-4 text-lg text-gray-500">
               Can’t find the answer you’re looking for? Reach out to our{" "}
               <a
-                href="#"
+                href="mailto:info@kosherpharmaceuticals.com"
                 className="font-medium text-brand-100 hover:text-brand-200"
               >
                 customer support
