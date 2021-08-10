@@ -15,7 +15,7 @@ const faq = () => {
       id: 1,
       question: "I have a query regarding your pharmaceutical products.",
       answer:
-        "Feel free to ask your query and learn more about our products and services by sending an emailto info@kosherpharmaceuticals.com",
+        "Feel free to ask your query and learn more about our products and services by sending an Email to info@kosherpharmaceuticals.com",
     },
     {
       id: 1,
@@ -58,11 +58,9 @@ const faq = () => {
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Frequently asked questions
             </h2>
-            <p className="mt-4 text-gray-500">
-              Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
-              Malesuada adipiscing sagittis vel nulla nec. Urna, sed a lectus
-              elementum blandit et.
-            </p>
+            {/* <p className="mt-4 text-gray-500">
+           
+            </p> */}
           </div>
           <div className="mt-20">
             <dl className="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-10">

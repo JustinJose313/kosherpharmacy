@@ -25,10 +25,10 @@ const CartPage = () => {
   const [success, setSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
   const validationSchema = Yup.object().shape({
-    name: Yup.string().min(3).max(50).required("Your Name is required"),
+    name: Yup.string().min(3, "Name is too short").max(50, "Name is too long").required("Your Name is required"),
     email: Yup.string().email("Invalid Email").required("Email is required"),
     phone: Yup.string(),
-    message: Yup.string().max(150),
+    message: Yup.string().max(150, "Message is too long"),
   });
   const {
     handleSubmit,
@@ -220,7 +220,7 @@ const CartPage = () => {
               </div>
               <div className="flex flex-col space-y-2 mt-6">
                 <label className="text-sm" htmlFor="message">
-                  Message
+                  Message<span className="text-red-500">*</span>
                 </label>
                 <div className="mt-1 relative rounded-md shadow-sm">
                   <textarea

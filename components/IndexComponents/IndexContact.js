@@ -9,7 +9,7 @@ const IndexContact = () => {
   const [success, setSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
   const validationSchema = Yup.object().shape({
-    name: Yup.string().min(3).max(50).required("Name is required"),
+    name: Yup.string().min(3, "Name is too short").max(50, "Name is too long").required("Name is required"),
     email: Yup.string().email("Invalid Email").required("Subject is required"),
     message: Yup.string().max(100),
   });
