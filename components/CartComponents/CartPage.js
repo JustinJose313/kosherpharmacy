@@ -25,10 +25,10 @@ const CartPage = () => {
   const [success, setSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
   const validationSchema = Yup.object().shape({
-    name: Yup.string().min(3).max(50).required("Your Name is required"),
+    name: Yup.string().min(3, "Name is too short").max(50, "Name is too long").required("Your Name is required"),
     email: Yup.string().email("Invalid Email").required("Email is required"),
     phone: Yup.string(),
-    message: Yup.string().max(150),
+    message: Yup.string().max(150, "Message is too long"),
   });
   const {
     handleSubmit,
