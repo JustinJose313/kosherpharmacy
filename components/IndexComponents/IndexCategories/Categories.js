@@ -119,7 +119,7 @@ const Categories = ({
                 </div>
               )}
 
-              {/* <Link href="#categoryContainer">
+              <Link href="#categoryContainer">
                 <div
                   onClick={() => {
                     setGroup("surgical");
@@ -145,7 +145,7 @@ const Categories = ({
                   </svg>
                 </div>
               </Link>
-               */}
+             
               <Link href="#categoryContainer">
                 <div
                   onClick={() => {
