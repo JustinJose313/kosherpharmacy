@@ -589,10 +589,10 @@ export const productData = {
       id: 41,
       img: "/images/Antimalarial-Drugs/Quininesulphate.jpg",
       n: "Quinine sulphate injections",
-      pid: "CAS NO: 130-95-0",
+      pid: "CAS NO: 6119-70-6",
       d: [
-        "Orlistat capsules 60 mg, 120 mg is a worldwide recognized medicine for patients, suffering from obesity, in its ability to manage adiposis in adult and adolescent patients, from age 12 and older.",
-        "Orlistat is a weight loss medication that targets the absorption of fat in your body rather than suppressing your appetite. It is useful for long term use and has been shown to be effective for 1-2 years.",
+        "Treatment of malaria (falciparum malaria, or if the infective species is not known, or if the infection is mixed).",
+        "Quinine sulphate is used in treating and preventing night-time leg cramps in adults and elderly people. Quinine should only be used if the cramps cause regular and frequent disruption of sleep and other measures, such as stretching exercises, have not worked.",
       ],
     },
     {
