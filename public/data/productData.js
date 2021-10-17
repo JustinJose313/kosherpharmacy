@@ -1055,7 +1055,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 72,
-      img: "/images/Steroid-Hormones/TESTEOLIN.JPG",
+      img: "/images/Steroid-Hormones/TESTEOLIN.jpg",
       n: "Testeolin (Testosterone Propionate injection)",
       pid: "CAS NO: 57-85-2",
       d: [
@@ -1113,7 +1113,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 76,
-      img: "/images/Steroid-Hormones/BOLDINEX 250.JPG",
+      img: "/images/Steroid-Hormones/BOLDINEX 250.jpg",
       n: "Boldinex 250 (Boldenone Undecylenate Injection/Vial)",
       pid: "CAS NO:  13103-34-9",
       d: [
@@ -1144,7 +1144,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 78,
-      img: "/images/Steroid-Hormones/DROSTRONATE 100.JPG",
+      img: "/images/Steroid-Hormones/DROSTRONATE 100.jpg",
       n: "Drostronate 100 (Drostanolone Propionate 100 mg/ml)",
       pid: "CAS NO: 100- 57-85-2",
       d: [
