@@ -923,7 +923,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 62,
-      img: "/images/Men's-Health/SildenafilCitrateSoftTablet.jpg",
+      img: "/images/Men's-Health/SILDENAFILCITRATESOFTTABLET.jpeg",
       n: "Sildenafil Citrate Soft Tablet",
       pid: "CAS NO:  171599-83-0",
       d: [
@@ -1055,7 +1055,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 72,
-      img: "/images/Steroid-Hormones/testiolin.JPG",
+      img: "/images/Steroid-Hormones/TESTEOLIN.JPG",
       n: "Testeolin (Testosterone Propionate injection)",
       pid: "CAS NO: 57-85-2",
       d: [
@@ -1070,7 +1070,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 73,
-      img: "/images/Steroid-Hormones/TrenHBC.jpg",
+      img: "/images/Steroid-Hormones/TESTEONATE 250.jpg",
       n: "Testeonate 250 (Testosterone Enanthate Injection)",
       pid: "CAS No: 315-37-7",
       d: [
@@ -1085,7 +1085,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 74,
-      img: "/images/Steroid-Hormones/TrenHBC.jpg",
+      img: "/images/Steroid-Hormones/TREN HBC.jpg",
       n: "Tren HBC (Trenbolone Hexa Hydrochloro Benzylcarbonate Injections)",
       pid: "CAS NO: 5721-91-5",
       d: [
@@ -1099,7 +1099,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 75,
-      img: "/images/Steroid-Hormones/Trenace100.jpg",
+      img: "/images/Steroid-Hormones/TRENACE100(TRENBOLONEACETATEINJECTION).jpg",
       n: "Trenace 100 (Trenbolone Acetate Injection)",
       pid: "CAS NO: 10161-34-9",
       d: [
@@ -1113,7 +1113,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 76,
-      img: "/images/Steroid-Hormones/boldinex250.JPG",
+      img: "/images/Steroid-Hormones/BOLDINEX 250.JPG",
       n: "Boldinex 250 (Boldenone Undecylenate Injection/Vial)",
       pid: "CAS NO:  13103-34-9",
       d: [
@@ -1127,7 +1127,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 77,
-      img: "/images/Steroid-Hormones/Decanate200(NandroloneDecanoateInjectionVial).jpg",
+      img: "/images/Steroid-Hormones/DECANATE 250.jpg",
       n: "Decanate 250 (Nandrolone Decanoate Injection/Vial)",
       pid: "CAS NO: 360-70-3",
       d: [
@@ -1144,7 +1144,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 78,
-      img: "/images/Steroid-Hormones/drostronate100.JPG",
+      img: "/images/Steroid-Hormones/DROSTRONATE 100.JPG",
       n: "Drostronate 100 (Drostanolone Propionate 100 mg/ml)",
       pid: "CAS NO: 100- 57-85-2",
       d: [
@@ -1163,7 +1163,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 79,
-      img: "/images/Steroid-Hormones/ChlorodehydroMethylteststeroneTablets.jpg",
+      img: "/images/Steroid-Hormones/4-CHLORO.jpg",
       n: "4-Chloro dehydro methyltestosterone tablets",
       pid: "CAS NO:  2446-23-3",
       d: [
@@ -1178,7 +1178,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 80,
-      img: "/images/Steroid-Hormones/ClenbuterolTablets.jpg",
+      img: "/images/Steroid-Hormones/CLENBUTEROL TABLETS.jpg",
       n: "Clenbuterol Tablets",
       pid: "CAS NO: 37148-27-9",
       d: [
@@ -1200,7 +1200,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 81,
-      img: "/images/Steroid-Hormones/HumanChorionicGonadotrophin(HCG).jpg",
+      img: "/images/Steroid-Hormones/HUMAN CHORIONIC GONADOTROPHIN (HCG).jpg",
       n: "Human Chorionic Gonadotrophin (HCG)",
       pid: "CAS NO: 9002-61-3",
       d: [
@@ -1215,7 +1215,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 82,
-      img: "/images/Steroid-Hormones/Methandienonetablet.jpg",
+      img: "/images/Steroid-Hormones/METHANDIENONE TABLET.jpg",
       n: "Methandienone tablet",
       pid: "CAS NO: 72-63-9",
       d: [
@@ -1256,7 +1256,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 85,
-      img: "/images/Steroid-Hormones/SomatropininjectionUSP.jpg",
+      img: "/images/Steroid-Hormones/Somatropin.jpeg",
       n: "Somatropin injection USP",
       d: [
         "HGH Somatropin is available in 10IU, 4 IU/Vial 2 Vials per Box. HGH increases lean muscle mass while reducing body fat and reducing muscle breakdown.",
@@ -1269,7 +1269,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 86,
-      img: "/images/Steroid-Hormones/Stanozololinjection.jpg",
+      img: "/images/Steroid-Hormones/STANOZOLOL TABLETS USP.jpg",
       n: "Stanozolol Tablets USP",
       pid: "CAS NO: 10418-03-8",
       d: [
@@ -1283,7 +1283,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 87,
-      img: "/images/Steroid-Hormones/Stanozololinjection.jpg",
+      img: "/images/Steroid-Hormones/STANOZOLOL INJECTION.jpg",
       n: "Stanozolol injection",
       pid: "CAS NO: 10418-03-8",
       d: [
