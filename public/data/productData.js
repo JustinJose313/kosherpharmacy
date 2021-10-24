@@ -9,7 +9,7 @@ export const productData = {
       id: 1,
       img: "/images/Anta-cids/Lansoprazole-Capsules.jpg",
       n: "Lansoprazole Capsules",
-      pid: "CAS NO.: 103577-45-3",
+      pid: "CAS NO: 103577-45-3",
       d: [
         "Lansoprazole is used in treatment of  ulcers of the stomach and duodenum, NSAID-induced ulcers and in the treatment of gastroesophageal reflux disease.",
       ],
@@ -135,7 +135,7 @@ export const productData = {
       id: 10,
       img: "/images/Antibacterial/SecnidazoleTablets.jpg",
       n: "Secnidazole Tablets",
-      pid: "CAS NO.: 3366-95-8",
+      pid: "CAS NO: 3366-95-8",
       d: [
         "Secnidazole  is a nitro-imidazole anti-infective and is effective in the treatment of dientamoebiais.",
         "Adult: PO- Invasive amoebiasis- The recommended dose is 1.5 g/day for 5 days.",

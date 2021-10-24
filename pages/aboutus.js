@@ -1,6 +1,6 @@
 import React from "react";
 import MainLayout from "../layouts/MainLayout";
-import About from "../components/About";
+import About from "../components/aboutus";
 
 const about = () => {
   const SEOData = {
@@ -9,7 +9,7 @@ const about = () => {
     author: "Kosher Pharmaceuticals",
     ogImg: `${process.env.NEXT_PUBLIC_URL}/logo.png`,
     ogImgAlt: "Kosher Pharmaceuticals",
-    page: "about",
+    page: "aboutus",
   };
   return (
     <MainLayout data={SEOData}>

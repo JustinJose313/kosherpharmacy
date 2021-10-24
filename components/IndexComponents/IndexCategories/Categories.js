@@ -86,7 +86,7 @@ const Categories = ({
                   {productHeadings.map((each, i) => {
                     return (
                       <a
-                        href="#categoryContainer"
+                        href="#products"
                         onClick={() => {
                           setCategory(each);
                           setSearch("");
@@ -119,7 +119,7 @@ const Categories = ({
                 </div>
               )}
 
-              <Link href="#categoryContainer">
+              <Link href="#products">
                 <div
                   onClick={() => {
                     setGroup("surgical");
@@ -146,7 +146,7 @@ const Categories = ({
                 </div>
               </Link>
              
-              <Link href="#categoryContainer">
+              <Link href="#products">
                 <div
                   onClick={() => {
                     setGroup("veterinary");
