@@ -7,7 +7,7 @@ const NotFound = () => {
       <img
         className="w-full md:w-1/2 lg:w-1/2 text-center mx-auto mt-16"
         src="/assets/404.png"
-        alt=""
+        alt="Page not found"
       />
       <h5 className="text-gray-900 font-extrabold">Ooops!!</h5>
       <p className="text-gray-400 font-bold my-2">

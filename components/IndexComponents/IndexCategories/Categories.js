@@ -202,7 +202,7 @@ const Categories = ({
                             }
                             alt={
                               each.img
-                                ? each.img
+                                ? each.n
                                 : "Kosher Pharaceutical Product"
                             }
                           />
@@ -294,7 +294,7 @@ const Categories = ({
                           className="w-full md:w-4/12 p-4"
                           src={
                             each.img
-                              ? each.img
+                              ? each.n
                               : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
                           }
                           alt={
@@ -402,7 +402,7 @@ const Categories = ({
                           className="w-full md:w-4/12 p-4"
                           src={
                             each.img
-                              ? each.img
+                              ? each.n
                               : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
                           }
                           alt={
