@@ -35,7 +35,7 @@ const CartCard = ({ data = {}, setVariation, variation }) => {
                   ? data.img
                   : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
               }
-              alt={data.img ? data.img : "kosher product image"}
+              alt={data.img ? data.n : "kosher product image"}
             />
           </div>
           <div className="flex flex-col ">

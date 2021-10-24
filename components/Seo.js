@@ -39,7 +39,7 @@ const Seo = ({ data = {} }) => {
         property="og:image:alt"
         content={data.ogImgAlt ? data.ogImgAlt : "Author Name"}
       ></meta>
-      <link rel="canonical" href={process.env.NEXT_PUBLIC_URL}></link>
+      <link rel="canonical" href={`https://kosherpharmaceuticals.com/${data.page ? data.page : ""}`}></link>
     </Head>
   );
 };
