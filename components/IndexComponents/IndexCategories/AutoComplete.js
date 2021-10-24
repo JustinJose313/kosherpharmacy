@@ -127,7 +127,7 @@ const AutoComplete = ({
 const ListItem = ({ item = {}, onSelectItem, isActive }) => {
   return (
     <li onClick={onSelectItem}>
-      <Link href="#categoryContainer">
+      <Link href="#products">
         <div
           className={`${isActive ? "bg-gray-200" : "bg-white"}
           p-2 hover:bg-gray-100 cursor-pointer font-medium text-gray-500 hover:text-gray-900 capitalize`}

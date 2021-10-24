@@ -9,7 +9,7 @@ const Top5 = ({ setGroup, setCategory, setSearch }) => {
           Our Top 5 Categories
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          <Link href="#categoryContainer">
+          <Link href="#products">
             <div
               onClick={() => {
                 setCategory("Anticancer Medicines");
@@ -36,7 +36,7 @@ const Top5 = ({ setGroup, setCategory, setSearch }) => {
               </div>
             </div>
           </Link>
-          <Link href="#categoryContainer">
+          <Link href="#products">
             <div
               onClick={() => {
                 setCategory("Antibiotic Medicines");
@@ -62,7 +62,7 @@ const Top5 = ({ setGroup, setCategory, setSearch }) => {
               </div>
             </div>
           </Link>
-          <Link href="#categoryContainer">
+          <Link href="#products">
             <div
               onClick={() => {
                 setCategory("Cardiovascular Drugs");
@@ -88,7 +88,7 @@ const Top5 = ({ setGroup, setCategory, setSearch }) => {
               </div>
             </div>
           </Link>
-          <Link href="#categoryContainer">
+          <Link href="#products">
             <div
               onClick={() => {
                 setCategory("Antacids");
@@ -114,7 +114,7 @@ const Top5 = ({ setGroup, setCategory, setSearch }) => {
               </div>
             </div>
           </Link>
-          <Link href="#categoryContainer">
+          <Link href="#products">
             <div
               onClick={() => {
                 setCategory("Steroids");
