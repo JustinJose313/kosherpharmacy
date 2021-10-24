@@ -7,8 +7,8 @@ import { useCart } from "react-use-cart";
 
 const Header = () => {
   const links = [
-    { n: "About Us", url: "/about" },
-    { n: "Contact Us", url: "/contact" },
+    { n: "About Us", url: "/aboutus" },
+    { n: "Contact Us", url: "/contactus" },
   ];
   const router = useRouter();
   const { totalUniqueItems } = useCart();
@@ -162,7 +162,7 @@ const Header = () => {
                       FAQ's
                     </span>
                   </Link>
-                  <Link href="/about">
+                  <Link href="/aboutus">
                     <span
                       onClick={() => setMenu(false)}
                       className="text-5xl text-right hover:text-brand-100 focus:underline transition font-bold"
@@ -170,7 +170,7 @@ const Header = () => {
                       About Us
                     </span>
                   </Link>
-                  <Link href="/term-condition">
+                  <Link href="/termsandconditions">
                     <span
                       onClick={() => setMenu(false)}
                       className="text-5xl hover:text-brand-100 focus:underline transition font-bold"

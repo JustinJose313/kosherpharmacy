@@ -27,7 +27,7 @@ const IndexContact = () => {
   const onSubmit = async (values) => {
     setLoading(true);
     try {
-      const response = await axios.post(`/api/contact`, values);
+      const response = await axios.post(`/api/contactus`, values);
       response.status === 200 && setSuccess(true);
       setLoading(false);
       setSuccess(true);
@@ -54,7 +54,7 @@ const IndexContact = () => {
             <div className="w-full h-full opacity-80">
               <img
                 className="w-full h-full object-cover bg-center"
-                src="/assets/contacthero.jpg"
+                src="/assets/contactushero.jpg"
                 alt=""
               />
             </div>

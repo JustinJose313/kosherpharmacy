@@ -94,7 +94,7 @@ const Footer = () => {
             </div>
             <div className="md:col-span-3 text-sm">
               <div className="flex space-x-3 flex-wrap">
-              <Link href="/term-condition">
+              <Link href="/termsandconditions">
                   <span className="cursor-pointer font-medium text-gray-400 hover:text-gray-700">
                     T&C
                   </span>
@@ -106,7 +106,7 @@ const Footer = () => {
                   </span>
                 </Link>
                 <span className="text-gray-400">{" | "}</span>
-                <Link href="/about">
+                <Link href="/aboutus">
                   <span className="cursor-pointer font-medium text-gray-400 hover:text-gray-700">
                     About Us
                   </span>
@@ -115,7 +115,7 @@ const Footer = () => {
 
                 
                 <span className="text-gray-400">{" | "}</span>
-                <Link href="/contact">
+                <Link href="/contactus">
                   <span className="cursor-pointer font-medium text-gray-400 hover:text-gray-700">
                     Contact Us
                   </span>
