@@ -94,7 +94,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 7,
-      img: "/images/Anthelmintics/AlbendazoleBolusTablet.jpg",
+      img: "/images/Anthelmintics/ALBENDAZOLE TABLETS.png",
       n: "Albendazole Tablets",
       pid: "CAS NO: 54965-21-8",
       d: [
@@ -124,7 +124,7 @@ export const productData = {
       n: "Tinidazole Tablets",
       pid: "CAS NO:  19387-91-8",
       d: [
-        "Tinidazole is used to treat trichomoniasis (a sexually transmitted disease that can affect men and women), giardiasis (an infection of the intestine that can cause diarrhea, gas, and stomach cramps), and amebiasis (an infection of the intestine that can cause diarrhea, gas, and stomach cramps and can spread to other organs such as the liver). Tinidazole is in a class of medications called antiprotozoal agents. It works by killing the organisms that can cause infection.Tinidazole is taken with food as a single dose or once a day for 3 to 5 days.",
+        "Tinidazole is used to treat trichomoniasis (a sexually transmitted disease that can affect men and women), giardiasis (an infection of the intestine that can cause diarrhea, gas, and stomach cramps), and amoebiasis (an infection of the intestine that can cause diarrhea, gas, and stomach cramps and can spread to other organs such as the liver). Tinidazole is in a class of medications called antiprotozoal agents. It works by killing the organisms that can cause infection.Tinidazole is taken with food as a single dose or once a day for 3 to 5 days.",
       ],
     },
     {
@@ -465,7 +465,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 32,
-      img: "/images/Anti-Cancer-Medicines/TamoxifenTablets.png",
+      img: "/images/Anti-Cancer-Medicines/TAMOXIFEN TABLETS.jpg",
       n: "Tamoxifen Tablets",
       pid: "CAS NO: 10540-29-1",
       d: [
@@ -783,7 +783,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 54,
-      img: "/images/Gynaecological-Drugs/ClomipheneCitrate.jpeg",
+      img: "/images/Gynaecological-Drugs/CLOMIPHENE CITRATE TABLETS.jpg",
       n: "Clomiphene Citrate Tablets",
       pid: "CAS NO: 50-41-9",
       d: [
@@ -1070,7 +1070,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 73,
-      img: "/images/Steroid-Hormones/TESTEONATE 250.jpg",
+      img: "/images/Steroid-Hormones/TESTEONATE 250 (TESTOSTERONE ENANTHATE INJECTION).png",
       n: "Testeonate 250 (Testosterone Enanthate Injection)",
       pid: "CAS No: 315-37-7",
       d: [
@@ -1215,7 +1215,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 82,
-      img: "/images/Steroid-Hormones/METHANDIENONE TABLET.jpg",
+      img: "/images/Steroid-Hormones/METHANDIENONE TABLET.png",
       n: "Methandienone tablet",
       pid: "CAS NO: 72-63-9",
       d: [
@@ -1228,7 +1228,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 83,
-      img: "/images/Steroid-Hormones/methenolone.jpg",
+      img: "/images/Steroid-Hormones/METHENOLONE ENANTHATE.png",
       n: "Methenolone Enanthate",
       pid: "CAS NO:  303-42-4",
       d: [
@@ -1242,8 +1242,8 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 84,
-      img: "/images/Steroid-Hormones/OxandroloneTabletsUSP(Oxanex).jpg",
-      n: "Oxandrolone Tablets USP (Oxanex)",
+      img: "/images/Steroid-Hormones/OXANDROLONE TABLETS.jpg",
+      n: "Oxandrolone Tablets",
       pid: "CAS NO: 53-39-4",
       d: [
         "Oxandrolone Tablets USP 10 mg is a synthetic anabolic.The drug was prescribed to promote muscle regrowth in disorders which cause involuntary weight loss.",
@@ -1256,7 +1256,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 85,
-      img: "/images/Steroid-Hormones/Somatropin.jpeg",
+      img: "/images/Steroid-Hormones/SOMATROPIN INJECTION USP.jpeg",
       n: "Somatropin injection USP",
       d: [
         "HGH Somatropin is available in 10IU, 4 IU/Vial 2 Vials per Box. HGH increases lean muscle mass while reducing body fat and reducing muscle breakdown.",
@@ -1312,7 +1312,7 @@ export const productData = {
       quantity: 1,
       price: 100,
       id: 89,
-      img: "/images/Thyroid-Drugs/LiothyronineTablets.png",
+      img: "/images/Thyroid-Drugs/LIOTHYRONINE TABLETS.jpg",
       n: "Liothyronine Tablets",
       pid: "CAS NO:  55-06-1",
       d: [
@@ -1529,28 +1529,27 @@ export const productData = {
       s: ["Small / Medium / Large"],
     },
 
-    {
-      c: "Surgical",
-      label: "surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 107,
-      img: "/images/Surgicals/Caesarean-Kit.JPG",
-      n: "Caesarean Kit",
-    },
+    // {
+    //   c: "Surgical",
+    //   label: "surgical",
+    //   quantity: 1,
+    //   price: 100,
+    //   id: 107,
+    //   img: "/images/Surgicals/Caesarean-Kit.JPG",
+    //   n: "Caesarean Kit",
+    // },
 
-    {
-      c: "Surgical",
-      label: "surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 108,
-      img: "/images/Surgicals/BasicDeliveryIntrumentsSet.jpg",
-      n: "Basic Delivery Intruments Set",
-      s: [""],
-    },
+    // {
+    //   c: "Surgical",
+    //   label: "surgical",
+    //   quantity: 1,
+    //   price: 100,
+    //   //Ashutosh please enter id to all objects starting from 1
+    //   id: 108,
+    //   img: "/images/Surgicals/BasicDeliveryIntrumentsSet.jpg",
+    //   n: "Basic Delivery Intruments Set",
+    //   s: [""],
+    // },
     // {
     //   c: "Surgical",
     //   label: "surgical",
@@ -1562,17 +1561,17 @@ export const productData = {
     //   n: "General Surgery Basic Kit",
     //   s: [""],
     // },
-    {
-      c: "Surgical",
-      label: "surgical",
-      quantity: 1,
-      price: 100,
-      //Ashutosh please enter id to all objects starting from 1
-      id: 110,
-      img: "/images/Surgicals/OrthopedicKit.jpg",
-      n: "Orthopedic Kit ",
-      s: [""],
-    },
+    // {
+    //   c: "Surgical",
+    //   label: "surgical",
+    //   quantity: 1,
+    //   price: 100,
+    //   //Ashutosh please enter id to all objects starting from 1
+    //   id: 110,
+    //   img: "/images/Surgicals/OrthopedicKit.jpg",
+    //   n: "Orthopedic Kit ",
+    //   s: [""],
+    // },
   ],
   veterinary: [
     {
@@ -1776,30 +1775,30 @@ export const productData = {
           "Cyproheptadine is used in conjunction with other drugs to treat PPID and photic head-shakers. Because animals with PPID usually have clinical signs similar to Cushing's Disease in humans, this condition also may be called equine Cushing's-like Disease (ECD)."
         ],
     },
-    {
-      c: "Veterinary Drugs",
-      label: "veterinary",
-      quantity: 1,
-      price: 100,
-      id: 125,
-      img: "/images/Veterinary-Drugs/NimesulideandParacetamolTablets.jpg",
-      n: "Nimesulide and Paracetamol Tablets",
-      pid: "",
-      d: [" Veterinary Nimesulide Paracetamol Bolus is a non-steroidal anti-inflammatory drug (NSAID) of the oxicam class which acts by inhibition of prostaglandin synthesis, thereby exerting anti-inflammatory, anti-endotoxic, anti exudative, analgesic and antipyretic properties."],
-    },
+    // {
+    //   c: "Veterinary Drugs",
+    //   label: "veterinary",
+    //   quantity: 1,
+    //   price: 100,
+    //   id: 125,
+    //   img: "/images/Veterinary-Drugs/NimesulideandParacetamolTablets.jpg",
+    //   n: "Nimesulide and Paracetamol Tablets",
+    //   pid: "",
+    //   d: [" Veterinary Nimesulide Paracetamol Bolus is a non-steroidal anti-inflammatory drug (NSAID) of the oxicam class which acts by inhibition of prostaglandin synthesis, thereby exerting anti-inflammatory, anti-endotoxic, anti exudative, analgesic and antipyretic properties."],
+    // },
 
-    {
-      c: "Veterinary Drugs",
-      label: "veterinary",
-      quantity: 1,
-      price: 100,
-      id: 126,
-      img: "/images/Veterinary-Drugs/NorfloxacinandTinidazoleTablets.jpg",
-      n: "Norfloxacin and Tinidazole Tablets",
-      pid: "",
-      d: ["The combination of norfloxacin and tinidazole has an extended range of antimicrobial spectrum and is effective in mixed gut infections, diarrhoea and dysentery.",
-          "Norfloxacin Bolus acts as an anti-bacterial and helps recover from viral, protozoan diarrhea and calf scour. Norfloxacin Bolus is effective in nonspecific diarrhea or Diarrhea due to intestinal injury and inflammation."],
-    },
+    // {
+    //   c: "Veterinary Drugs",
+    //   label: "veterinary",
+    //   quantity: 1,
+    //   price: 100,
+    //   id: 126,
+    //   img: "/images/Veterinary-Drugs/NorfloxacinandTinidazoleTablets.jpg",
+    //   n: "Norfloxacin and Tinidazole Tablets",
+    //   pid: "",
+    //   d: ["The combination of norfloxacin and tinidazole has an extended range of antimicrobial spectrum and is effective in mixed gut infections, diarrhoea and dysentery.",
+    //       "Norfloxacin Bolus acts as an anti-bacterial and helps recover from viral, protozoan diarrhea and calf scour. Norfloxacin Bolus is effective in nonspecific diarrhea or Diarrhea due to intestinal injury and inflammation."],
+    // },
 
     {
       c: "Veterinary Drugs",
