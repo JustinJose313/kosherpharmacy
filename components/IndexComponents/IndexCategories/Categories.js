@@ -294,11 +294,11 @@ const Categories = ({
                           className="w-full md:w-4/12 p-4"
                           src={
                             each.img
-                              ? each.n
+                              ? each.img
                               : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
                           }
                           alt={
-                            each.img ? each.img : "Kosher Pharaceutical Product"
+                            each.img ? each.n : "Kosher Pharaceutical Product"
                           }
                         />
                         <div className="flex-1 p-4">
@@ -402,11 +402,11 @@ const Categories = ({
                           className="w-full md:w-4/12 p-4"
                           src={
                             each.img
-                              ? each.n
+                              ? each.img
                               : "https://pharmacare.qodeinteractive.com/wp-content/uploads/2021/03/Product-featured-img-21.jpg"
                           }
                           alt={
-                            each.img ? each.img : "Kosher Pharaceutical Product"
+                            each.img ? each.n : "Kosher Pharaceutical Product"
                           }
                         />
                         <div className="flex-1 p-4">
