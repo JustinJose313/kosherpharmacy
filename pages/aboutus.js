@@ -1,6 +1,6 @@
 import React from "react";
 import MainLayout from "../layouts/MainLayout";
-import About from "../components/aboutus";
+import About from "../components/About";
 
 const about = () => {
   const SEOData = {

@@ -1,6 +1,6 @@
 import React from "react";
 import MainLayout from "../layouts/MainLayout";
-import Contact from "../components/contactus";
+import Contact from "../components/Contact";
 
 const contact = () => {
   const SEOData = {
