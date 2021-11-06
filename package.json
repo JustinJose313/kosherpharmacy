@@ -26,6 +26,7 @@
     "react-spring": "^9.2.3",
     "react-use-cart": "^1.11.1",
     "remixicon": "^2.5.0",
+    "sitemap": "^7.0.0",
     "yup": "^0.32.9"
   },
   "devDependencies": {
